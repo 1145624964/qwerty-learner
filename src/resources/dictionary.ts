@@ -699,7 +699,7 @@ const internationalExam: DictionaryResource[] = [
     category: '专业词汇',
     tags: ['生物', '科学'],
     url: '/dicts/biology_vocabulary.json',
-    length: 360,
+    length: 558,
     language: 'en',
     languageCategory: 'en',
   },
