@@ -1,362 +1,3351 @@
 [
-  {"name": "transcription", "trans": ["转录"]},
-  {"name": "translation", "trans": ["翻译", "转译"]},
-  {"name": "replication", "trans": ["复制"]},
-  {"name": "polymerase", "trans": ["聚合酶"]},
-  {"name": "helicase", "trans": ["解旋酶"]},
-  {"name": "ligase", "trans": ["连接酶"]},
-  {"name": "primase", "trans": ["引物酶"]},
-  {"name": "topoisomerase", "trans": ["拓扑异构酶"]},
-  {"name": "telomerase", "trans": ["端粒酶"]},
-  {"name": "ribonuclease", "trans": ["核糖核酸酶"]},
-  {"name": "deoxyribonuclease", "trans": ["脱氧核糖核酸酶"]},
-  {"name": "exonuclease", "trans": ["外切核酸酶"]},
-  {"name": "endonuclease", "trans": ["内切核酸酶"]},
-  {"name": "nuclease", "trans": ["核酸酶"]},
-  {"name": "restriction enzyme", "trans": ["限制性内切酶"]},
-  {"name": "methyltransferase", "trans": ["甲基转移酶"]},
-  {"name": "acetyltransferase", "trans": ["乙酰转移酶"]},
-  {"name": "kinase", "trans": ["激酶"]},
-  {"name": "phosphatase", "trans": ["磷酸酶"]},
-  {"name": "protease", "trans": ["蛋白酶"]},
-  {"name": "ubiquitin", "trans": ["泛素"]},
-  {"name": "chaperone", "trans": ["分子伴侣"]},
-  {"name": "nucleotide", "trans": ["核苷酸"]},
-  {"name": "nucleoside", "trans": ["核苷"]},
-  {"name": "adenine", "trans": ["腺嘌呤"]},
-  {"name": "guanine", "trans": ["鸟嘌呤"]},
-  {"name": "cytosine", "trans": ["胞嘧啶"]},
-  {"name": "thymine", "trans": ["胸腺嘧啶"]},
-  {"name": "uracil", "trans": ["尿嘧啶"]},
-  {"name": "purine", "trans": ["嘌呤"]},
-  {"name": "pyrimidine", "trans": ["嘧啶"]},
-  {"name": "phosphodiester", "trans": ["磷酸二酯键"]},
-  {"name": "complementary", "trans": ["互补的"]},
-  {"name": "antiparallel", "trans": ["反平行的"]},
-  {"name": "promoter", "trans": ["启动子"]},
-  {"name": "enhancer", "trans": ["增强子"]},
-  {"name": "silencer", "trans": ["沉默子"]},
-  {"name": "operator", "trans": ["操纵基因"]},
-  {"name": "operon", "trans": ["操纵子"]},
-  {"name": "repressor", "trans": ["阻遏蛋白"]},
-  {"name": "activator", "trans": ["激活蛋白"]},
-  {"name": "transcription factor", "trans": ["转录因子"]},
-  {"name": "sigma factor", "trans": ["σ因子"]},
-  {"name": "TATA box", "trans": ["TATA盒"]},
-  {"name": "exon", "trans": ["外显子"]},
-  {"name": "intron", "trans": ["内含子"]},
-  {"name": "splicing", "trans": ["剪接"]},
-  {"name": "codon", "trans": ["密码子"]},
-  {"name": "anticodon", "trans": ["反密码子"]},
-  {"name": "start codon", "trans": ["起始密码子"]},
-  {"name": "stop codon", "trans": ["终止密码子"]},
-  {"name": "ribosome", "trans": ["核糖体"]},
-  {"name": "polyribosome", "trans": ["多聚核糖体"]},
-  {"name": "Shine-Dalgarno", "trans": ["SD序列"]},
-  {"name": "Kozak", "trans": ["Kozak序列"]},
-  {"name": "chromatin", "trans": ["染色质"]},
-  {"name": "chromosome", "trans": ["染色体"]},
-  {"name": "nucleosome", "trans": ["核小体"]},
-  {"name": "histone", "trans": ["组蛋白"]},
-  {"name": "centromere", "trans": ["着丝粒"]},
-  {"name": "telomere", "trans": ["端粒"]},
-  {"name": "kinetochore", "trans": ["动粒"]},
-  {"name": "euchromatin", "trans": ["常染色质"]},
-  {"name": "heterochromatin", "trans": ["异染色质"]},
-  {"name": "epigenetic", "trans": ["表观遗传的"]},
-  {"name": "methylation", "trans": ["甲基化"]},
-  {"name": "acetylation", "trans": ["乙酰化"]},
-  {"name": "phosphorylation", "trans": ["磷酸化"]},
-  {"name": "ubiquitination", "trans": ["泛素化"]},
-  {"name": "sumoylation", "trans": ["SUMO化"]},
-  {"name": "imprinting", "trans": ["印记"]},
-  {"name": "plasmid", "trans": ["质粒"]},
-  {"name": "vector", "trans": ["载体"]},
-  {"name": "clone", "trans": ["克隆"]},
-  {"name": "recombinant", "trans": ["重组的"]},
-  {"name": "transformation", "trans": ["转化"]},
-  {"name": "transfection", "trans": ["转染"]},
-  {"name": "transduction", "trans": ["转导"]},
-  {"name": "conjugation", "trans": ["接合"]},
-  {"name": "electroporation", "trans": ["电穿孔"]},
-  {"name": "microinjection", "trans": ["显微注射"]},
-  {"name": "polymerase chain reaction", "trans": ["聚合酶链式反应"]},
-  {"name": "reverse transcription", "trans": ["反转录"]},
-  {"name": "gel electrophoresis", "trans": ["凝胶电泳"]},
-  {"name": "Southern blot", "trans": ["Southern印迹"]},
-  {"name": "Northern blot", "trans": ["Northern印迹"]},
-  {"name": "Western blot", "trans": ["蛋白质印迹"]},
-  {"name": "hybridization", "trans": ["杂交"]},
-  {"name": "primer", "trans": ["引物"]},
-  {"name": "probe", "trans": ["探针"]},
-  {"name": "template", "trans": ["模板"]},
-  {"name": "denaturation", "trans": ["变性"]},
-  {"name": "annealing", "trans": ["退火"]},
-  {"name": "extension", "trans": ["延伸"]},
-  {"name": "microarray", "trans": ["微阵列"]},
-  {"name": "CRISPR", "trans": ["CRISPR基因编辑"]},
-  {"name": "Cas9", "trans": ["Cas9蛋白"]},
-  {"name": "gene editing", "trans": ["基因编辑"]},
-  {"name": "knockout", "trans": ["敲除"]},
-  {"name": "knockdown", "trans": ["敲低"]},
-  {"name": "knockin", "trans": ["敲入"]},
-  {"name": "RNA interference", "trans": ["RNA干扰"]},
-  {"name": "antisense", "trans": ["反义"]},
-  {"name": "ribozyme", "trans": ["核酶"]},
-  {"name": "aptamer", "trans": ["适配体"]},
-  {"name": "reporter gene", "trans": ["报告基因"]},
-  {"name": "GFP", "trans": ["绿色荧光蛋白"]},
-  {"name": "luciferase", "trans": ["荧光素酶"]},
-  {"name": "expression vector", "trans": ["表达载体"]},
-  {"name": "inducible", "trans": ["可诱导的"]},
-  {"name": "constitutive", "trans": ["组成型的"]},
-  {"name": "leucine zipper", "trans": ["亮氨酸拉链"]},
-  {"name": "zinc finger", "trans": ["锌指"]},
-  {"name": "helix-turn-helix", "trans": ["螺旋-转角-螺旋"]},
-  {"name": "homeodomain", "trans": ["同源异型域"]},
-  {"name": "origin of replication", "trans": ["复制起点"]},
-  {"name": "Okazaki fragment", "trans": ["冈崎片段"]},
-  {"name": "leading strand", "trans": ["前导链"]},
-  {"name": "lagging strand", "trans": ["后随链"]},
-  {"name": "semiconservative", "trans": ["半保留的"]},
-  {"name": "proofreading", "trans": ["校对"]},
-  {"name": "mismatch repair", "trans": ["错配修复"]},
-  {"name": "nucleotide excision repair", "trans": ["核苷酸切除修复"]},
-  {"name": "base excision repair", "trans": ["碱基切除修复"]},
-  {"name": "homologous recombination", "trans": ["同源重组"]},
-  {"name": "non-homologous end joining", "trans": ["非同源末端连接"]},
-  {"name": "membrane", "trans": ["膜"]},
-  {"name": "plasma membrane", "trans": ["质膜"]},
-  {"name": "phospholipid bilayer", "trans": ["磷脂双分子层"]},
-  {"name": "phospholipid", "trans": ["磷脂"]},
-  {"name": "cholesterol", "trans": ["胆固醇"]},
-  {"name": "glycolipid", "trans": ["糖脂"]},
-  {"name": "glycoprotein", "trans": ["糖蛋白"]},
-  {"name": "integral protein", "trans": ["整合蛋白"]},
-  {"name": "peripheral protein", "trans": ["外周蛋白"]},
-  {"name": "transmembrane protein", "trans": ["跨膜蛋白"]},
-  {"name": "receptor", "trans": ["受体"]},
-  {"name": "ligand", "trans": ["配体"]},
-  {"name": "ion channel", "trans": ["离子通道"]},
-  {"name": "pump", "trans": ["泵"]},
-  {"name": "carrier", "trans": ["载体蛋白"]},
-  {"name": "endocytosis", "trans": ["胞吞"]},
-  {"name": "exocytosis", "trans": ["胞吐"]},
-  {"name": "phagocytosis", "trans": ["吞噬"]},
-  {"name": "pinocytosis", "trans": ["胞饮"]},
-  {"name": "receptor-mediated endocytosis", "trans": ["受体介导的胞吞"]},
-  {"name": "diffusion", "trans": ["扩散"]},
-  {"name": "osmosis", "trans": ["渗透"]},
-  {"name": "active transport", "trans": ["主动运输"]},
-  {"name": "facilitated diffusion", "trans": ["易化扩散"]},
-  {"name": "symport", "trans": ["同向转运"]},
-  {"name": "antiport", "trans": ["反向转运"]},
-  {"name": "cytoplasm", "trans": ["细胞质"]},
-  {"name": "cytosol", "trans": ["细胞溶胶"]},
-  {"name": "nucleus", "trans": ["细胞核"]},
-  {"name": "nuclear envelope", "trans": ["核膜"]},
-  {"name": "nuclear pore", "trans": ["核孔"]},
-  {"name": "nucleolus", "trans": ["核仁"]},
-  {"name": "mitochondria", "trans": ["线粒体"]},
-  {"name": "cristae", "trans": ["嵴"]},
-  {"name": "matrix", "trans": ["基质"]},
-  {"name": "endoplasmic reticulum", "trans": ["内质网"]},
-  {"name": "Golgi apparatus", "trans": ["高尔基体"]},
-  {"name": "lysosome", "trans": ["溶酶体"]},
-  {"name": "peroxisome", "trans": ["过氧化物酶体"]},
-  {"name": "proteasome", "trans": ["蛋白酶体"]},
-  {"name": "centrosome", "trans": ["中心体"]},
-  {"name": "centriole", "trans": ["中心粒"]},
-  {"name": "vacuole", "trans": ["液泡"]},
-  {"name": "vesicle", "trans": ["囊泡"]},
-  {"name": "endosome", "trans": ["内体"]},
-  {"name": "cytoskeleton", "trans": ["细胞骨架"]},
-  {"name": "microtubule", "trans": ["微管"]},
-  {"name": "microfilament", "trans": ["微丝"]},
-  {"name": "intermediate filament", "trans": ["中间丝"]},
-  {"name": "actin", "trans": ["肌动蛋白"]},
-  {"name": "myosin", "trans": ["肌球蛋白"]},
-  {"name": "tubulin", "trans": ["微管蛋白"]},
-  {"name": "kinesin", "trans": ["驱动蛋白"]},
-  {"name": "dynein", "trans": ["动力蛋白"]},
-  {"name": "flagella", "trans": ["鞭毛"]},
-  {"name": "cilia", "trans": ["纤毛"]},
-  {"name": "pseudopodia", "trans": ["伪足"]},
-  {"name": "signal transduction", "trans": ["信号转导"]},
-  {"name": "second messenger", "trans": ["第二信使"]},
-  {"name": "cAMP", "trans": ["环腺苷酸"]},
-  {"name": "cGMP", "trans": ["环鸟苷酸"]},
-  {"name": "IP3", "trans": ["三磷酸肌醇"]},
-  {"name": "DAG", "trans": ["二酰甘油"]},
-  {"name": "calcium signaling", "trans": ["钙信号"]},
-  {"name": "G protein", "trans": ["G蛋白"]},
-  {"name": "GPCR", "trans": ["G蛋白偶联受体"]},
-  {"name": "tyrosine kinase receptor", "trans": ["酪氨酸激酶受体"]},
-  {"name": "MAP kinase", "trans": ["MAP激酶"]},
-  {"name": "JAK-STAT", "trans": ["JAK-STAT通路"]},
-  {"name": "NF-kB", "trans": ["NF-kB通路"]},
-  {"name": "Wnt", "trans": ["Wnt信号通路"]},
-  {"name": "Notch", "trans": ["Notch信号通路"]},
-  {"name": "Hedgehog", "trans": ["Hedgehog信号通路"]},
-  {"name": "TGF-beta", "trans": ["TGF-β信号通路"]},
-  {"name": "cell cycle", "trans": ["细胞周期"]},
-  {"name": "interphase", "trans": ["间期"]},
-  {"name": "prophase", "trans": ["前期"]},
-  {"name": "prometaphase", "trans": ["前中期"]},
-  {"name": "metaphase", "trans": ["中期"]},
-  {"name": "anaphase", "trans": ["后期"]},
-  {"name": "telophase", "trans": ["末期"]},
-  {"name": "cytokinesis", "trans": ["胞质分裂"]},
-  {"name": "cyclin", "trans": ["周期蛋白"]},
-  {"name": "CDK", "trans": ["周期蛋白依赖性激酶"]},
-  {"name": "checkpoint", "trans": ["检查点"]},
-  {"name": "apoptosis", "trans": ["凋亡"]},
-  {"name": "necrosis", "trans": ["坏死"]},
-  {"name": "autophagy", "trans": ["自噬"]},
-  {"name": "senescence", "trans": ["衰老"]},
-  {"name": "stem cell", "trans": ["干细胞"]},
-  {"name": "pluripotent", "trans": ["多能的"]},
-  {"name": "multipotent", "trans": ["多潜能的"]},
-  {"name": "totipotent", "trans": ["全能的"]},
-  {"name": "progenitor", "trans": ["祖细胞"]},
-  {"name": "differentiation", "trans": ["分化"]},
-  {"name": "dedifferentiation", "trans": ["去分化"]},
-  {"name": "transdifferentiation", "trans": ["转分化"]},
-  {"name": "adhesion", "trans": ["黏附"]},
-  {"name": "tight junction", "trans": ["紧密连接"]},
-  {"name": "gap junction", "trans": ["间隙连接"]},
-  {"name": "desmosome", "trans": ["桥粒"]},
-  {"name": "hemidesmosome", "trans": ["半桥粒"]},
-  {"name": "adherens junction", "trans": ["黏附连接"]},
-  {"name": "cadherin", "trans": ["钙黏蛋白"]},
-  {"name": "integrin", "trans": ["整联蛋白"]},
-  {"name": "selectin", "trans": ["选择蛋白"]},
-  {"name": "extracellular matrix", "trans": ["细胞外基质"]},
-  {"name": "collagen", "trans": ["胶原蛋白"]},
-  {"name": "fibronectin", "trans": ["纤连蛋白"]},
-  {"name": "laminin", "trans": ["层粘连蛋白"]},
-  {"name": "proteoglycan", "trans": ["蛋白聚糖"]},
-  {"name": "gene", "trans": ["基因"]},
-  {"name": "allele", "trans": ["等位基因"]},
-  {"name": "locus", "trans": ["基因座"]},
-  {"name": "genotype", "trans": ["基因型"]},
-  {"name": "phenotype", "trans": ["表型"]},
-  {"name": "homozygous", "trans": ["纯合的"]},
-  {"name": "heterozygous", "trans": ["杂合的"]},
-  {"name": "hemizygous", "trans": ["半合的"]},
-  {"name": "dominant", "trans": ["显性的"]},
-  {"name": "recessive", "trans": ["隐性的"]},
-  {"name": "codominant", "trans": ["共显性的"]},
-  {"name": "incomplete dominance", "trans": ["不完全显性"]},
-  {"name": "penetrance", "trans": ["外显率"]},
-  {"name": "expressivity", "trans": ["表现度"]},
-  {"name": "segregation", "trans": ["分离"]},
-  {"name": "independent assortment", "trans": ["自由组合"]},
-  {"name": "linkage", "trans": ["连锁"]},
-  {"name": "crossing over", "trans": ["交换"]},
-  {"name": "recombination", "trans": ["重组"]},
-  {"name": "mutation", "trans": ["突变"]},
-  {"name": "point mutation", "trans": ["点突变"]},
-  {"name": "missense", "trans": ["错义"]},
-  {"name": "nonsense", "trans": ["无义"]},
-  {"name": "silent mutation", "trans": ["同义突变"]},
-  {"name": "frameshift", "trans": ["移码"]},
-  {"name": "deletion", "trans": ["缺失"]},
-  {"name": "insertion", "trans": ["插入"]},
-  {"name": "inversion", "trans": ["倒位"]},
-  {"name": "translocation", "trans": ["易位"]},
-  {"name": "duplication", "trans": ["重复"]},
-  {"name": "aneuploidy", "trans": ["非整倍体"]},
-  {"name": "polyploidy", "trans": ["多倍体"]},
-  {"name": "haploid", "trans": ["单倍体"]},
-  {"name": "diploid", "trans": ["二倍体"]},
-  {"name": "karyotype", "trans": ["核型"]},
-  {"name": "autosome", "trans": ["常染色体"]},
-  {"name": "X-linked", "trans": ["X连锁的"]},
-  {"name": "Y-linked", "trans": ["Y连锁的"]},
-  {"name": "pedigree", "trans": ["系谱"]},
-  {"name": "proband", "trans": ["先证者"]},
-  {"name": "consanguineous", "trans": ["近亲的"]},
-  {"name": "Hardy-Weinberg", "trans": ["哈代-温伯格平衡"]},
-  {"name": "genetic drift", "trans": ["遗传漂变"]},
-  {"name": "gene flow", "trans": ["基因流"]},
-  {"name": "founder effect", "trans": ["奠基者效应"]},
-  {"name": "bottleneck", "trans": ["瓶颈效应"]},
-  {"name": "natural selection", "trans": ["自然选择"]},
-  {"name": "fitness", "trans": ["适合度"]},
-  {"name": "epistasis", "trans": ["上位效应"]},
-  {"name": "pleiotropy", "trans": ["多效性"]},
-  {"name": "polygenic", "trans": ["多基因的"]},
-  {"name": "quantitative trait", "trans": ["数量性状"]},
-  {"name": "heritability", "trans": ["遗传力"]},
-  {"name": "SNP", "trans": ["单核苷酸多态性"]},
-  {"name": "haplotype", "trans": ["单倍型"]},
-  {"name": "GWAS", "trans": ["全基因组关联分析"]},
-  {"name": "linkage disequilibrium", "trans": ["连锁不平衡"]},
-  {"name": "transposon", "trans": ["转座子"]},
-  {"name": "retrotransposon", "trans": ["反转座子"]},
-  {"name": "transposase", "trans": ["转座酶"]},
-  {"name": "X-inactivation", "trans": ["X染色体失活"]},
-  {"name": "dosage compensation", "trans": ["剂量补偿"]},
-  {"name": "Barr body", "trans": ["巴氏小体"]},
-  {"name": "transgenic", "trans": ["转基因的"]},
-  {"name": "conditional knockout", "trans": ["条件性敲除"]},
-  {"name": "Cre-loxP", "trans": ["Cre-loxP系统"]},
-  {"name": "meiosis", "trans": ["减数分裂"]},
-  {"name": "bivalent", "trans": ["二价体"]},
-  {"name": "tetrad", "trans": ["四分体"]},
-  {"name": "synapsis", "trans": ["联会"]},
-  {"name": "chiasma", "trans": ["交叉"]},
-  {"name": "nondisjunction", "trans": ["不分离"]},
-  {"name": "gamete", "trans": ["配子"]},
-  {"name": "zygote", "trans": ["合子"]},
-  {"name": "genetic code", "trans": ["遗传密码"]},
-  {"name": "degenerate", "trans": ["简并的"]},
-  {"name": "wobble", "trans": ["摆动"]},
-  {"name": "reading frame", "trans": ["读码框"]},
-  {"name": "open reading frame", "trans": ["开放读码框"]},
-  {"name": "transcription start site", "trans": ["转录起始位点"]},
-  {"name": "polyA tail", "trans": ["polyA尾"]},
-  {"name": "5-prime cap", "trans": ["5'帽"]},
-  {"name": "UTR", "trans": ["非翻译区"]},
-  {"name": "cistron", "trans": ["顺反子"]},
-  {"name": "transposon mutagenesis", "trans": ["转座子诱变"]},
-  {"name": "site-directed mutagenesis", "trans": ["定点诱变"]},
-  {"name": "complementation", "trans": ["互补"]},
-  {"name": "auxotroph", "trans": ["营养缺陷型"]},
-  {"name": "prototroph", "trans": ["原养型"]},
-  {"name": "genome", "trans": ["基因组"]},
-  {"name": "transcriptome", "trans": ["转录组"]},
-  {"name": "proteome", "trans": ["蛋白质组"]},
-  {"name": "metabolome", "trans": ["代谢组"]},
-  {"name": "epigenome", "trans": ["表观基因组"]},
-  {"name": "metagenomics", "trans": ["宏基因组学"]},
-  {"name": "single-cell sequencing", "trans": ["单细胞测序"]},
-  {"name": "RNA-seq", "trans": ["RNA测序"]},
-  {"name": "ChIP-seq", "trans": ["染色质免疫沉淀测序"]},
-  {"name": "ATAC-seq", "trans": ["ATAC测序"]},
-  {"name": "bisulfite sequencing", "trans": ["亚硫酸氢盐测序"]},
-  {"name": "multiplex", "trans": ["多重"]},
-  {"name": "flow cytometry", "trans": ["流式细胞术"]},
-  {"name": "FACS", "trans": ["荧光激活细胞分选"]},
-  {"name": "immunoprecipitation", "trans": ["免疫沉淀"]},
-  {"name": "co-immunoprecipitation", "trans": ["免疫共沉淀"]},
-  {"name": "yeast two-hybrid", "trans": ["酵母双杂交"]},
-  {"name": "FRET", "trans": ["荧光共振能量转移"]},
-  {"name": "CRISPR screen", "trans": ["CRISPR筛选"]},
-  {"name": "cryo-EM", "trans": ["冷冻电镜"]},
-  {"name": "X-ray crystallography", "trans": ["X射线晶体学"]},
-  {"name": "NMR", "trans": ["核磁共振"]},
-  {"name": "mass spectrometry", "trans": ["质谱"]},
-  {"name": "molecular cloning", "trans": ["分子克隆"]},
-  {"name": "subcloning", "trans": ["亚克隆"]},
-  {"name": "site-directed", "trans": ["定点"]},
-  {"name": "fusion protein", "trans": ["融合蛋白"]},
-  {"name": "affinity tag", "trans": ["亲和标签"]},
-  {"name": "His-tag", "trans": ["组氨酸标签"]},
-  {"name": "GST", "trans": ["谷胱甘肽S转移酶"]},
-  {"name": "epitope tag", "trans": ["表位标签"]},
-  {"name": "HA tag", "trans": ["HA标签"]},
-  {"name": "FLAG tag", "trans": ["FLAG标签"]},
-  {"name": "myc tag", "trans": ["myc标签"]}
+  {
+    "name": "transcription",
+    "trans": [
+      "转录"
+    ]
+  },
+  {
+    "name": "translation",
+    "trans": [
+      "翻译",
+      "转译"
+    ]
+  },
+  {
+    "name": "replication",
+    "trans": [
+      "复制"
+    ]
+  },
+  {
+    "name": "polymerase",
+    "trans": [
+      "聚合酶"
+    ]
+  },
+  {
+    "name": "helicase",
+    "trans": [
+      "解旋酶"
+    ]
+  },
+  {
+    "name": "ligase",
+    "trans": [
+      "连接酶"
+    ]
+  },
+  {
+    "name": "primase",
+    "trans": [
+      "引物酶"
+    ]
+  },
+  {
+    "name": "topoisomerase",
+    "trans": [
+      "拓扑异构酶"
+    ]
+  },
+  {
+    "name": "telomerase",
+    "trans": [
+      "端粒酶"
+    ]
+  },
+  {
+    "name": "ribonuclease",
+    "trans": [
+      "核糖核酸酶"
+    ]
+  },
+  {
+    "name": "deoxyribonuclease",
+    "trans": [
+      "脱氧核糖核酸酶"
+    ]
+  },
+  {
+    "name": "exonuclease",
+    "trans": [
+      "外切核酸酶"
+    ]
+  },
+  {
+    "name": "endonuclease",
+    "trans": [
+      "内切核酸酶"
+    ]
+  },
+  {
+    "name": "nuclease",
+    "trans": [
+      "核酸酶"
+    ]
+  },
+  {
+    "name": "restriction enzyme",
+    "trans": [
+      "限制性内切酶"
+    ]
+  },
+  {
+    "name": "methyltransferase",
+    "trans": [
+      "甲基转移酶"
+    ]
+  },
+  {
+    "name": "acetyltransferase",
+    "trans": [
+      "乙酰转移酶"
+    ]
+  },
+  {
+    "name": "kinase",
+    "trans": [
+      "激酶"
+    ]
+  },
+  {
+    "name": "phosphatase",
+    "trans": [
+      "磷酸酶"
+    ]
+  },
+  {
+    "name": "protease",
+    "trans": [
+      "蛋白酶"
+    ]
+  },
+  {
+    "name": "ubiquitin",
+    "trans": [
+      "泛素"
+    ]
+  },
+  {
+    "name": "chaperone",
+    "trans": [
+      "分子伴侣"
+    ]
+  },
+  {
+    "name": "nucleotide",
+    "trans": [
+      "核苷酸"
+    ]
+  },
+  {
+    "name": "nucleoside",
+    "trans": [
+      "核苷"
+    ]
+  },
+  {
+    "name": "adenine",
+    "trans": [
+      "腺嘌呤"
+    ]
+  },
+  {
+    "name": "guanine",
+    "trans": [
+      "鸟嘌呤"
+    ]
+  },
+  {
+    "name": "cytosine",
+    "trans": [
+      "胞嘧啶"
+    ]
+  },
+  {
+    "name": "thymine",
+    "trans": [
+      "胸腺嘧啶"
+    ]
+  },
+  {
+    "name": "uracil",
+    "trans": [
+      "尿嘧啶"
+    ]
+  },
+  {
+    "name": "purine",
+    "trans": [
+      "嘌呤"
+    ]
+  },
+  {
+    "name": "pyrimidine",
+    "trans": [
+      "嘧啶"
+    ]
+  },
+  {
+    "name": "phosphodiester",
+    "trans": [
+      "磷酸二酯键"
+    ]
+  },
+  {
+    "name": "complementary",
+    "trans": [
+      "互补的"
+    ]
+  },
+  {
+    "name": "antiparallel",
+    "trans": [
+      "反平行的"
+    ]
+  },
+  {
+    "name": "promoter",
+    "trans": [
+      "启动子"
+    ]
+  },
+  {
+    "name": "enhancer",
+    "trans": [
+      "增强子"
+    ]
+  },
+  {
+    "name": "silencer",
+    "trans": [
+      "沉默子"
+    ]
+  },
+  {
+    "name": "operator",
+    "trans": [
+      "操纵基因"
+    ]
+  },
+  {
+    "name": "operon",
+    "trans": [
+      "操纵子"
+    ]
+  },
+  {
+    "name": "repressor",
+    "trans": [
+      "阻遏蛋白"
+    ]
+  },
+  {
+    "name": "activator",
+    "trans": [
+      "激活蛋白"
+    ]
+  },
+  {
+    "name": "transcription factor",
+    "trans": [
+      "转录因子"
+    ]
+  },
+  {
+    "name": "sigma factor",
+    "trans": [
+      "σ因子"
+    ]
+  },
+  {
+    "name": "TATA box",
+    "trans": [
+      "TATA盒"
+    ]
+  },
+  {
+    "name": "exon",
+    "trans": [
+      "外显子"
+    ]
+  },
+  {
+    "name": "intron",
+    "trans": [
+      "内含子"
+    ]
+  },
+  {
+    "name": "splicing",
+    "trans": [
+      "剪接"
+    ]
+  },
+  {
+    "name": "codon",
+    "trans": [
+      "密码子"
+    ]
+  },
+  {
+    "name": "anticodon",
+    "trans": [
+      "反密码子"
+    ]
+  },
+  {
+    "name": "start codon",
+    "trans": [
+      "起始密码子"
+    ]
+  },
+  {
+    "name": "stop codon",
+    "trans": [
+      "终止密码子"
+    ]
+  },
+  {
+    "name": "ribosome",
+    "trans": [
+      "核糖体"
+    ]
+  },
+  {
+    "name": "polyribosome",
+    "trans": [
+      "多聚核糖体"
+    ]
+  },
+  {
+    "name": "Shine-Dalgarno",
+    "trans": [
+      "SD序列"
+    ]
+  },
+  {
+    "name": "Kozak",
+    "trans": [
+      "Kozak序列"
+    ]
+  },
+  {
+    "name": "chromatin",
+    "trans": [
+      "染色质"
+    ]
+  },
+  {
+    "name": "chromosome",
+    "trans": [
+      "染色体"
+    ]
+  },
+  {
+    "name": "nucleosome",
+    "trans": [
+      "核小体"
+    ]
+  },
+  {
+    "name": "histone",
+    "trans": [
+      "组蛋白"
+    ]
+  },
+  {
+    "name": "centromere",
+    "trans": [
+      "着丝粒"
+    ]
+  },
+  {
+    "name": "telomere",
+    "trans": [
+      "端粒"
+    ]
+  },
+  {
+    "name": "kinetochore",
+    "trans": [
+      "动粒"
+    ]
+  },
+  {
+    "name": "euchromatin",
+    "trans": [
+      "常染色质"
+    ]
+  },
+  {
+    "name": "heterochromatin",
+    "trans": [
+      "异染色质"
+    ]
+  },
+  {
+    "name": "epigenetic",
+    "trans": [
+      "表观遗传的"
+    ]
+  },
+  {
+    "name": "methylation",
+    "trans": [
+      "甲基化"
+    ]
+  },
+  {
+    "name": "acetylation",
+    "trans": [
+      "乙酰化"
+    ]
+  },
+  {
+    "name": "phosphorylation",
+    "trans": [
+      "磷酸化"
+    ]
+  },
+  {
+    "name": "ubiquitination",
+    "trans": [
+      "泛素化"
+    ]
+  },
+  {
+    "name": "sumoylation",
+    "trans": [
+      "SUMO化"
+    ]
+  },
+  {
+    "name": "imprinting",
+    "trans": [
+      "印记"
+    ]
+  },
+  {
+    "name": "plasmid",
+    "trans": [
+      "质粒"
+    ]
+  },
+  {
+    "name": "vector",
+    "trans": [
+      "载体"
+    ]
+  },
+  {
+    "name": "clone",
+    "trans": [
+      "克隆"
+    ]
+  },
+  {
+    "name": "recombinant",
+    "trans": [
+      "重组的"
+    ]
+  },
+  {
+    "name": "transformation",
+    "trans": [
+      "转化"
+    ]
+  },
+  {
+    "name": "transfection",
+    "trans": [
+      "转染"
+    ]
+  },
+  {
+    "name": "transduction",
+    "trans": [
+      "转导"
+    ]
+  },
+  {
+    "name": "conjugation",
+    "trans": [
+      "接合"
+    ]
+  },
+  {
+    "name": "electroporation",
+    "trans": [
+      "电穿孔"
+    ]
+  },
+  {
+    "name": "microinjection",
+    "trans": [
+      "显微注射"
+    ]
+  },
+  {
+    "name": "polymerase chain reaction",
+    "trans": [
+      "聚合酶链式反应"
+    ]
+  },
+  {
+    "name": "reverse transcription",
+    "trans": [
+      "反转录"
+    ]
+  },
+  {
+    "name": "gel electrophoresis",
+    "trans": [
+      "凝胶电泳"
+    ]
+  },
+  {
+    "name": "Southern blot",
+    "trans": [
+      "Southern印迹"
+    ]
+  },
+  {
+    "name": "Northern blot",
+    "trans": [
+      "Northern印迹"
+    ]
+  },
+  {
+    "name": "Western blot",
+    "trans": [
+      "蛋白质印迹"
+    ]
+  },
+  {
+    "name": "hybridization",
+    "trans": [
+      "杂交"
+    ]
+  },
+  {
+    "name": "primer",
+    "trans": [
+      "引物"
+    ]
+  },
+  {
+    "name": "probe",
+    "trans": [
+      "探针"
+    ]
+  },
+  {
+    "name": "template",
+    "trans": [
+      "模板"
+    ]
+  },
+  {
+    "name": "denaturation",
+    "trans": [
+      "变性"
+    ]
+  },
+  {
+    "name": "annealing",
+    "trans": [
+      "退火"
+    ]
+  },
+  {
+    "name": "extension",
+    "trans": [
+      "延伸"
+    ]
+  },
+  {
+    "name": "microarray",
+    "trans": [
+      "微阵列"
+    ]
+  },
+  {
+    "name": "CRISPR",
+    "trans": [
+      "CRISPR基因编辑"
+    ]
+  },
+  {
+    "name": "Cas9",
+    "trans": [
+      "Cas9蛋白"
+    ]
+  },
+  {
+    "name": "gene editing",
+    "trans": [
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "knockout",
+    "trans": [
+      "敲除"
+    ]
+  },
+  {
+    "name": "knockdown",
+    "trans": [
+      "敲低"
+    ]
+  },
+  {
+    "name": "knockin",
+    "trans": [
+      "敲入"
+    ]
+  },
+  {
+    "name": "RNA interference",
+    "trans": [
+      "RNA干扰"
+    ]
+  },
+  {
+    "name": "antisense",
+    "trans": [
+      "反义"
+    ]
+  },
+  {
+    "name": "ribozyme",
+    "trans": [
+      "核酶"
+    ]
+  },
+  {
+    "name": "aptamer",
+    "trans": [
+      "适配体"
+    ]
+  },
+  {
+    "name": "reporter gene",
+    "trans": [
+      "报告基因"
+    ]
+  },
+  {
+    "name": "GFP",
+    "trans": [
+      "绿色荧光蛋白"
+    ]
+  },
+  {
+    "name": "luciferase",
+    "trans": [
+      "荧光素酶"
+    ]
+  },
+  {
+    "name": "expression vector",
+    "trans": [
+      "表达载体"
+    ]
+  },
+  {
+    "name": "inducible",
+    "trans": [
+      "可诱导的"
+    ]
+  },
+  {
+    "name": "constitutive",
+    "trans": [
+      "组成型的"
+    ]
+  },
+  {
+    "name": "leucine zipper",
+    "trans": [
+      "亮氨酸拉链"
+    ]
+  },
+  {
+    "name": "zinc finger",
+    "trans": [
+      "锌指"
+    ]
+  },
+  {
+    "name": "helix-turn-helix",
+    "trans": [
+      "螺旋-转角-螺旋"
+    ]
+  },
+  {
+    "name": "homeodomain",
+    "trans": [
+      "同源异型域"
+    ]
+  },
+  {
+    "name": "origin of replication",
+    "trans": [
+      "复制起点"
+    ]
+  },
+  {
+    "name": "Okazaki fragment",
+    "trans": [
+      "冈崎片段"
+    ]
+  },
+  {
+    "name": "leading strand",
+    "trans": [
+      "前导链"
+    ]
+  },
+  {
+    "name": "lagging strand",
+    "trans": [
+      "后随链"
+    ]
+  },
+  {
+    "name": "semiconservative",
+    "trans": [
+      "半保留的"
+    ]
+  },
+  {
+    "name": "proofreading",
+    "trans": [
+      "校对"
+    ]
+  },
+  {
+    "name": "mismatch repair",
+    "trans": [
+      "错配修复"
+    ]
+  },
+  {
+    "name": "nucleotide excision repair",
+    "trans": [
+      "核苷酸切除修复"
+    ]
+  },
+  {
+    "name": "base excision repair",
+    "trans": [
+      "碱基切除修复"
+    ]
+  },
+  {
+    "name": "homologous recombination",
+    "trans": [
+      "同源重组"
+    ]
+  },
+  {
+    "name": "non-homologous end joining",
+    "trans": [
+      "非同源末端连接"
+    ]
+  },
+  {
+    "name": "membrane",
+    "trans": [
+      "膜"
+    ]
+  },
+  {
+    "name": "plasma membrane",
+    "trans": [
+      "质膜"
+    ]
+  },
+  {
+    "name": "phospholipid bilayer",
+    "trans": [
+      "磷脂双分子层"
+    ]
+  },
+  {
+    "name": "phospholipid",
+    "trans": [
+      "磷脂"
+    ]
+  },
+  {
+    "name": "cholesterol",
+    "trans": [
+      "胆固醇"
+    ]
+  },
+  {
+    "name": "glycolipid",
+    "trans": [
+      "糖脂"
+    ]
+  },
+  {
+    "name": "glycoprotein",
+    "trans": [
+      "糖蛋白"
+    ]
+  },
+  {
+    "name": "integral protein",
+    "trans": [
+      "整合蛋白"
+    ]
+  },
+  {
+    "name": "peripheral protein",
+    "trans": [
+      "外周蛋白"
+    ]
+  },
+  {
+    "name": "transmembrane protein",
+    "trans": [
+      "跨膜蛋白"
+    ]
+  },
+  {
+    "name": "receptor",
+    "trans": [
+      "受体"
+    ]
+  },
+  {
+    "name": "ligand",
+    "trans": [
+      "配体"
+    ]
+  },
+  {
+    "name": "ion channel",
+    "trans": [
+      "离子通道"
+    ]
+  },
+  {
+    "name": "pump",
+    "trans": [
+      "泵"
+    ]
+  },
+  {
+    "name": "carrier",
+    "trans": [
+      "载体蛋白"
+    ]
+  },
+  {
+    "name": "endocytosis",
+    "trans": [
+      "胞吞"
+    ]
+  },
+  {
+    "name": "exocytosis",
+    "trans": [
+      "胞吐"
+    ]
+  },
+  {
+    "name": "phagocytosis",
+    "trans": [
+      "吞噬"
+    ]
+  },
+  {
+    "name": "pinocytosis",
+    "trans": [
+      "胞饮"
+    ]
+  },
+  {
+    "name": "receptor-mediated endocytosis",
+    "trans": [
+      "受体介导的胞吞"
+    ]
+  },
+  {
+    "name": "diffusion",
+    "trans": [
+      "扩散"
+    ]
+  },
+  {
+    "name": "osmosis",
+    "trans": [
+      "渗透"
+    ]
+  },
+  {
+    "name": "active transport",
+    "trans": [
+      "主动运输"
+    ]
+  },
+  {
+    "name": "facilitated diffusion",
+    "trans": [
+      "易化扩散"
+    ]
+  },
+  {
+    "name": "symport",
+    "trans": [
+      "同向转运"
+    ]
+  },
+  {
+    "name": "antiport",
+    "trans": [
+      "反向转运"
+    ]
+  },
+  {
+    "name": "cytoplasm",
+    "trans": [
+      "细胞质"
+    ]
+  },
+  {
+    "name": "cytosol",
+    "trans": [
+      "细胞溶胶"
+    ]
+  },
+  {
+    "name": "nucleus",
+    "trans": [
+      "细胞核"
+    ]
+  },
+  {
+    "name": "nuclear envelope",
+    "trans": [
+      "核膜"
+    ]
+  },
+  {
+    "name": "nuclear pore",
+    "trans": [
+      "核孔"
+    ]
+  },
+  {
+    "name": "nucleolus",
+    "trans": [
+      "核仁"
+    ]
+  },
+  {
+    "name": "mitochondria",
+    "trans": [
+      "线粒体"
+    ]
+  },
+  {
+    "name": "cristae",
+    "trans": [
+      "嵴"
+    ]
+  },
+  {
+    "name": "matrix",
+    "trans": [
+      "基质"
+    ]
+  },
+  {
+    "name": "endoplasmic reticulum",
+    "trans": [
+      "内质网"
+    ]
+  },
+  {
+    "name": "Golgi apparatus",
+    "trans": [
+      "高尔基体"
+    ]
+  },
+  {
+    "name": "lysosome",
+    "trans": [
+      "溶酶体"
+    ]
+  },
+  {
+    "name": "peroxisome",
+    "trans": [
+      "过氧化物酶体"
+    ]
+  },
+  {
+    "name": "proteasome",
+    "trans": [
+      "蛋白酶体"
+    ]
+  },
+  {
+    "name": "centrosome",
+    "trans": [
+      "中心体"
+    ]
+  },
+  {
+    "name": "centriole",
+    "trans": [
+      "中心粒"
+    ]
+  },
+  {
+    "name": "vacuole",
+    "trans": [
+      "液泡"
+    ]
+  },
+  {
+    "name": "vesicle",
+    "trans": [
+      "囊泡"
+    ]
+  },
+  {
+    "name": "endosome",
+    "trans": [
+      "内体"
+    ]
+  },
+  {
+    "name": "cytoskeleton",
+    "trans": [
+      "细胞骨架"
+    ]
+  },
+  {
+    "name": "microtubule",
+    "trans": [
+      "微管"
+    ]
+  },
+  {
+    "name": "microfilament",
+    "trans": [
+      "微丝"
+    ]
+  },
+  {
+    "name": "intermediate filament",
+    "trans": [
+      "中间丝"
+    ]
+  },
+  {
+    "name": "actin",
+    "trans": [
+      "肌动蛋白"
+    ]
+  },
+  {
+    "name": "myosin",
+    "trans": [
+      "肌球蛋白"
+    ]
+  },
+  {
+    "name": "tubulin",
+    "trans": [
+      "微管蛋白"
+    ]
+  },
+  {
+    "name": "kinesin",
+    "trans": [
+      "驱动蛋白"
+    ]
+  },
+  {
+    "name": "dynein",
+    "trans": [
+      "动力蛋白"
+    ]
+  },
+  {
+    "name": "flagella",
+    "trans": [
+      "鞭毛"
+    ]
+  },
+  {
+    "name": "cilia",
+    "trans": [
+      "纤毛"
+    ]
+  },
+  {
+    "name": "pseudopodia",
+    "trans": [
+      "伪足"
+    ]
+  },
+  {
+    "name": "signal transduction",
+    "trans": [
+      "信号转导"
+    ]
+  },
+  {
+    "name": "second messenger",
+    "trans": [
+      "第二信使"
+    ]
+  },
+  {
+    "name": "cAMP",
+    "trans": [
+      "环腺苷酸"
+    ]
+  },
+  {
+    "name": "cGMP",
+    "trans": [
+      "环鸟苷酸"
+    ]
+  },
+  {
+    "name": "IP3",
+    "trans": [
+      "三磷酸肌醇"
+    ]
+  },
+  {
+    "name": "DAG",
+    "trans": [
+      "二酰甘油"
+    ]
+  },
+  {
+    "name": "calcium signaling",
+    "trans": [
+      "钙信号"
+    ]
+  },
+  {
+    "name": "G protein",
+    "trans": [
+      "G蛋白"
+    ]
+  },
+  {
+    "name": "GPCR",
+    "trans": [
+      "G蛋白偶联受体"
+    ]
+  },
+  {
+    "name": "tyrosine kinase receptor",
+    "trans": [
+      "酪氨酸激酶受体"
+    ]
+  },
+  {
+    "name": "MAP kinase",
+    "trans": [
+      "MAP激酶"
+    ]
+  },
+  {
+    "name": "JAK-STAT",
+    "trans": [
+      "JAK-STAT通路"
+    ]
+  },
+  {
+    "name": "NF-kB",
+    "trans": [
+      "NF-kB通路"
+    ]
+  },
+  {
+    "name": "Wnt",
+    "trans": [
+      "Wnt信号通路"
+    ]
+  },
+  {
+    "name": "Notch",
+    "trans": [
+      "Notch信号通路"
+    ]
+  },
+  {
+    "name": "Hedgehog",
+    "trans": [
+      "Hedgehog信号通路"
+    ]
+  },
+  {
+    "name": "TGF-beta",
+    "trans": [
+      "TGF-β信号通路"
+    ]
+  },
+  {
+    "name": "cell cycle",
+    "trans": [
+      "细胞周期"
+    ]
+  },
+  {
+    "name": "interphase",
+    "trans": [
+      "间期"
+    ]
+  },
+  {
+    "name": "prophase",
+    "trans": [
+      "前期"
+    ]
+  },
+  {
+    "name": "prometaphase",
+    "trans": [
+      "前中期"
+    ]
+  },
+  {
+    "name": "metaphase",
+    "trans": [
+      "中期"
+    ]
+  },
+  {
+    "name": "anaphase",
+    "trans": [
+      "后期"
+    ]
+  },
+  {
+    "name": "telophase",
+    "trans": [
+      "末期"
+    ]
+  },
+  {
+    "name": "cytokinesis",
+    "trans": [
+      "胞质分裂"
+    ]
+  },
+  {
+    "name": "cyclin",
+    "trans": [
+      "周期蛋白"
+    ]
+  },
+  {
+    "name": "CDK",
+    "trans": [
+      "周期蛋白依赖性激酶"
+    ]
+  },
+  {
+    "name": "checkpoint",
+    "trans": [
+      "检查点"
+    ]
+  },
+  {
+    "name": "apoptosis",
+    "trans": [
+      "凋亡"
+    ]
+  },
+  {
+    "name": "necrosis",
+    "trans": [
+      "坏死"
+    ]
+  },
+  {
+    "name": "autophagy",
+    "trans": [
+      "自噬"
+    ]
+  },
+  {
+    "name": "senescence",
+    "trans": [
+      "衰老"
+    ]
+  },
+  {
+    "name": "stem cell",
+    "trans": [
+      "干细胞"
+    ]
+  },
+  {
+    "name": "pluripotent",
+    "trans": [
+      "多能的"
+    ]
+  },
+  {
+    "name": "multipotent",
+    "trans": [
+      "多潜能的"
+    ]
+  },
+  {
+    "name": "totipotent",
+    "trans": [
+      "全能的"
+    ]
+  },
+  {
+    "name": "progenitor",
+    "trans": [
+      "祖细胞"
+    ]
+  },
+  {
+    "name": "differentiation",
+    "trans": [
+      "分化"
+    ]
+  },
+  {
+    "name": "dedifferentiation",
+    "trans": [
+      "去分化"
+    ]
+  },
+  {
+    "name": "transdifferentiation",
+    "trans": [
+      "转分化"
+    ]
+  },
+  {
+    "name": "adhesion",
+    "trans": [
+      "黏附"
+    ]
+  },
+  {
+    "name": "tight junction",
+    "trans": [
+      "紧密连接"
+    ]
+  },
+  {
+    "name": "gap junction",
+    "trans": [
+      "间隙连接"
+    ]
+  },
+  {
+    "name": "desmosome",
+    "trans": [
+      "桥粒"
+    ]
+  },
+  {
+    "name": "hemidesmosome",
+    "trans": [
+      "半桥粒"
+    ]
+  },
+  {
+    "name": "adherens junction",
+    "trans": [
+      "黏附连接"
+    ]
+  },
+  {
+    "name": "cadherin",
+    "trans": [
+      "钙黏蛋白"
+    ]
+  },
+  {
+    "name": "integrin",
+    "trans": [
+      "整联蛋白"
+    ]
+  },
+  {
+    "name": "selectin",
+    "trans": [
+      "选择蛋白"
+    ]
+  },
+  {
+    "name": "extracellular matrix",
+    "trans": [
+      "细胞外基质"
+    ]
+  },
+  {
+    "name": "collagen",
+    "trans": [
+      "胶原蛋白"
+    ]
+  },
+  {
+    "name": "fibronectin",
+    "trans": [
+      "纤连蛋白"
+    ]
+  },
+  {
+    "name": "laminin",
+    "trans": [
+      "层粘连蛋白"
+    ]
+  },
+  {
+    "name": "proteoglycan",
+    "trans": [
+      "蛋白聚糖"
+    ]
+  },
+  {
+    "name": "gene",
+    "trans": [
+      "基因"
+    ]
+  },
+  {
+    "name": "allele",
+    "trans": [
+      "等位基因"
+    ]
+  },
+  {
+    "name": "locus",
+    "trans": [
+      "基因座"
+    ]
+  },
+  {
+    "name": "genotype",
+    "trans": [
+      "基因型"
+    ]
+  },
+  {
+    "name": "phenotype",
+    "trans": [
+      "表型"
+    ]
+  },
+  {
+    "name": "homozygous",
+    "trans": [
+      "纯合的"
+    ]
+  },
+  {
+    "name": "heterozygous",
+    "trans": [
+      "杂合的"
+    ]
+  },
+  {
+    "name": "hemizygous",
+    "trans": [
+      "半合的"
+    ]
+  },
+  {
+    "name": "dominant",
+    "trans": [
+      "显性的"
+    ]
+  },
+  {
+    "name": "recessive",
+    "trans": [
+      "隐性的"
+    ]
+  },
+  {
+    "name": "codominant",
+    "trans": [
+      "共显性的"
+    ]
+  },
+  {
+    "name": "incomplete dominance",
+    "trans": [
+      "不完全显性"
+    ]
+  },
+  {
+    "name": "penetrance",
+    "trans": [
+      "外显率"
+    ]
+  },
+  {
+    "name": "expressivity",
+    "trans": [
+      "表现度"
+    ]
+  },
+  {
+    "name": "segregation",
+    "trans": [
+      "分离"
+    ]
+  },
+  {
+    "name": "independent assortment",
+    "trans": [
+      "自由组合"
+    ]
+  },
+  {
+    "name": "linkage",
+    "trans": [
+      "连锁"
+    ]
+  },
+  {
+    "name": "crossing over",
+    "trans": [
+      "交换"
+    ]
+  },
+  {
+    "name": "recombination",
+    "trans": [
+      "重组"
+    ]
+  },
+  {
+    "name": "mutation",
+    "trans": [
+      "突变"
+    ]
+  },
+  {
+    "name": "point mutation",
+    "trans": [
+      "点突变"
+    ]
+  },
+  {
+    "name": "missense",
+    "trans": [
+      "错义"
+    ]
+  },
+  {
+    "name": "nonsense",
+    "trans": [
+      "无义"
+    ]
+  },
+  {
+    "name": "silent mutation",
+    "trans": [
+      "同义突变"
+    ]
+  },
+  {
+    "name": "frameshift",
+    "trans": [
+      "移码"
+    ]
+  },
+  {
+    "name": "deletion",
+    "trans": [
+      "缺失"
+    ]
+  },
+  {
+    "name": "insertion",
+    "trans": [
+      "插入"
+    ]
+  },
+  {
+    "name": "inversion",
+    "trans": [
+      "倒位"
+    ]
+  },
+  {
+    "name": "translocation",
+    "trans": [
+      "易位"
+    ]
+  },
+  {
+    "name": "duplication",
+    "trans": [
+      "重复"
+    ]
+  },
+  {
+    "name": "aneuploidy",
+    "trans": [
+      "非整倍体"
+    ]
+  },
+  {
+    "name": "polyploidy",
+    "trans": [
+      "多倍体"
+    ]
+  },
+  {
+    "name": "haploid",
+    "trans": [
+      "单倍体"
+    ]
+  },
+  {
+    "name": "diploid",
+    "trans": [
+      "二倍体"
+    ]
+  },
+  {
+    "name": "karyotype",
+    "trans": [
+      "核型"
+    ]
+  },
+  {
+    "name": "autosome",
+    "trans": [
+      "常染色体"
+    ]
+  },
+  {
+    "name": "X-linked",
+    "trans": [
+      "X连锁的"
+    ]
+  },
+  {
+    "name": "Y-linked",
+    "trans": [
+      "Y连锁的"
+    ]
+  },
+  {
+    "name": "pedigree",
+    "trans": [
+      "系谱"
+    ]
+  },
+  {
+    "name": "proband",
+    "trans": [
+      "先证者"
+    ]
+  },
+  {
+    "name": "consanguineous",
+    "trans": [
+      "近亲的"
+    ]
+  },
+  {
+    "name": "Hardy-Weinberg",
+    "trans": [
+      "哈代-温伯格平衡"
+    ]
+  },
+  {
+    "name": "genetic drift",
+    "trans": [
+      "遗传漂变"
+    ]
+  },
+  {
+    "name": "gene flow",
+    "trans": [
+      "基因流"
+    ]
+  },
+  {
+    "name": "founder effect",
+    "trans": [
+      "奠基者效应"
+    ]
+  },
+  {
+    "name": "bottleneck",
+    "trans": [
+      "瓶颈效应"
+    ]
+  },
+  {
+    "name": "natural selection",
+    "trans": [
+      "自然选择"
+    ]
+  },
+  {
+    "name": "fitness",
+    "trans": [
+      "适合度"
+    ]
+  },
+  {
+    "name": "epistasis",
+    "trans": [
+      "上位效应"
+    ]
+  },
+  {
+    "name": "pleiotropy",
+    "trans": [
+      "多效性"
+    ]
+  },
+  {
+    "name": "polygenic",
+    "trans": [
+      "多基因的"
+    ]
+  },
+  {
+    "name": "quantitative trait",
+    "trans": [
+      "数量性状"
+    ]
+  },
+  {
+    "name": "heritability",
+    "trans": [
+      "遗传力"
+    ]
+  },
+  {
+    "name": "SNP",
+    "trans": [
+      "单核苷酸多态性"
+    ]
+  },
+  {
+    "name": "haplotype",
+    "trans": [
+      "单倍型"
+    ]
+  },
+  {
+    "name": "GWAS",
+    "trans": [
+      "全基因组关联分析"
+    ]
+  },
+  {
+    "name": "linkage disequilibrium",
+    "trans": [
+      "连锁不平衡"
+    ]
+  },
+  {
+    "name": "transposon",
+    "trans": [
+      "转座子"
+    ]
+  },
+  {
+    "name": "retrotransposon",
+    "trans": [
+      "反转座子"
+    ]
+  },
+  {
+    "name": "transposase",
+    "trans": [
+      "转座酶"
+    ]
+  },
+  {
+    "name": "X-inactivation",
+    "trans": [
+      "X染色体失活"
+    ]
+  },
+  {
+    "name": "dosage compensation",
+    "trans": [
+      "剂量补偿"
+    ]
+  },
+  {
+    "name": "Barr body",
+    "trans": [
+      "巴氏小体"
+    ]
+  },
+  {
+    "name": "transgenic",
+    "trans": [
+      "转基因的"
+    ]
+  },
+  {
+    "name": "conditional knockout",
+    "trans": [
+      "条件性敲除"
+    ]
+  },
+  {
+    "name": "Cre-loxP",
+    "trans": [
+      "Cre-loxP系统"
+    ]
+  },
+  {
+    "name": "meiosis",
+    "trans": [
+      "减数分裂"
+    ]
+  },
+  {
+    "name": "bivalent",
+    "trans": [
+      "二价体"
+    ]
+  },
+  {
+    "name": "tetrad",
+    "trans": [
+      "四分体"
+    ]
+  },
+  {
+    "name": "synapsis",
+    "trans": [
+      "联会"
+    ]
+  },
+  {
+    "name": "chiasma",
+    "trans": [
+      "交叉"
+    ]
+  },
+  {
+    "name": "nondisjunction",
+    "trans": [
+      "不分离"
+    ]
+  },
+  {
+    "name": "gamete",
+    "trans": [
+      "配子"
+    ]
+  },
+  {
+    "name": "zygote",
+    "trans": [
+      "合子"
+    ]
+  },
+  {
+    "name": "genetic code",
+    "trans": [
+      "遗传密码"
+    ]
+  },
+  {
+    "name": "degenerate",
+    "trans": [
+      "简并的"
+    ]
+  },
+  {
+    "name": "wobble",
+    "trans": [
+      "摆动"
+    ]
+  },
+  {
+    "name": "reading frame",
+    "trans": [
+      "读码框"
+    ]
+  },
+  {
+    "name": "open reading frame",
+    "trans": [
+      "开放读码框"
+    ]
+  },
+  {
+    "name": "transcription start site",
+    "trans": [
+      "转录起始位点"
+    ]
+  },
+  {
+    "name": "polyA tail",
+    "trans": [
+      "polyA尾"
+    ]
+  },
+  {
+    "name": "5-prime cap",
+    "trans": [
+      "5'帽"
+    ]
+  },
+  {
+    "name": "UTR",
+    "trans": [
+      "非翻译区"
+    ]
+  },
+  {
+    "name": "cistron",
+    "trans": [
+      "顺反子"
+    ]
+  },
+  {
+    "name": "transposon mutagenesis",
+    "trans": [
+      "转座子诱变"
+    ]
+  },
+  {
+    "name": "site-directed mutagenesis",
+    "trans": [
+      "定点诱变"
+    ]
+  },
+  {
+    "name": "complementation",
+    "trans": [
+      "互补"
+    ]
+  },
+  {
+    "name": "auxotroph",
+    "trans": [
+      "营养缺陷型"
+    ]
+  },
+  {
+    "name": "prototroph",
+    "trans": [
+      "原养型"
+    ]
+  },
+  {
+    "name": "genome",
+    "trans": [
+      "基因组"
+    ]
+  },
+  {
+    "name": "transcriptome",
+    "trans": [
+      "转录组"
+    ]
+  },
+  {
+    "name": "proteome",
+    "trans": [
+      "蛋白质组"
+    ]
+  },
+  {
+    "name": "metabolome",
+    "trans": [
+      "代谢组"
+    ]
+  },
+  {
+    "name": "epigenome",
+    "trans": [
+      "表观基因组"
+    ]
+  },
+  {
+    "name": "metagenomics",
+    "trans": [
+      "宏基因组学"
+    ]
+  },
+  {
+    "name": "single-cell sequencing",
+    "trans": [
+      "单细胞测序"
+    ]
+  },
+  {
+    "name": "RNA-seq",
+    "trans": [
+      "RNA测序"
+    ]
+  },
+  {
+    "name": "ChIP-seq",
+    "trans": [
+      "染色质免疫沉淀测序"
+    ]
+  },
+  {
+    "name": "ATAC-seq",
+    "trans": [
+      "ATAC测序"
+    ]
+  },
+  {
+    "name": "bisulfite sequencing",
+    "trans": [
+      "亚硫酸氢盐测序"
+    ]
+  },
+  {
+    "name": "multiplex",
+    "trans": [
+      "多重"
+    ]
+  },
+  {
+    "name": "flow cytometry",
+    "trans": [
+      "流式细胞术"
+    ]
+  },
+  {
+    "name": "FACS",
+    "trans": [
+      "荧光激活细胞分选"
+    ]
+  },
+  {
+    "name": "immunoprecipitation",
+    "trans": [
+      "免疫沉淀"
+    ]
+  },
+  {
+    "name": "co-immunoprecipitation",
+    "trans": [
+      "免疫共沉淀"
+    ]
+  },
+  {
+    "name": "yeast two-hybrid",
+    "trans": [
+      "酵母双杂交"
+    ]
+  },
+  {
+    "name": "FRET",
+    "trans": [
+      "荧光共振能量转移"
+    ]
+  },
+  {
+    "name": "CRISPR screen",
+    "trans": [
+      "CRISPR筛选"
+    ]
+  },
+  {
+    "name": "cryo-EM",
+    "trans": [
+      "冷冻电镜"
+    ]
+  },
+  {
+    "name": "X-ray crystallography",
+    "trans": [
+      "X射线晶体学"
+    ]
+  },
+  {
+    "name": "NMR",
+    "trans": [
+      "核磁共振"
+    ]
+  },
+  {
+    "name": "mass spectrometry",
+    "trans": [
+      "质谱"
+    ]
+  },
+  {
+    "name": "molecular cloning",
+    "trans": [
+      "分子克隆"
+    ]
+  },
+  {
+    "name": "subcloning",
+    "trans": [
+      "亚克隆"
+    ]
+  },
+  {
+    "name": "site-directed",
+    "trans": [
+      "定点"
+    ]
+  },
+  {
+    "name": "fusion protein",
+    "trans": [
+      "融合蛋白"
+    ]
+  },
+  {
+    "name": "affinity tag",
+    "trans": [
+      "亲和标签"
+    ]
+  },
+  {
+    "name": "His-tag",
+    "trans": [
+      "组氨酸标签"
+    ]
+  },
+  {
+    "name": "GST",
+    "trans": [
+      "谷胱甘肽S转移酶"
+    ]
+  },
+  {
+    "name": "epitope tag",
+    "trans": [
+      "表位标签"
+    ]
+  },
+  {
+    "name": "HA tag",
+    "trans": [
+      "HA标签"
+    ]
+  },
+  {
+    "name": "FLAG tag",
+    "trans": [
+      "FLAG标签"
+    ]
+  },
+  {
+    "name": "myc tag",
+    "trans": [
+      "myc标签"
+    ]
+  },
+  {
+    "name": "rough endoplasmic reticulum",
+    "trans": [
+      "粗面内质网"
+    ]
+  },
+  {
+    "name": "smooth endoplasmic reticulum",
+    "trans": [
+      "滑面内质网"
+    ]
+  },
+  {
+    "name": "secretory pathway",
+    "trans": [
+      "分泌途径"
+    ]
+  },
+  {
+    "name": "vesicle trafficking",
+    "trans": [
+      "囊泡运输"
+    ]
+  },
+  {
+    "name": "SNARE",
+    "trans": [
+      "SNARE蛋白"
+    ]
+  },
+  {
+    "name": "clathrin",
+    "trans": [
+      "网格蛋白"
+    ]
+  },
+  {
+    "name": "caveolin",
+    "trans": [
+      "小窝蛋白"
+    ]
+  },
+  {
+    "name": "dynamin",
+    "trans": [
+      "发动蛋白"
+    ]
+  },
+  {
+    "name": "COPII",
+    "trans": [
+      "COPII包被"
+    ]
+  },
+  {
+    "name": "COPI",
+    "trans": [
+      "COPI包被"
+    ]
+  },
+  {
+    "name": "Rab GTPase",
+    "trans": [
+      "Rab GTP酶"
+    ]
+  },
+  {
+    "name": "Ran GTPase",
+    "trans": [
+      "Ran GTP酶"
+    ]
+  },
+  {
+    "name": "nuclear localization signal",
+    "trans": [
+      "核定位信号"
+    ]
+  },
+  {
+    "name": "importin",
+    "trans": [
+      "输入蛋白"
+    ]
+  },
+  {
+    "name": "exportin",
+    "trans": [
+      "输出蛋白"
+    ]
+  },
+  {
+    "name": "nucleoporin",
+    "trans": [
+      "核孔蛋白"
+    ]
+  },
+  {
+    "name": "mitochondrial matrix",
+    "trans": [
+      "线粒体基质"
+    ]
+  },
+  {
+    "name": "intermembrane space",
+    "trans": [
+      "膜间隙"
+    ]
+  },
+  {
+    "name": "electron transport chain",
+    "trans": [
+      "电子传递链"
+    ]
+  },
+  {
+    "name": "ATP synthase",
+    "trans": [
+      "ATP合酶"
+    ]
+  },
+  {
+    "name": "chemiosmosis",
+    "trans": [
+      "化学渗透"
+    ]
+  },
+  {
+    "name": "oxidative phosphorylation",
+    "trans": [
+      "氧化磷酸化"
+    ]
+  },
+  {
+    "name": "proton gradient",
+    "trans": [
+      "质子梯度"
+    ]
+  },
+  {
+    "name": "glycolysis",
+    "trans": [
+      "糖酵解"
+    ]
+  },
+  {
+    "name": "citric acid cycle",
+    "trans": [
+      "柠檬酸循环"
+    ]
+  },
+  {
+    "name": "Krebs cycle",
+    "trans": [
+      "三羧酸循环"
+    ]
+  },
+  {
+    "name": "beta-oxidation",
+    "trans": [
+      "β氧化"
+    ]
+  },
+  {
+    "name": "chloroplast",
+    "trans": [
+      "叶绿体"
+    ]
+  },
+  {
+    "name": "thylakoid",
+    "trans": [
+      "类囊体"
+    ]
+  },
+  {
+    "name": "stroma",
+    "trans": [
+      "叶绿体基质"
+    ]
+  },
+  {
+    "name": "photosynthesis",
+    "trans": [
+      "光合作用"
+    ]
+  },
+  {
+    "name": "Calvin cycle",
+    "trans": [
+      "卡尔文循环"
+    ]
+  },
+  {
+    "name": "rubisco",
+    "trans": [
+      "核酮糖二磷酸羧化酶"
+    ]
+  },
+  {
+    "name": "microvilli",
+    "trans": [
+      "微绒毛"
+    ]
+  },
+  {
+    "name": "lamellipodia",
+    "trans": [
+      "片状伪足"
+    ]
+  },
+  {
+    "name": "filopodia",
+    "trans": [
+      "丝状伪足"
+    ]
+  },
+  {
+    "name": "cell cortex",
+    "trans": [
+      "细胞皮层"
+    ]
+  },
+  {
+    "name": "focal adhesion",
+    "trans": [
+      "黏着斑"
+    ]
+  },
+  {
+    "name": "contact inhibition",
+    "trans": [
+      "接触抑制"
+    ]
+  },
+  {
+    "name": "anchorage dependence",
+    "trans": [
+      "贴壁依赖性"
+    ]
+  },
+  {
+    "name": "chemotaxis",
+    "trans": [
+      "趋化性"
+    ]
+  },
+  {
+    "name": "connexin",
+    "trans": [
+      "连接蛋白"
+    ]
+  },
+  {
+    "name": "occludin",
+    "trans": [
+      "闭合蛋白"
+    ]
+  },
+  {
+    "name": "plasmodesmata",
+    "trans": [
+      "胞间连丝"
+    ]
+  },
+  {
+    "name": "cell wall",
+    "trans": [
+      "细胞壁"
+    ]
+  },
+  {
+    "name": "peptidoglycan",
+    "trans": [
+      "肽聚糖"
+    ]
+  },
+  {
+    "name": "lipopolysaccharide",
+    "trans": [
+      "脂多糖"
+    ]
+  },
+  {
+    "name": "gram-positive",
+    "trans": [
+      "革兰氏阳性"
+    ]
+  },
+  {
+    "name": "gram-negative",
+    "trans": [
+      "革兰氏阴性"
+    ]
+  },
+  {
+    "name": "mitogen",
+    "trans": [
+      "促分裂原"
+    ]
+  },
+  {
+    "name": "growth factor",
+    "trans": [
+      "生长因子"
+    ]
+  },
+  {
+    "name": "EGF",
+    "trans": [
+      "表皮生长因子"
+    ]
+  },
+  {
+    "name": "FGF",
+    "trans": [
+      "成纤维细胞生长因子"
+    ]
+  },
+  {
+    "name": "PDGF",
+    "trans": [
+      "血小板衍生生长因子"
+    ]
+  },
+  {
+    "name": "VEGF",
+    "trans": [
+      "血管内皮生长因子"
+    ]
+  },
+  {
+    "name": "cytokine",
+    "trans": [
+      "细胞因子"
+    ]
+  },
+  {
+    "name": "chemokine",
+    "trans": [
+      "趋化因子"
+    ]
+  },
+  {
+    "name": "interleukin",
+    "trans": [
+      "白细胞介素"
+    ]
+  },
+  {
+    "name": "interferon",
+    "trans": [
+      "干扰素"
+    ]
+  },
+  {
+    "name": "tumor necrosis factor",
+    "trans": [
+      "肿瘤坏死因子"
+    ]
+  },
+  {
+    "name": "caspase",
+    "trans": [
+      "天冬氨酸特异性半胱氨酸蛋白酶"
+    ]
+  },
+  {
+    "name": "Bcl-2",
+    "trans": [
+      "Bcl-2蛋白"
+    ]
+  },
+  {
+    "name": "cytochrome c",
+    "trans": [
+      "细胞色素c"
+    ]
+  },
+  {
+    "name": "p53",
+    "trans": [
+      "p53蛋白"
+    ]
+  },
+  {
+    "name": "oncogene",
+    "trans": [
+      "癌基因"
+    ]
+  },
+  {
+    "name": "tumor suppressor",
+    "trans": [
+      "抑癌基因"
+    ]
+  },
+  {
+    "name": "retinoblastoma",
+    "trans": [
+      "视网膜母细胞瘤蛋白"
+    ]
+  },
+  {
+    "name": "telomere shortening",
+    "trans": [
+      "端粒缩短"
+    ]
+  },
+  {
+    "name": "Hayflick limit",
+    "trans": [
+      "Hayflick极限"
+    ]
+  },
+  {
+    "name": "somatic cell",
+    "trans": [
+      "体细胞"
+    ]
+  },
+  {
+    "name": "germ cell",
+    "trans": [
+      "生殖细胞"
+    ]
+  },
+  {
+    "name": "cell lineage",
+    "trans": [
+      "细胞谱系"
+    ]
+  },
+  {
+    "name": "asymmetric division",
+    "trans": [
+      "不对称分裂"
+    ]
+  },
+  {
+    "name": "symmetry breaking",
+    "trans": [
+      "对称破缺"
+    ]
+  },
+  {
+    "name": "morphogen",
+    "trans": [
+      "形态发生素"
+    ]
+  },
+  {
+    "name": "gradient",
+    "trans": [
+      "浓度梯度"
+    ]
+  },
+  {
+    "name": "polarity",
+    "trans": [
+      "极性"
+    ]
+  },
+  {
+    "name": "epithelial",
+    "trans": [
+      "上皮的"
+    ]
+  },
+  {
+    "name": "mesenchymal",
+    "trans": [
+      "间充质的"
+    ]
+  },
+  {
+    "name": "epithelial-mesenchymal transition",
+    "trans": [
+      "上皮间质转化"
+    ]
+  },
+  {
+    "name": "metastasis",
+    "trans": [
+      "转移"
+    ]
+  },
+  {
+    "name": "angiogenesis",
+    "trans": [
+      "血管生成"
+    ]
+  },
+  {
+    "name": "Mendelian inheritance",
+    "trans": [
+      "孟德尔遗传"
+    ]
+  },
+  {
+    "name": "law of segregation",
+    "trans": [
+      "分离定律"
+    ]
+  },
+  {
+    "name": "law of independent assortment",
+    "trans": [
+      "自由组合定律"
+    ]
+  },
+  {
+    "name": "test cross",
+    "trans": [
+      "测交"
+    ]
+  },
+  {
+    "name": "backcross",
+    "trans": [
+      "回交"
+    ]
+  },
+  {
+    "name": "monohybrid",
+    "trans": [
+      "单杂交"
+    ]
+  },
+  {
+    "name": "dihybrid",
+    "trans": [
+      "双杂交"
+    ]
+  },
+  {
+    "name": "Punnett square",
+    "trans": [
+      "庞纳特方格"
+    ]
+  },
+  {
+    "name": "sex-linked",
+    "trans": [
+      "性连锁的"
+    ]
+  },
+  {
+    "name": "sex-limited",
+    "trans": [
+      "限性的"
+    ]
+  },
+  {
+    "name": "sex-influenced",
+    "trans": [
+      "从性的"
+    ]
+  },
+  {
+    "name": "polygenic inheritance",
+    "trans": [
+      "多基因遗传"
+    ]
+  },
+  {
+    "name": "multifactorial",
+    "trans": [
+      "多因素的"
+    ]
+  },
+  {
+    "name": "cytogenetics",
+    "trans": [
+      "细胞遗传学"
+    ]
+  },
+  {
+    "name": "banding pattern",
+    "trans": [
+      "带型"
+    ]
+  },
+  {
+    "name": "G-banding",
+    "trans": [
+      "G显带"
+    ]
+  },
+  {
+    "name": "FISH",
+    "trans": [
+      "荧光原位杂交"
+    ]
+  },
+  {
+    "name": "chromosomal aberration",
+    "trans": [
+      "染色体畸变"
+    ]
+  },
+  {
+    "name": "monosomy",
+    "trans": [
+      "单体"
+    ]
+  },
+  {
+    "name": "trisomy",
+    "trans": [
+      "三体"
+    ]
+  },
+  {
+    "name": "Down syndrome",
+    "trans": [
+      "唐氏综合征"
+    ]
+  },
+  {
+    "name": "Turner syndrome",
+    "trans": [
+      "特纳综合征"
+    ]
+  },
+  {
+    "name": "Klinefelter syndrome",
+    "trans": [
+      "克氏综合征"
+    ]
+  },
+  {
+    "name": "reciprocal translocation",
+    "trans": [
+      "相互易位"
+    ]
+  },
+  {
+    "name": "Robertsonian translocation",
+    "trans": [
+      "罗伯逊易位"
+    ]
+  },
+  {
+    "name": "uniparental disomy",
+    "trans": [
+      "单亲二体"
+    ]
+  },
+  {
+    "name": "microdeletion",
+    "trans": [
+      "微缺失"
+    ]
+  },
+  {
+    "name": "copy number variation",
+    "trans": [
+      "拷贝数变异"
+    ]
+  },
+  {
+    "name": "germline mutation",
+    "trans": [
+      "生殖系突变"
+    ]
+  },
+  {
+    "name": "somatic mutation",
+    "trans": [
+      "体细胞突变"
+    ]
+  },
+  {
+    "name": "mutagen",
+    "trans": [
+      "诱变剂"
+    ]
+  },
+  {
+    "name": "carcinogen",
+    "trans": [
+      "致癌物"
+    ]
+  },
+  {
+    "name": "teratogen",
+    "trans": [
+      "致畸物"
+    ]
+  },
+  {
+    "name": "spontaneous mutation",
+    "trans": [
+      "自发突变"
+    ]
+  },
+  {
+    "name": "induced mutation",
+    "trans": [
+      "诱发突变"
+    ]
+  },
+  {
+    "name": "conditional mutation",
+    "trans": [
+      "条件突变"
+    ]
+  },
+  {
+    "name": "temperature-sensitive",
+    "trans": [
+      "温度敏感的"
+    ]
+  },
+  {
+    "name": "lethal allele",
+    "trans": [
+      "致死等位基因"
+    ]
+  },
+  {
+    "name": "null mutation",
+    "trans": [
+      "无效突变"
+    ]
+  },
+  {
+    "name": "hypomorphic",
+    "trans": [
+      "亚效的"
+    ]
+  },
+  {
+    "name": "hypermorphic",
+    "trans": [
+      "超效的"
+    ]
+  },
+  {
+    "name": "neomorphic",
+    "trans": [
+      "新效的"
+    ]
+  },
+  {
+    "name": "antimorphic",
+    "trans": [
+      "反效的"
+    ]
+  },
+  {
+    "name": "dominant negative",
+    "trans": [
+      "显性负效应"
+    ]
+  },
+  {
+    "name": "gain-of-function",
+    "trans": [
+      "功能获得"
+    ]
+  },
+  {
+    "name": "loss-of-function",
+    "trans": [
+      "功能丧失"
+    ]
+  },
+  {
+    "name": "haploinsufficiency",
+    "trans": [
+      "单倍剂量不足"
+    ]
+  },
+  {
+    "name": "reversion",
+    "trans": [
+      "回复突变"
+    ]
+  },
+  {
+    "name": "suppressor mutation",
+    "trans": [
+      "抑制突变"
+    ]
+  },
+  {
+    "name": "intragenic suppressor",
+    "trans": [
+      "基因内抑制"
+    ]
+  },
+  {
+    "name": "intergenic suppressor",
+    "trans": [
+      "基因间抑制"
+    ]
+  },
+  {
+    "name": "genetic map",
+    "trans": [
+      "遗传图谱"
+    ]
+  },
+  {
+    "name": "physical map",
+    "trans": [
+      "物理图谱"
+    ]
+  },
+  {
+    "name": "centiMorgan",
+    "trans": [
+      "厘摩"
+    ]
+  },
+  {
+    "name": "map distance",
+    "trans": [
+      "图距"
+    ]
+  },
+  {
+    "name": "three-point cross",
+    "trans": [
+      "三点测交"
+    ]
+  },
+  {
+    "name": "interference",
+    "trans": [
+      "干涉"
+    ]
+  },
+  {
+    "name": "coefficient of coincidence",
+    "trans": [
+      "并发系数"
+    ]
+  },
+  {
+    "name": "genetic marker",
+    "trans": [
+      "遗传标记"
+    ]
+  },
+  {
+    "name": "microsatellite",
+    "trans": [
+      "微卫星"
+    ]
+  },
+  {
+    "name": "minisatellite",
+    "trans": [
+      "小卫星"
+    ]
+  },
+  {
+    "name": "VNTR",
+    "trans": [
+      "可变数目串联重复"
+    ]
+  },
+  {
+    "name": "STR",
+    "trans": [
+      "短串联重复"
+    ]
+  },
+  {
+    "name": "RFLP",
+    "trans": [
+      "限制性片段长度多态性"
+    ]
+  },
+  {
+    "name": "AFLP",
+    "trans": [
+      "扩增片段长度多态性"
+    ]
+  },
+  {
+    "name": "positional cloning",
+    "trans": [
+      "定位克隆"
+    ]
+  },
+  {
+    "name": "candidate gene",
+    "trans": [
+      "候选基因"
+    ]
+  },
+  {
+    "name": "linkage analysis",
+    "trans": [
+      "连锁分析"
+    ]
+  },
+  {
+    "name": "association study",
+    "trans": [
+      "关联研究"
+    ]
+  },
+  {
+    "name": "genetic counseling",
+    "trans": [
+      "遗传咨询"
+    ]
+  },
+  {
+    "name": "prenatal diagnosis",
+    "trans": [
+      "产前诊断"
+    ]
+  },
+  {
+    "name": "amniocentesis",
+    "trans": [
+      "羊膜穿刺"
+    ]
+  },
+  {
+    "name": "chorionic villus sampling",
+    "trans": [
+      "绒毛膜取样"
+    ]
+  },
+  {
+    "name": "carrier screening",
+    "trans": [
+      "携带者筛查"
+    ]
+  },
+  {
+    "name": "newborn screening",
+    "trans": [
+      "新生儿筛查"
+    ]
+  },
+  {
+    "name": "gene therapy",
+    "trans": [
+      "基因治疗"
+    ]
+  },
+  {
+    "name": "pharmacogenomics",
+    "trans": [
+      "药物基因组学"
+    ]
+  },
+  {
+    "name": "personalized medicine",
+    "trans": [
+      "个性化医疗"
+    ]
+  },
+  {
+    "name": "selection coefficient",
+    "trans": [
+      "选择系数"
+    ]
+  },
+  {
+    "name": "effective population size",
+    "trans": [
+      "有效群体大小"
+    ]
+  },
+  {
+    "name": "inbreeding",
+    "trans": [
+      "近交"
+    ]
+  },
+  {
+    "name": "inbreeding coefficient",
+    "trans": [
+      "近交系数"
+    ]
+  },
+  {
+    "name": "outbreeding",
+    "trans": [
+      "远交"
+    ]
+  },
+  {
+    "name": "heterosis",
+    "trans": [
+      "杂种优势"
+    ]
+  },
+  {
+    "name": "inbreeding depression",
+    "trans": [
+      "近交衰退"
+    ]
+  },
+  {
+    "name": "adaptive radiation",
+    "trans": [
+      "适应辐射"
+    ]
+  },
+  {
+    "name": "convergent evolution",
+    "trans": [
+      "趋同进化"
+    ]
+  },
+  {
+    "name": "divergent evolution",
+    "trans": [
+      "趋异进化"
+    ]
+  },
+  {
+    "name": "molecular clock",
+    "trans": [
+      "分子钟"
+    ]
+  },
+  {
+    "name": "neutral theory",
+    "trans": [
+      "中性理论"
+    ]
+  },
+  {
+    "name": "synonymous substitution",
+    "trans": [
+      "同义替换"
+    ]
+  },
+  {
+    "name": "nonsynonymous substitution",
+    "trans": [
+      "非同义替换"
+    ]
+  },
+  {
+    "name": "Ka/Ks ratio",
+    "trans": [
+      "Ka/Ks比值"
+    ]
+  },
+  {
+    "name": "dN/dS ratio",
+    "trans": [
+      "dN/dS比值"
+    ]
+  },
+  {
+    "name": "purifying selection",
+    "trans": [
+      "纯化选择"
+    ]
+  },
+  {
+    "name": "positive selection",
+    "trans": [
+      "正选择"
+    ]
+  },
+  {
+    "name": "balancing selection",
+    "trans": [
+      "平衡选择"
+    ]
+  },
+  {
+    "name": "selective sweep",
+    "trans": [
+      "选择性清除"
+    ]
+  },
+  {
+    "name": "hitchhiking",
+    "trans": [
+      "搭车效应"
+    ]
+  },
+  {
+    "name": "population structure",
+    "trans": [
+      "群体结构"
+    ]
+  },
+  {
+    "name": "admixture",
+    "trans": [
+      "混合"
+    ]
+  },
+  {
+    "name": "genome-wide association",
+    "trans": [
+      "全基因组关联"
+    ]
+  },
+  {
+    "name": "polygenic risk score",
+    "trans": [
+      "多基因风险评分"
+    ]
+  },
+  {
+    "name": "Mendelian randomization",
+    "trans": [
+      "孟德尔随机化"
+    ]
+  },
+  {
+    "name": "pseudoautosomal region",
+    "trans": [
+      "假常染色体区"
+    ]
+  },
+  {
+    "name": "SRY gene",
+    "trans": [
+      "SRY基因"
+    ]
+  },
+  {
+    "name": "sex determination",
+    "trans": [
+      "性别决定"
+    ]
+  },
+  {
+    "name": "genomic imprinting",
+    "trans": [
+      "基因组印记"
+    ]
+  },
+  {
+    "name": "parent-of-origin effect",
+    "trans": [
+      "亲源效应"
+    ]
+  },
+  {
+    "name": "maternal effect",
+    "trans": [
+      "母体效应"
+    ]
+  },
+  {
+    "name": "cytoplasmic inheritance",
+    "trans": [
+      "细胞质遗传"
+    ]
+  },
+  {
+    "name": "mitochondrial inheritance",
+    "trans": [
+      "线粒体遗传"
+    ]
+  },
+  {
+    "name": "heteroplasmy",
+    "trans": [
+      "异质性"
+    ]
+  },
+  {
+    "name": "homoplasmy",
+    "trans": [
+      "同质性"
+    ]
+  },
+  {
+    "name": "threshold effect",
+    "trans": [
+      "阈值效应"
+    ]
+  },
+  {
+    "name": "maternal inheritance",
+    "trans": [
+      "母系遗传"
+    ]
+  }
 ]
