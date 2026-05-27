@@ -681,8 +681,7 @@ const internationalExam: DictionaryResource[] = [
     length: 8785,
     language: 'en',
     languageCategory: 'en',
-  },
-  {
+  },  {
     id: 'biomedical-terms',
     name: '生物医学专业英语词汇',
     description: '生物医学专业英语词汇',
@@ -690,6 +689,17 @@ const internationalExam: DictionaryResource[] = [
     tags: ['生物'],
     url: '/dicts/BIOmedical.json',
     length: 560,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: 'biology-vocabulary',
+    name: '分子与细胞生物学词汇',
+    description: '分子生物学、细胞生物学、遗传学核心词汇',
+    category: '专业词汇',
+    tags: ['生物', '科学'],
+    url: '/dicts/biology_vocabulary.json',
+    length: 360,
     language: 'en',
     languageCategory: 'en',
   },
