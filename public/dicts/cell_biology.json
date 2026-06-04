@@ -5,5 +5,1097 @@
       "膜"
     ],
     "explanation": "细胞的外层结构，由磷脂双分子层和蛋白质组成，控制物质进出细胞，维持细胞内环境稳定"
+  },
+  {
+    "name": "plasma membrane",
+    "trans": [
+      "质膜"
+    ],
+    "explanation": "细胞质膜，直接包围细胞质的半透性膜，约7-8nm厚，主要成分是磷脂和蛋白质"
+  },
+  {
+    "name": "phospholipid bilayer",
+    "trans": [
+      "磷脂双分子层"
+    ],
+    "explanation": "磷脂双分子层，质膜的基本骨架。亲水头部朝外、疏水尾部朝内，形成选择性通透屏障"
+  },
+  {
+    "name": "phospholipid",
+    "trans": [
+      "磷脂"
+    ],
+    "explanation": "磷脂，含磷酸基团的脂类分子。一端亲水一端疏水，是生物膜的主要结构成分"
+  },
+  {
+    "name": "cholesterol",
+    "trans": [
+      "胆固醇"
+    ],
+    "explanation": "胆固醇，穿插在磷脂双分子层中的甾醇类分子，调节膜的流动性，在低温时防止膜固化"
+  },
+  {
+    "name": "glycolipid",
+    "trans": [
+      "糖脂"
+    ],
+    "explanation": "糖脂，带有糖基的脂质分子，分布在细胞膜外侧，参与细胞识别和信号转导"
+  },
+  {
+    "name": "glycoprotein",
+    "trans": [
+      "糖蛋白"
+    ],
+    "explanation": "糖蛋白，蛋白质上连接有寡糖链，分布于细胞膜外表面，参与细胞黏附和免疫识别"
+  },
+  {
+    "name": "integral protein",
+    "trans": [
+      "整合蛋白"
+    ],
+    "explanation": "整合蛋白（内在膜蛋白），贯穿或嵌入脂双层的膜蛋白，需要去垢剂才能分离"
+  },
+  {
+    "name": "peripheral protein",
+    "trans": [
+      "外周蛋白"
+    ],
+    "explanation": "外周蛋白（外在膜蛋白），附着在膜表面，通过非共价键与整合蛋白或脂质头部结合"
+  },
+  {
+    "name": "transmembrane protein",
+    "trans": [
+      "跨膜蛋白"
+    ],
+    "explanation": "跨膜蛋白，一次或多次穿越脂双层的整合蛋白，如离子通道、G蛋白偶联受体"
+  },
+  {
+    "name": "receptor",
+    "trans": [
+      "受体"
+    ],
+    "explanation": "受体，能特异性识别并结合信号分子（配体）的蛋白质，启动胞内信号级联"
+  },
+  {
+    "name": "ligand",
+    "trans": [
+      "配体"
+    ],
+    "explanation": "配体，与受体特异性结合的信号分子，如激素、神经递质、生长因子"
+  },
+  {
+    "name": "ion channel",
+    "trans": [
+      "离子通道"
+    ],
+    "explanation": "离子通道，跨膜蛋白质孔道，允许特定离子（Na⁺/K⁺/Ca²⁺/Cl⁻）顺浓度梯度通过"
+  },
+  {
+    "name": "pump",
+    "trans": [
+      "泵"
+    ],
+    "explanation": "离子泵，利用ATP能量逆浓度梯度转运离子的跨膜蛋白，如Na⁺/K⁺-ATP酶"
+  },
+  {
+    "name": "carrier",
+    "trans": [
+      "载体蛋白"
+    ],
+    "explanation": "载体蛋白，与被转运物质结合发生构象变化，介导易化扩散或主动运输"
+  },
+  {
+    "name": "endocytosis",
+    "trans": [
+      "胞吞"
+    ],
+    "explanation": "胞吞作用，细胞膜内陷包裹外界物质形成囊泡摄入胞内的过程"
+  },
+  {
+    "name": "exocytosis",
+    "trans": [
+      "胞吐"
+    ],
+    "explanation": "胞吐作用，胞内囊泡与质膜融合，将内容物释放到胞外的过程"
+  },
+  {
+    "name": "phagocytosis",
+    "trans": [
+      "吞噬"
+    ],
+    "explanation": "吞噬作用，细胞伸出伪足包裹大颗粒（如细菌）形成吞噬体摄入"
+  },
+  {
+    "name": "pinocytosis",
+    "trans": [
+      "胞饮"
+    ],
+    "explanation": "胞饮作用，细胞摄入液体和溶解的小分子，形成较小的胞饮泡"
+  },
+  {
+    "name": "receptor-mediated endocytosis",
+    "trans": [
+      "受体介导的胞吞"
+    ],
+    "explanation": "受体介导的胞吞，配体与膜表面受体结合后在网格蛋白包被的凹陷处内化，高效特异"
+  },
+  {
+    "name": "diffusion",
+    "trans": [
+      "扩散"
+    ],
+    "explanation": "扩散，分子沿浓度梯度从高浓度向低浓度的自发运动，不需能量"
+  },
+  {
+    "name": "osmosis",
+    "trans": [
+      "渗透"
+    ],
+    "explanation": "渗透作用，水分子通过半透膜从低渗区向高渗区的净扩散"
+  },
+  {
+    "name": "active transport",
+    "trans": [
+      "主动运输"
+    ],
+    "explanation": "主动运输，消耗ATP逆浓度梯度转运物质的过程，由离子泵完成"
+  },
+  {
+    "name": "facilitated diffusion",
+    "trans": [
+      "易化扩散"
+    ],
+    "explanation": "易化扩散，借助载体蛋白或通道蛋白顺浓度梯度的被动运输"
+  },
+  {
+    "name": "symport",
+    "trans": [
+      "同向转运"
+    ],
+    "explanation": "同向转运（共运输），两种物质同时沿同一方向跨膜转运"
+  },
+  {
+    "name": "antiport",
+    "trans": [
+      "反向转运"
+    ],
+    "explanation": "反向转运（对运输），两种物质以相反方向跨膜转运，如Na⁺/Ca²⁺交换体"
+  },
+  {
+    "name": "cytoplasm",
+    "trans": [
+      "细胞质"
+    ],
+    "explanation": "细胞质，细胞膜与细胞核之间的全部内容物，包括胞质溶胶和细胞器"
+  },
+  {
+    "name": "cytosol",
+    "trans": [
+      "细胞溶胶"
+    ],
+    "explanation": "胞质溶胶，细胞质中的液态部分，占细胞总体积约一半，是许多代谢反应的场所"
+  },
+  {
+    "name": "nucleus",
+    "trans": [
+      "细胞核"
+    ],
+    "explanation": "细胞核，真核细胞中最大的双层膜细胞器，含遗传物质DNA，是基因转录和DNA复制的场所"
+  },
+  {
+    "name": "nuclear envelope",
+    "trans": [
+      "核膜"
+    ],
+    "explanation": "核膜，包围细胞核的双层膜结构，由内核膜和外核膜组成，上有核孔"
+  },
+  {
+    "name": "nuclear pore",
+    "trans": [
+      "核孔"
+    ],
+    "explanation": "核孔，核膜上的通道结构，由核孔蛋白构成，调控mRNA和蛋白质的核质转运"
+  },
+  {
+    "name": "nucleolus",
+    "trans": [
+      "核仁"
+    ],
+    "explanation": "核仁，细胞核内的致密区域，负责rRNA合成和核糖体亚基的组装"
+  },
+  {
+    "name": "mitochondria",
+    "trans": [
+      "线粒体"
+    ],
+    "explanation": "线粒体，双层膜细胞器，进行氧化磷酸化产生ATP，有自身的DNA和核糖体"
+  },
+  {
+    "name": "cristae",
+    "trans": [
+      "嵴"
+    ],
+    "explanation": "线粒体嵴，线粒体内膜向内折叠形成的结构，增大表面积，嵌有电子传递链复合物和ATP合酶"
+  },
+  {
+    "name": "matrix",
+    "trans": [
+      "基质"
+    ],
+    "explanation": "线粒体基质，线粒体内膜包裹的空间，含三羧酸循环酶系、线粒体DNA和核糖体"
+  },
+  {
+    "name": "endoplasmic reticulum",
+    "trans": [
+      "内质网"
+    ],
+    "explanation": "内质网，从核膜延伸至胞质的网状膜系统。分粗面和滑面两种"
+  },
+  {
+    "name": "Golgi apparatus",
+    "trans": [
+      "高尔基体"
+    ],
+    "explanation": "高尔基体，由扁平膜囊堆叠而成的细胞器，对蛋白质进行修饰（糖基化等）、分选和运输"
+  },
+  {
+    "name": "lysosome",
+    "trans": [
+      "溶酶体"
+    ],
+    "explanation": "溶酶体，含酸性水解酶的膜包细胞器，pH约4.5-5.0，负责降解废弃的蛋白质、核酸、脂质"
+  },
+  {
+    "name": "peroxisome",
+    "trans": [
+      "过氧化物酶体"
+    ],
+    "explanation": "过氧化物酶体，含氧化酶的细胞器，降解脂肪酸和有毒过氧化物"
+  },
+  {
+    "name": "proteasome",
+    "trans": [
+      "蛋白酶体"
+    ],
+    "explanation": "蛋白酶体，大型蛋白质复合体，以ATP依赖方式降解泛素标记的蛋白质"
+  },
+  {
+    "name": "centrosome",
+    "trans": [
+      "中心体"
+    ],
+    "explanation": "中心体，微管组织中心，含一对中心粒，在有丝分裂时组织纺锤体"
+  },
+  {
+    "name": "centriole",
+    "trans": [
+      "中心粒"
+    ],
+    "explanation": "中心粒，由九组三联微管排列成的柱状结构，两个正交排列组成中心体"
+  },
+  {
+    "name": "vacuole",
+    "trans": [
+      "液泡"
+    ],
+    "explanation": "液泡，膜包囊状细胞器。植物细胞中央大液泡维持膨压；动物细胞中小液泡参与运输"
+  },
+  {
+    "name": "vesicle",
+    "trans": [
+      "囊泡"
+    ],
+    "explanation": "囊泡，小的膜包小泡，介导胞内物质的运输和储存"
+  },
+  {
+    "name": "endosome",
+    "trans": [
+      "内体"
+    ],
+    "explanation": "内体，胞吞作用形成的膜性细胞器，介导内吞物质的早期分选"
+  },
+  {
+    "name": "cytoskeleton",
+    "trans": [
+      "细胞骨架"
+    ],
+    "explanation": "细胞骨架，由微管、微丝和中间丝组成的胞内纤维网络，维持细胞形态和运动"
+  },
+  {
+    "name": "microtubule",
+    "trans": [
+      "微管"
+    ],
+    "explanation": "微管，由α/β-微管蛋白二聚体组装的中空管状结构，直径约25nm，是纺锤体和纤毛的骨架"
+  },
+  {
+    "name": "microfilament",
+    "trans": [
+      "微丝"
+    ],
+    "explanation": "微丝（肌动蛋白丝），由肌动蛋白聚合而成的螺旋状纤维，直径约7nm，驱动细胞运动和分裂"
+  },
+  {
+    "name": "intermediate filament",
+    "trans": [
+      "中间丝"
+    ],
+    "explanation": "中间丝，直径约10nm的纤维蛋白多聚体（如角蛋白、波形蛋白），提供机械强度"
+  },
+  {
+    "name": "actin",
+    "trans": [
+      "肌动蛋白"
+    ],
+    "explanation": "肌动蛋白，微丝的单体蛋白，有G-肌动蛋白（球状）和F-肌动蛋白（丝状）两种形式"
+  },
+  {
+    "name": "myosin",
+    "trans": [
+      "肌球蛋白"
+    ],
+    "explanation": "肌球蛋白，与肌动蛋白结合的分子马达蛋白，利用ATP水解能量沿微丝滑行"
+  },
+  {
+    "name": "tubulin",
+    "trans": [
+      "微管蛋白"
+    ],
+    "explanation": "微管蛋白，α和β两种亚基组成异二聚体，是微管的结构单元"
+  },
+  {
+    "name": "kinesin",
+    "trans": [
+      "驱动蛋白"
+    ],
+    "explanation": "驱动蛋白，沿微管向正端（+）运动的分子马达，运输囊泡和细胞器"
+  },
+  {
+    "name": "dynein",
+    "trans": [
+      "动力蛋白"
+    ],
+    "explanation": "动力蛋白，沿微管向负端（-）运动的分子马达，参与纤毛运动和胞内运输"
+  },
+  {
+    "name": "flagella",
+    "trans": [
+      "鞭毛"
+    ],
+    "explanation": "鞭毛，细胞表面由微管构成的长鞭状运动结构，9+2微管排列"
+  },
+  {
+    "name": "cilia",
+    "trans": [
+      "纤毛"
+    ],
+    "explanation": "纤毛，细胞表面较短的毛状结构，9+2微管排列，摆动产生液体流动"
+  },
+  {
+    "name": "pseudopodia",
+    "trans": [
+      "伪足"
+    ],
+    "explanation": "伪足，细胞质突起形成的临时运动结构，见于阿米巴和白细胞"
+  },
+  {
+    "name": "cell cycle",
+    "trans": [
+      "细胞周期"
+    ],
+    "explanation": "细胞周期，细胞从一次分裂结束到下一次分裂结束的过程，分间期（G1→S→G2）和分裂期（M期）"
+  },
+  {
+    "name": "interphase",
+    "trans": [
+      "间期"
+    ],
+    "explanation": "间期，细胞周期的G1→S→G2阶段，占周期约90%，DNA合成和蛋白质积累发生在此期"
+  },
+  {
+    "name": "prophase",
+    "trans": [
+      "前期"
+    ],
+    "explanation": "有丝分裂前期，染色质凝缩成染色体，核膜开始崩解，纺锤体开始形成"
+  },
+  {
+    "name": "prometaphase",
+    "trans": [
+      "前中期"
+    ],
+    "explanation": "有丝分裂前中期，核膜完全消失，纺锤体微管附着到染色体着丝粒"
+  },
+  {
+    "name": "metaphase",
+    "trans": [
+      "中期"
+    ],
+    "explanation": "有丝分裂中期，染色体排列在赤道板（中期板）上，纺锤体检查点确保所有染色体附着"
+  },
+  {
+    "name": "anaphase",
+    "trans": [
+      "后期"
+    ],
+    "explanation": "有丝分裂后期，姐妹染色单体分离并被纺锤体拉向两极，是分裂的关键步骤"
+  },
+  {
+    "name": "telophase",
+    "trans": [
+      "末期"
+    ],
+    "explanation": "有丝分裂末期，染色体解螺旋、核膜重新形成，纺锤体解散"
+  },
+  {
+    "name": "cytokinesis",
+    "trans": [
+      "胞质分裂"
+    ],
+    "explanation": "胞质分裂，细胞质一分为二。动物细胞形成收缩环；植物细胞形成细胞板"
+  },
+  {
+    "name": "cyclin",
+    "trans": [
+      "周期蛋白"
+    ],
+    "explanation": "周期蛋白，浓度随细胞周期周期性波动的调节蛋白，与CDK结合激活其激酶活性"
+  },
+  {
+    "name": "checkpoint",
+    "trans": [
+      "检查点"
+    ],
+    "explanation": "细胞周期检查点，监控细胞周期进展的调控位点。G1/S检查点、G2/M检查点、纺锤体检查点"
+  },
+  {
+    "name": "apoptosis",
+    "trans": [
+      "凋亡"
+    ],
+    "explanation": "细胞凋亡，程序性细胞死亡。细胞皱缩、染色质凝集、形成凋亡小体，由caspase家族执行"
+  },
+  {
+    "name": "necrosis",
+    "trans": [
+      "坏死"
+    ],
+    "explanation": "细胞坏死，非程序性的病理性死亡。细胞肿胀破裂，内容物外泄引发炎症"
+  },
+  {
+    "name": "autophagy",
+    "trans": [
+      "自噬"
+    ],
+    "explanation": "细胞自噬，胞内物质被双层膜包裹形成自噬体，递送至溶酶体降解，是细胞自我清理的机制"
+  },
+  {
+    "name": "senescence",
+    "trans": [
+      "衰老"
+    ],
+    "explanation": "细胞衰老，细胞永久性退出细胞周期但维持代谢活性，与端粒缩短和p53/pRb通路激活相关"
+  },
+  {
+    "name": "stem cell",
+    "trans": [
+      "干细胞"
+    ],
+    "explanation": "干细胞，具有自我更新和多向分化潜能的未分化细胞"
+  },
+  {
+    "name": "pluripotent",
+    "trans": [
+      "多能的"
+    ],
+    "explanation": "多能性，可分化为三个胚层的所有细胞类型（除胚外组织），如胚胎干细胞"
+  },
+  {
+    "name": "multipotent",
+    "trans": [
+      "多潜能的"
+    ],
+    "explanation": "多潜能，可分化为特定谱系内的有限几种细胞类型，如造血干细胞"
+  },
+  {
+    "name": "totipotent",
+    "trans": [
+      "全能的"
+    ],
+    "explanation": "全能性，可分化为所有细胞类型包括胚外组织，如受精卵和早期卵裂球"
+  },
+  {
+    "name": "progenitor",
+    "trans": [
+      "祖细胞"
+    ],
+    "explanation": "祖细胞，由干细胞分化来的、增殖能力有限的未成熟细胞，最终分化为终末细胞"
+  },
+  {
+    "name": "differentiation",
+    "trans": [
+      "分化"
+    ],
+    "explanation": "细胞分化，细胞逐渐获得特化功能和形态的过程，由特异性转录因子驱动"
+  },
+  {
+    "name": "dedifferentiation",
+    "trans": [
+      "去分化"
+    ],
+    "explanation": "去分化，已分化细胞失去特化特征回归到前体细胞状态的过程"
+  },
+  {
+    "name": "transdifferentiation",
+    "trans": [
+      "转分化"
+    ],
+    "explanation": "转分化，一种已分化细胞直接转变为另一种分化细胞类型而不经过多能状态"
+  },
+  {
+    "name": "adhesion",
+    "trans": [
+      "黏附"
+    ],
+    "explanation": "细胞黏附，细胞之间或细胞与胞外基质通过黏附分子建立的连接"
+  },
+  {
+    "name": "tight junction",
+    "trans": [
+      "紧密连接"
+    ],
+    "explanation": "紧密连接，上皮细胞顶端的封闭性连接，由闭合蛋白和密封蛋白构成，阻止物质旁路渗漏"
+  },
+  {
+    "name": "gap junction",
+    "trans": [
+      "间隙连接"
+    ],
+    "explanation": "间隙连接，相邻细胞由连接子组成的通道，允许小分子和离子直接通过"
+  },
+  {
+    "name": "desmosome",
+    "trans": [
+      "桥粒"
+    ],
+    "explanation": "桥粒，牢固的细胞间锚定连接，钙黏蛋白通过中间丝连接相邻细胞"
+  },
+  {
+    "name": "hemidesmosome",
+    "trans": [
+      "半桥粒"
+    ],
+    "explanation": "半桥粒，将上皮细胞基底面锚定在基底膜的连接，整合素连接胞内中间丝"
+  },
+  {
+    "name": "adherens junction",
+    "trans": [
+      "黏附连接"
+    ],
+    "explanation": "黏附连接，钙黏蛋白介导的细胞间连接，与肌动蛋白丝相连，维持组织形态"
+  },
+  {
+    "name": "cadherin",
+    "trans": [
+      "钙黏蛋白"
+    ],
+    "explanation": "钙黏蛋白，Ca²⁺依赖的跨膜黏附蛋白家族，介导同类细胞之间的黏附"
+  },
+  {
+    "name": "integrin",
+    "trans": [
+      "整联蛋白"
+    ],
+    "explanation": "整联蛋白，α和β亚基组成的跨膜受体蛋白，介导细胞与胞外基质的黏附"
+  },
+  {
+    "name": "selectin",
+    "trans": [
+      "选择蛋白"
+    ],
+    "explanation": "选择蛋白，识别糖基配体的黏附分子，介导白细胞在血管内皮上的滚动黏附"
+  },
+  {
+    "name": "extracellular matrix",
+    "trans": [
+      "细胞外基质"
+    ],
+    "explanation": "细胞外基质（ECM），由细胞分泌到胞外的网络状大分子混合物，提供结构和生化支持"
+  },
+  {
+    "name": "collagen",
+    "trans": [
+      "胶原蛋白"
+    ],
+    "explanation": "胶原蛋白，ECM中最丰富的结构蛋白，形成三股螺旋，提供抗拉强度"
+  },
+  {
+    "name": "fibronectin",
+    "trans": [
+      "纤连蛋白"
+    ],
+    "explanation": "纤连蛋白，ECM中的二聚体糖蛋白，含有与整联蛋白结合的RGD序列"
+  },
+  {
+    "name": "laminin",
+    "trans": [
+      "层粘连蛋白"
+    ],
+    "explanation": "层粘连蛋白，基底膜中的十字形异三聚体蛋白，连接整联蛋白和ECM其他组分"
+  },
+  {
+    "name": "proteoglycan",
+    "trans": [
+      "蛋白聚糖"
+    ],
+    "explanation": "蛋白聚糖，核心蛋白共价连接糖胺聚糖（GAG）链的大分子，形成水合凝胶，抵抗压缩"
+  },
+  {
+    "name": "rough endoplasmic reticulum",
+    "trans": [
+      "粗面内质网"
+    ],
+    "explanation": "粗面内质网，表面附有核糖体的内质网，负责分泌蛋白和膜蛋白的合成与折叠"
+  },
+  {
+    "name": "smooth endoplasmic reticulum",
+    "trans": [
+      "滑面内质网"
+    ],
+    "explanation": "滑面内质网，无核糖体附着的内质网，参与脂质合成、钙离子储存和解毒"
+  },
+  {
+    "name": "secretory pathway",
+    "trans": [
+      "分泌途径"
+    ],
+    "explanation": "分泌途径，蛋白质从内质网→高尔基体→囊泡→细胞膜的定向运输通路"
+  },
+  {
+    "name": "vesicle trafficking",
+    "trans": [
+      "囊泡运输"
+    ],
+    "explanation": "囊泡运输，由囊泡介导的胞内膜系统之间的物质传递过程"
+  },
+  {
+    "name": "mitochondrial matrix",
+    "trans": [
+      "线粒体基质"
+    ],
+    "explanation": "线粒体基质，三羧酸循环、脂肪酸β-氧化等代谢途径的发生场所"
+  },
+  {
+    "name": "intermembrane space",
+    "trans": [
+      "膜间隙"
+    ],
+    "explanation": "膜间隙，线粒体内外膜之间的空间，质子在此积累形成电化学梯度"
+  },
+  {
+    "name": "electron transport chain",
+    "trans": [
+      "电子传递链"
+    ],
+    "explanation": "电子传递链，线粒体内膜上四个复合物将电子递送给O₂产生水，同时泵出质子"
+  },
+  {
+    "name": "ATP synthase",
+    "trans": [
+      "ATP合酶"
+    ],
+    "explanation": "ATP合酶，利用质子回流驱动ADP+Pi合成ATP的分子涡轮机"
+  },
+  {
+    "name": "chemiosmosis",
+    "trans": [
+      "化学渗透"
+    ],
+    "explanation": "化学渗透，质子被电子传递链泵出内膜形成电化学梯度，质子回流驱动ATP合成"
+  },
+  {
+    "name": "oxidative phosphorylation",
+    "trans": [
+      "氧化磷酸化"
+    ],
+    "explanation": "氧化磷酸化，电子传递与ATP合成的偶联过程，是需氧生物ATP的主要来源"
+  },
+  {
+    "name": "proton gradient",
+    "trans": [
+      "质子梯度"
+    ],
+    "explanation": "质子梯度，线粒体内膜两侧的H⁺浓度差，是驱动ATP合成的动力"
+  },
+  {
+    "name": "glycolysis",
+    "trans": [
+      "糖酵解"
+    ],
+    "explanation": "糖酵解，在胞质中将葡萄糖分解为丙酮酸并产生2个ATP和2个NADH的代谢途径"
+  },
+  {
+    "name": "citric acid cycle",
+    "trans": [
+      "柠檬酸循环"
+    ],
+    "explanation": "柠檬酸循环（三羧酸循环/TCA循环），在线粒体基质中，乙酰CoA被彻底氧化为CO₂"
+  },
+  {
+    "name": "Krebs cycle",
+    "trans": [
+      "三羧酸循环"
+    ],
+    "explanation": "Krebs循环（TCA循环），同citric acid cycle。Hans Krebs发现"
+  },
+  {
+    "name": "beta-oxidation",
+    "trans": [
+      "β氧化"
+    ],
+    "explanation": "β-氧化，脂肪酸在线粒体基质中被逐步切下二碳单元（乙酰CoA）的过程"
+  },
+  {
+    "name": "chloroplast",
+    "trans": [
+      "叶绿体"
+    ],
+    "explanation": "叶绿体，植物和藻类中的双层膜细胞器，含叶绿素，进行光合作用"
+  },
+  {
+    "name": "thylakoid",
+    "trans": [
+      "类囊体"
+    ],
+    "explanation": "类囊体，叶绿体内的扁平膜囊，膜上嵌有光系统I/II和ATP合酶"
+  },
+  {
+    "name": "stroma",
+    "trans": [
+      "叶绿体基质"
+    ],
+    "explanation": "叶绿体基质，类囊体外的液态区域，含有RuBisCO等卡尔文循环酶系"
+  },
+  {
+    "name": "photosynthesis",
+    "trans": [
+      "光合作用"
+    ],
+    "explanation": "光合作用，植物和蓝藻利用光能将CO₂和H₂O转化为有机物的过程，分光反应和暗反应"
+  },
+  {
+    "name": "Calvin cycle",
+    "trans": [
+      "卡尔文循环"
+    ],
+    "explanation": "卡尔文循环（C3循环），光合作用的暗反应阶段，利用ATP和NADPH将CO₂固定为糖类"
+  },
+  {
+    "name": "rubisco",
+    "trans": [
+      "核酮糖二磷酸羧化酶"
+    ],
+    "explanation": "核酮糖-1,5-二磷酸羧化酶/加氧酶，卡尔文循环的关键酶，也是地球上最丰富的蛋白质"
+  },
+  {
+    "name": "microvilli",
+    "trans": [
+      "微绒毛"
+    ],
+    "explanation": "微绒毛，上皮细胞顶面的指状突起，以肌动蛋白丝为骨架，增加吸收表面积"
+  },
+  {
+    "name": "lamellipodia",
+    "trans": [
+      "片状伪足"
+    ],
+    "explanation": "片状伪足，迁移细胞前缘的薄层片状突起，由分支状肌动蛋白网络驱动"
+  },
+  {
+    "name": "filopodia",
+    "trans": [
+      "丝状伪足"
+    ],
+    "explanation": "丝状伪足，细胞表面的细长指状突起，含束状排列的平行肌动蛋白丝，探测环境"
+  },
+  {
+    "name": "cell cortex",
+    "trans": [
+      "细胞皮层"
+    ],
+    "explanation": "细胞皮层，质膜下方由肌动蛋白丝和肌球蛋白构成的薄层网络，控制细胞表面形状"
+  },
+  {
+    "name": "focal adhesion",
+    "trans": [
+      "黏着斑"
+    ],
+    "explanation": "黏着斑，整联蛋白聚集形成的细胞-基质锚定位点，连接肌动蛋白丝和胞外基质"
+  },
+  {
+    "name": "contact inhibition",
+    "trans": [
+      "接触抑制"
+    ],
+    "explanation": "接触抑制，细胞相互接触后停止增殖和迁移的现象，是正常细胞与癌细胞的区别特征之一"
+  },
+  {
+    "name": "anchorage dependence",
+    "trans": [
+      "贴壁依赖性"
+    ],
+    "explanation": "贴壁依赖性，正常细胞需要附着在固体表面才能增殖的特性，癌细胞常失去此特性"
+  },
+  {
+    "name": "chemotaxis",
+    "trans": [
+      "趋化性"
+    ],
+    "explanation": "趋化性，细胞沿化学物质浓度梯度方向定向迁移"
+  },
+  {
+    "name": "connexin",
+    "trans": [
+      "连接蛋白"
+    ],
+    "explanation": "连接蛋白（间隙连接蛋白），六个连接蛋白形成连接子半通道，对接后形成间隙连接通道"
+  },
+  {
+    "name": "occludin",
+    "trans": [
+      "闭合蛋白"
+    ],
+    "explanation": "闭合蛋白，紧密连接中的四次跨膜蛋白，参与封闭细胞间隙"
+  },
+  {
+    "name": "plasmodesmata",
+    "trans": [
+      "胞间连丝"
+    ],
+    "explanation": "胞间连丝，植物细胞壁中穿过细胞壁的通道，连接相邻细胞的胞质，是共质体运输的途径"
+  },
+  {
+    "name": "cell wall",
+    "trans": [
+      "细胞壁"
+    ],
+    "explanation": "细胞壁，细胞膜外的刚性保护层。植物为纤维素壁，细菌为肽聚糖壁"
+  },
+  {
+    "name": "peptidoglycan",
+    "trans": [
+      "肽聚糖"
+    ],
+    "explanation": "肽聚糖，细菌细胞壁的主要成分，由多糖链通过短肽交联形成的网状结构"
+  },
+  {
+    "name": "lipopolysaccharide",
+    "trans": [
+      "脂多糖"
+    ],
+    "explanation": "脂多糖（LPS），革兰氏阴性菌外膜中的内毒素，由脂质A、核心多糖和O抗原组成"
+  },
+  {
+    "name": "gram-positive",
+    "trans": [
+      "革兰氏阳性"
+    ],
+    "explanation": "革兰氏阳性菌，具有厚肽聚糖层和磷壁酸的细菌，染色呈紫色"
+  },
+  {
+    "name": "gram-negative",
+    "trans": [
+      "革兰氏阴性"
+    ],
+    "explanation": "革兰氏阴性菌，肽聚糖层较薄但具有外膜的细菌，外膜含脂多糖，染色呈红色"
+  },
+  {
+    "name": "mitogen",
+    "trans": [
+      "促分裂原"
+    ],
+    "explanation": "促分裂原，能刺激细胞进入细胞周期的细胞外信号分子，通常是生长因子"
+  },
+  {
+    "name": "growth factor",
+    "trans": [
+      "生长因子"
+    ],
+    "explanation": "生长因子，促进细胞增殖和分化的分泌蛋白"
+  },
+  {
+    "name": "cytokine",
+    "trans": [
+      "细胞因子"
+    ],
+    "explanation": "细胞因子，细胞释放的小分子信号蛋白，调控免疫应答和炎症"
+  },
+  {
+    "name": "chemokine",
+    "trans": [
+      "趋化因子"
+    ],
+    "explanation": "趋化因子，诱导白细胞沿浓度梯度趋化迁移的细胞因子亚类"
+  },
+  {
+    "name": "interleukin",
+    "trans": [
+      "白细胞介素"
+    ],
+    "explanation": "白细胞介素（IL），主要在白细胞间传递信号的细胞因子，如IL-2、IL-6"
+  },
+  {
+    "name": "interferon",
+    "trans": [
+      "干扰素"
+    ],
+    "explanation": "干扰素（IFN），细胞受病毒攻击时分泌的防御性细胞因子，激活抗病毒状态"
+  },
+  {
+    "name": "tumor necrosis factor",
+    "trans": [
+      "肿瘤坏死因子"
+    ],
+    "explanation": "肿瘤坏死因子（TNF），能引起肿瘤细胞凋亡的促炎细胞因子，参与全身炎症反应"
+  },
+  {
+    "name": "caspase",
+    "trans": [
+      "天冬氨酸特异性半胱氨酸蛋白酶"
+    ],
+    "explanation": "天冬氨酸特异性半胱氨酸蛋白酶，凋亡的执行者家族，以级联方式激活"
+  },
+  {
+    "name": "cytochrome c",
+    "trans": [
+      "细胞色素c"
+    ],
+    "explanation": "细胞色素c，线粒体电子传递链的电子载体。释放到胞质后触发凋亡体形成"
+  },
+  {
+    "name": "oncogene",
+    "trans": [
+      "癌基因"
+    ],
+    "explanation": "癌基因，突变激活后能引起细胞癌变的基因，如RAS、MYC"
+  },
+  {
+    "name": "tumor suppressor",
+    "trans": [
+      "抑癌基因"
+    ],
+    "explanation": "抑癌基因，正常情况下抑制细胞过度增殖的基因，失活后导致癌症"
+  },
+  {
+    "name": "retinoblastoma",
+    "trans": [
+      "视网膜母细胞瘤蛋白"
+    ],
+    "explanation": "视网膜母细胞瘤蛋白（Rb），关键的细胞周期抑制因子，通过抑制E2F阻遏G1→S转换"
+  },
+  {
+    "name": "telomere shortening",
+    "trans": [
+      "端粒缩短"
+    ],
+    "explanation": "端粒缩短，每次DNA复制后端粒DNA丢失50-200bp，是细胞衰老的分子钟"
+  },
+  {
+    "name": "Hayflick limit",
+    "trans": [
+      "Hayflick极限"
+    ],
+    "explanation": "Hayflick极限，正常人类体细胞在培养中只能分裂约40-60次的限制，由端粒缩短引起"
+  },
+  {
+    "name": "somatic cell",
+    "trans": [
+      "体细胞"
+    ],
+    "explanation": "体细胞，除生殖细胞外的所有身体细胞，含二倍体染色体"
+  },
+  {
+    "name": "germ cell",
+    "trans": [
+      "生殖细胞"
+    ],
+    "explanation": "生殖细胞，能传递遗传信息给后代的细胞，即精子和卵子及其前体细胞"
+  },
+  {
+    "name": "cell lineage",
+    "trans": [
+      "细胞谱系"
+    ],
+    "explanation": "细胞谱系，单个细胞及其所有后代的发育历史和亲缘关系"
+  },
+  {
+    "name": "asymmetric division",
+    "trans": [
+      "不对称分裂"
+    ],
+    "explanation": "不对称分裂，母细胞产生两个不同命运的子细胞，是干细胞维持和分化的关键机制"
+  },
+  {
+    "name": "symmetry breaking",
+    "trans": [
+      "对称破缺"
+    ],
+    "explanation": "对称破缺，从对称状态产生不对称性的过程，是细胞极性和发育模式形成的基础"
+  },
+  {
+    "name": "morphogen",
+    "trans": [
+      "形态发生素"
+    ],
+    "explanation": "形态发生素，形成浓度梯度的分泌信号分子，不同浓度诱导不同细胞命运"
+  },
+  {
+    "name": "gradient",
+    "trans": [
+      "浓度梯度"
+    ],
+    "explanation": "浓度梯度，形态发生素在组织中的空间浓度差异，提供位置信息"
+  },
+  {
+    "name": "polarity",
+    "trans": [
+      "极性"
+    ],
+    "explanation": "细胞极性，细胞在空间上不对称地分布蛋白质和细胞器，如上皮细胞的顶-底极性"
+  },
+  {
+    "name": "epithelial",
+    "trans": [
+      "上皮的"
+    ],
+    "explanation": "上皮的，指由紧密排列的细胞组成的覆盖体表和腔体内壁的组织，具有顶-底极性"
+  },
+  {
+    "name": "mesenchymal",
+    "trans": [
+      "间充质的"
+    ],
+    "explanation": "间充质的，指松散排列的迁移性细胞类型，具有前后极性，是胚胎发育中的关键细胞群"
+  },
+  {
+    "name": "epithelial-mesenchymal transition",
+    "trans": [
+      "上皮间质转化"
+    ],
+    "explanation": "上皮-间质转化（EMT），上皮细胞失去极性和黏附性，获得迁移和侵袭能力的可逆过程，在发育和癌转移中起关键作用"
+  },
+  {
+    "name": "metastasis",
+    "trans": [
+      "转移"
+    ],
+    "explanation": "癌细胞转移，肿瘤细胞从原发部位脱落，经血管或淋巴管扩散到远处器官形成继发肿瘤"
+  },
+  {
+    "name": "angiogenesis",
+    "trans": [
+      "血管生成"
+    ],
+    "explanation": "血管生成，从已有血管芽生出新血管的过程，由VEGF等因子驱动，肿瘤生长依赖此过程"
   }
 ]

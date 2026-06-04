@@ -1,0 +1,1214 @@
+[
+  {
+    "name": "transcription",
+    "trans": [
+      "转录"
+    ],
+    "explanation": "转录，以DNA为模板在RNA聚合酶作用下合成互补RNA的过程"
+  },
+  {
+    "name": "translation",
+    "trans": [
+      "翻译",
+      "转译"
+    ],
+    "explanation": "翻译，核糖体根据mRNA密码子序列合成蛋白质的过程"
+  },
+  {
+    "name": "replication",
+    "trans": [
+      "复制"
+    ],
+    "explanation": "DNA复制，DNA双链解开后以每条链为模板合成互补新链，半保留复制"
+  },
+  {
+    "name": "polymerase",
+    "trans": [
+      "聚合酶"
+    ],
+    "explanation": "聚合酶，催化核酸链延伸的酶。DNA聚合酶以dNTP为底物（5'→3'合成），RNA聚合酶以NTP为底物"
+  },
+  {
+    "name": "helicase",
+    "trans": [
+      "解旋酶"
+    ],
+    "explanation": "解旋酶，利用ATP能量解开DNA双链的酶，在复制叉前方形成单链模板"
+  },
+  {
+    "name": "ligase",
+    "trans": [
+      "连接酶"
+    ],
+    "explanation": "DNA连接酶，催化相邻核苷酸的3'-OH和5'-P之间形成磷酸二酯键"
+  },
+  {
+    "name": "primase",
+    "trans": [
+      "引物酶"
+    ],
+    "explanation": "引物酶，合成短RNA引物为DNA聚合酶提供起始3'-OH"
+  },
+  {
+    "name": "topoisomerase",
+    "trans": [
+      "拓扑异构酶"
+    ],
+    "explanation": "拓扑异构酶，通过切断和重连DNA链解决复制叉前方产生的超螺旋张力"
+  },
+  {
+    "name": "telomerase",
+    "trans": [
+      "端粒酶"
+    ],
+    "explanation": "端粒酶，含RNA模板的核糖核蛋白反转录酶，合成端粒重复序列以抵消末端复制问题"
+  },
+  {
+    "name": "ribonuclease",
+    "trans": [
+      "核糖核酸酶"
+    ],
+    "explanation": "核糖核酸酶（RNase），降解RNA的酶。分为内切（如RNase A）和外切（如RNase H）"
+  },
+  {
+    "name": "deoxyribonuclease",
+    "trans": [
+      "脱氧核糖核酸酶"
+    ],
+    "explanation": "脱氧核糖核酸酶（DNase），降解DNA的酶"
+  },
+  {
+    "name": "exonuclease",
+    "trans": [
+      "外切核酸酶"
+    ],
+    "explanation": "外切核酸酶，从核酸链末端逐个切除核苷酸的酶"
+  },
+  {
+    "name": "endonuclease",
+    "trans": [
+      "内切核酸酶"
+    ],
+    "explanation": "内切核酸酶，在核酸链内部切割磷酸二酯键的酶"
+  },
+  {
+    "name": "nuclease",
+    "trans": [
+      "核酸酶"
+    ],
+    "explanation": "核酸酶，降解核酸（DNA或RNA）的酶的总称"
+  },
+  {
+    "name": "restriction enzyme",
+    "trans": [
+      "限制性内切酶"
+    ],
+    "explanation": "限制性内切酶，识别特定位点（通常4-8bp回文序列）切割DNA的酶。II型用于分子克隆"
+  },
+  {
+    "name": "methyltransferase",
+    "trans": [
+      "甲基转移酶"
+    ],
+    "explanation": "甲基转移酶，将甲基从S-腺苷甲硫氨酸（SAM）转移到DNA或蛋白质的酶"
+  },
+  {
+    "name": "acetyltransferase",
+    "trans": [
+      "乙酰转移酶"
+    ],
+    "explanation": "乙酰转移酶，将乙酰基从乙酰CoA转移到靶蛋白（如组蛋白）的酶"
+  },
+  {
+    "name": "kinase",
+    "trans": [
+      "激酶"
+    ],
+    "explanation": "蛋白质激酶，催化磷酸基从ATP转移到蛋白质底物的酶，是信号转导的核心磷酸化开关"
+  },
+  {
+    "name": "phosphatase",
+    "trans": [
+      "磷酸酶"
+    ],
+    "explanation": "蛋白质磷酸酶，催化去除蛋白质上磷酸基的酶，与激酶动态平衡调控蛋白活性"
+  },
+  {
+    "name": "protease",
+    "trans": [
+      "蛋白酶"
+    ],
+    "explanation": "蛋白酶，水解蛋白质肽键的酶。胰蛋白酶、caspase等"
+  },
+  {
+    "name": "ubiquitin",
+    "trans": [
+      "泛素"
+    ],
+    "explanation": "泛素，含76个氨基酸的高度保守小分子蛋白质，通过共价连接标记蛋白质被降解或改变功能"
+  },
+  {
+    "name": "chaperone",
+    "trans": [
+      "分子伴侣"
+    ],
+    "explanation": "分子伴侣，帮助新合成蛋白质正确折叠的蛋白质，防止错误聚集。如Hsp70、Hsp90"
+  },
+  {
+    "name": "nucleotide",
+    "trans": [
+      "核苷酸"
+    ],
+    "explanation": "核苷酸，核酸的结构单位，由碱基+戊糖+磷酸组成。如ATP、dATP"
+  },
+  {
+    "name": "nucleoside",
+    "trans": [
+      "核苷"
+    ],
+    "explanation": "核苷，碱基与糖通过糖苷键连接的化合物（无磷酸基）。腺苷=腺嘌呤+核糖"
+  },
+  {
+    "name": "adenine",
+    "trans": [
+      "腺嘌呤"
+    ],
+    "explanation": "腺嘌呤（A），嘌呤碱基，与胸腺嘧啶（DNA）或尿嘧啶（RNA）形成两个氢键配对"
+  },
+  {
+    "name": "guanine",
+    "trans": [
+      "鸟嘌呤"
+    ],
+    "explanation": "鸟嘌呤（G），嘌呤碱基，与胞嘧啶形成三个氢键配对（GC比AT稳定）"
+  },
+  {
+    "name": "cytosine",
+    "trans": [
+      "胞嘧啶"
+    ],
+    "explanation": "胞嘧啶（C），嘧啶碱基，与鸟嘌呤配对。CpG位点常被甲基化修饰"
+  },
+  {
+    "name": "thymine",
+    "trans": [
+      "胸腺嘧啶"
+    ],
+    "explanation": "胸腺嘧啶（T），仅存在于DNA中的嘧啶碱基，与腺嘌呤配对"
+  },
+  {
+    "name": "uracil",
+    "trans": [
+      "尿嘧啶"
+    ],
+    "explanation": "尿嘧啶（U），仅存在于RNA中的嘧啶碱基，代替DNA中的胸腺嘧啶与腺嘌呤配对"
+  },
+  {
+    "name": "purine",
+    "trans": [
+      "嘌呤"
+    ],
+    "explanation": "嘌呤，含双环结构的碱基类型（腺嘌呤、鸟嘌呤）"
+  },
+  {
+    "name": "pyrimidine",
+    "trans": [
+      "嘧啶"
+    ],
+    "explanation": "嘧啶，含单环结构的碱基类型（胞嘧啶、胸腺嘧啶、尿嘧啶）"
+  },
+  {
+    "name": "phosphodiester",
+    "trans": [
+      "磷酸二酯键"
+    ],
+    "explanation": "磷酸二酯键，核酸链中连接相邻两个核苷酸的共价键（3'-OH与5'-P脱水形成）"
+  },
+  {
+    "name": "complementary",
+    "trans": [
+      "互补的"
+    ],
+    "explanation": "互补的，指两条核酸链通过碱基配对（A=T/U, G≡C）形成双链的关系"
+  },
+  {
+    "name": "antiparallel",
+    "trans": [
+      "反平行的"
+    ],
+    "explanation": "反平行，DNA双链中两条链走向相反（一条5'→3'，另一条3'→5'）"
+  },
+  {
+    "name": "promoter",
+    "trans": [
+      "启动子"
+    ],
+    "explanation": "启动子，基因上游与RNA聚合酶结合的DNA序列，决定转录起始位点"
+  },
+  {
+    "name": "enhancer",
+    "trans": [
+      "增强子"
+    ],
+    "explanation": "增强子，远距离激活转录的DNA调控元件，与转录因子结合促进基因表达"
+  },
+  {
+    "name": "silencer",
+    "trans": [
+      "沉默子"
+    ],
+    "explanation": "沉默子，与抑制蛋白结合的DNA元件，抑制靶基因的转录"
+  },
+  {
+    "name": "operator",
+    "trans": [
+      "操纵基因"
+    ],
+    "explanation": "操纵基因，原核生物中与阻遏蛋白结合的DNA序列，控制结构基因转录"
+  },
+  {
+    "name": "operon",
+    "trans": [
+      "操纵子"
+    ],
+    "explanation": "操纵子，原核生物中由启动子、操纵基因和结构基因组成的协同转录单位"
+  },
+  {
+    "name": "repressor",
+    "trans": [
+      "阻遏蛋白"
+    ],
+    "explanation": "阻遏蛋白，与操纵基因结合阻止转录的调控蛋白，如乳糖操纵子的LacI阻遏蛋白"
+  },
+  {
+    "name": "activator",
+    "trans": [
+      "激活蛋白"
+    ],
+    "explanation": "转录激活蛋白，结合DNA增强转录的正调控蛋白，如CAP（cAMP受体蛋白）"
+  },
+  {
+    "name": "transcription factor",
+    "trans": [
+      "转录因子"
+    ],
+    "explanation": "转录因子，识别特定DNA序列并调控靶基因转录速率的蛋白质"
+  },
+  {
+    "name": "sigma factor",
+    "trans": [
+      "σ因子"
+    ],
+    "explanation": "σ因子，原核RNA聚合酶的亚基，识别启动子-10区和-35区。不同σ因子识别不同启动子"
+  },
+  {
+    "name": "exon",
+    "trans": [
+      "外显子"
+    ],
+    "explanation": "外显子，基因中编码蛋白质且保留在成熟mRNA中的序列"
+  },
+  {
+    "name": "intron",
+    "trans": [
+      "内含子"
+    ],
+    "explanation": "内含子，基因中转录后被剪接移除的非编码序列"
+  },
+  {
+    "name": "splicing",
+    "trans": [
+      "剪接"
+    ],
+    "explanation": "RNA剪接，切除前体mRNA中的内含子并连接外显子的过程。由剪接体（snRNP复合物）催化"
+  },
+  {
+    "name": "codon",
+    "trans": [
+      "密码子"
+    ],
+    "explanation": "密码子，mRNA上三个连续核苷酸组成的遗传密码单元，对应一个氨基酸或终止信号"
+  },
+  {
+    "name": "anticodon",
+    "trans": [
+      "反密码子"
+    ],
+    "explanation": "反密码子，tRNA上与mRNA密码子互补配对的三个核苷酸"
+  },
+  {
+    "name": "start codon",
+    "trans": [
+      "起始密码子"
+    ],
+    "explanation": "起始密码子（AUG），编码甲硫氨酸，标志翻译的起始"
+  },
+  {
+    "name": "stop codon",
+    "trans": [
+      "终止密码子"
+    ],
+    "explanation": "终止密码子（UAA、UAG、UGA），不编码氨基酸，标志蛋白质合成的终止"
+  },
+  {
+    "name": "ribosome",
+    "trans": [
+      "核糖体"
+    ],
+    "explanation": "核糖体，由rRNA和蛋白质组成的翻译机器，大小亚基在mRNA上组装后合成蛋白质"
+  },
+  {
+    "name": "polyribosome",
+    "trans": [
+      "多聚核糖体"
+    ],
+    "explanation": "多聚核糖体（多核糖体），多个核糖体同时在同一条mRNA上进行翻译的结构"
+  },
+  {
+    "name": "chromatin",
+    "trans": [
+      "染色质"
+    ],
+    "explanation": "染色质，DNA与组蛋白和非组蛋白的复合体，是染色体在间期的存在形式"
+  },
+  {
+    "name": "chromosome",
+    "trans": [
+      "染色体"
+    ],
+    "explanation": "染色体，有丝分裂时染色质高度凝缩形成的X形结构，含有端粒和着丝粒"
+  },
+  {
+    "name": "nucleosome",
+    "trans": [
+      "核小体"
+    ],
+    "explanation": "核小体，由约147bp DNA缠绕组蛋白八聚体形成的结构，是染色质的基本单位"
+  },
+  {
+    "name": "histone",
+    "trans": [
+      "组蛋白"
+    ],
+    "explanation": "组蛋白，富含碱性氨基酸的小分子蛋白（H2A、H2B、H3、H4，以及连接组蛋白H1），包装DNA"
+  },
+  {
+    "name": "centromere",
+    "trans": [
+      "着丝粒"
+    ],
+    "explanation": "着丝粒，染色体上的初级缢痕，动粒附着处以连接纺锤丝"
+  },
+  {
+    "name": "telomere",
+    "trans": [
+      "端粒"
+    ],
+    "explanation": "端粒，线性染色体末端的重复序列（人：TTAGGG），保护染色体末端不被降解和融合"
+  },
+  {
+    "name": "kinetochore",
+    "trans": [
+      "动粒"
+    ],
+    "explanation": "动粒，着丝粒上的三层蛋白质结构，微管正端附着拉动染色体分离"
+  },
+  {
+    "name": "euchromatin",
+    "trans": [
+      "常染色质"
+    ],
+    "explanation": "常染色质，松散包装、转录活跃的染色质区域"
+  },
+  {
+    "name": "heterochromatin",
+    "trans": [
+      "异染色质"
+    ],
+    "explanation": "异染色质，高度浓缩、转录沉默的染色质区域。分组成型和兼性"
+  },
+  {
+    "name": "epigenetic",
+    "trans": [
+      "表观遗传的"
+    ],
+    "explanation": "表观遗传学，不改变DNA序列但影响基因表达的可遗传变化，包括DNA甲基化、组蛋白修饰等"
+  },
+  {
+    "name": "methylation",
+    "trans": [
+      "甲基化"
+    ],
+    "explanation": "甲基化修饰，在DNA（CpG位点胞嘧啶5位）或组蛋白（赖氨酸、精氨酸）上添加甲基，通常抑制基因表达"
+  },
+  {
+    "name": "acetylation",
+    "trans": [
+      "乙酰化"
+    ],
+    "explanation": "乙酰化修饰，在蛋白质（主要是组蛋白赖氨酸）上添加乙酰基，中和正电荷使染色质松弛激活转录"
+  },
+  {
+    "name": "phosphorylation",
+    "trans": [
+      "磷酸化"
+    ],
+    "explanation": "磷酸化修饰，在蛋白质的丝氨酸/苏氨酸/酪氨酸上添加磷酸基团，改变蛋白活性和功能"
+  },
+  {
+    "name": "ubiquitination",
+    "trans": [
+      "泛素化"
+    ],
+    "explanation": "泛素化修饰，在蛋白质赖氨酸上共价连接泛素分子，标记蛋白质经蛋白酶体降解"
+  },
+  {
+    "name": "sumoylation",
+    "trans": [
+      "SUMO化"
+    ],
+    "explanation": "SUMO化修饰，小泛素相关修饰物（SUMO）与靶蛋白共价结合，调控蛋白定位和相互作用"
+  },
+  {
+    "name": "imprinting",
+    "trans": [
+      "印记"
+    ],
+    "explanation": "基因组印记，表观遗传标记使基因根据亲本来源差异表达"
+  },
+  {
+    "name": "plasmid",
+    "trans": [
+      "质粒"
+    ],
+    "explanation": "质粒，染色体外能够自主复制的环状双链DNA分子，广泛用作克隆载体"
+  },
+  {
+    "name": "vector",
+    "trans": [
+      "载体"
+    ],
+    "explanation": "载体，将外源DNA片段导入宿主细胞的运载工具，如质粒载体、病毒载体"
+  },
+  {
+    "name": "clone",
+    "trans": [
+      "克隆"
+    ],
+    "explanation": "克隆，源于同一祖先的遗传相同个体或分子的集合。分子克隆指在载体中扩增特定DNA片段"
+  },
+  {
+    "name": "recombinant",
+    "trans": [
+      "重组的"
+    ],
+    "explanation": "重组的，由不同来源DNA片段连接形成的DNA分子"
+  },
+  {
+    "name": "transformation",
+    "trans": [
+      "转化"
+    ],
+    "explanation": "转化，细菌摄取裸DNA并整合到基因组的过程。也指正常细胞转变为癌细胞"
+  },
+  {
+    "name": "transfection",
+    "trans": [
+      "转染"
+    ],
+    "explanation": "转染，将外源核酸（DNA或RNA）导入真核细胞的方法"
+  },
+  {
+    "name": "transduction",
+    "trans": [
+      "转导"
+    ],
+    "explanation": "转导，以病毒为载体将外源基因导入宿主细胞的过程"
+  },
+  {
+    "name": "conjugation",
+    "trans": [
+      "接合"
+    ],
+    "explanation": "接合转移，细菌通过菌毛直接将DNA从一个细胞转移到另一个细胞的过程"
+  },
+  {
+    "name": "electroporation",
+    "trans": [
+      "电穿孔"
+    ],
+    "explanation": "电穿孔，用电脉冲在细胞膜上产生瞬时孔洞，将外源DNA导入细胞"
+  },
+  {
+    "name": "microinjection",
+    "trans": [
+      "显微注射"
+    ],
+    "explanation": "显微注射，在显微镜下用细针直接将DNA注入细胞核或胞质"
+  },
+  {
+    "name": "polymerase chain reaction",
+    "trans": [
+      "聚合酶链式反应"
+    ],
+    "explanation": "聚合酶链式反应（PCR），通过变性-退火-延伸循环体外扩增特定DNA片段的技术。Mullis发明，1993年诺奖"
+  },
+  {
+    "name": "reverse transcription",
+    "trans": [
+      "反转录"
+    ],
+    "explanation": "反转录，以RNA为模板在反转录酶作用下合成互补DNA（cDNA）的过程"
+  },
+  {
+    "name": "gel electrophoresis",
+    "trans": [
+      "凝胶电泳"
+    ],
+    "explanation": "凝胶电泳，DNA/RNA/蛋白质在电场中通过凝胶按大小分离的技术"
+  },
+  {
+    "name": "Southern blot",
+    "trans": [
+      "Southern印迹"
+    ],
+    "explanation": "Southern印迹（DNA印迹），经电泳分离的DNA转膜后用标记探针杂交检测特定序列的技术"
+  },
+  {
+    "name": "Northern blot",
+    "trans": [
+      "Northern印迹"
+    ],
+    "explanation": "Northern印迹（RNA印迹），类似Southern印迹但检测的是RNA"
+  },
+  {
+    "name": "Western blot",
+    "trans": [
+      "蛋白质印迹"
+    ],
+    "explanation": "蛋白质印迹（Western blot，免疫印迹），利用特异性抗体检测经电泳分离的目标蛋白"
+  },
+  {
+    "name": "hybridization",
+    "trans": [
+      "杂交"
+    ],
+    "explanation": "核酸杂交，两条互补核酸单链通过碱基配对形成双链。是Southern/Northern印迹和微阵列的核心原理"
+  },
+  {
+    "name": "primer",
+    "trans": [
+      "引物"
+    ],
+    "explanation": "引物，互补于模板DNA的短寡核苷酸，提供DNA聚合酶起始合成的自由3'-OH"
+  },
+  {
+    "name": "probe",
+    "trans": [
+      "探针"
+    ],
+    "explanation": "探针，带有荧光或放射性标记的已知序列核酸片段，用于检测互补序列"
+  },
+  {
+    "name": "template",
+    "trans": [
+      "模板"
+    ],
+    "explanation": "模板，在DNA合成或转录中提供序列信息的原始核酸链"
+  },
+  {
+    "name": "denaturation",
+    "trans": [
+      "变性"
+    ],
+    "explanation": "DNA变性（解链），双链DNA在高温或碱性条件下解开为单链的过程"
+  },
+  {
+    "name": "annealing",
+    "trans": [
+      "退火"
+    ],
+    "explanation": "退火，互补的单链DNA在适宜温度下重新形成双链的过程"
+  },
+  {
+    "name": "extension",
+    "trans": [
+      "延伸"
+    ],
+    "explanation": "延伸，DNA聚合酶从引物3'端按模板序列逐一添加核苷酸的阶段"
+  },
+  {
+    "name": "microarray",
+    "trans": [
+      "微阵列"
+    ],
+    "explanation": "微阵列（基因芯片），成千上万个探针固定在固相表面，一次检测大量基因表达"
+  },
+  {
+    "name": "gene editing",
+    "trans": [
+      "基因编辑"
+    ],
+    "explanation": "基因编辑，利用可编程核酸酶（如CRISPR-Cas9）在特定位点修饰基因组DNA的技术"
+  },
+  {
+    "name": "knockout",
+    "trans": [
+      "敲除"
+    ],
+    "explanation": "基因敲除，完全破坏基因功能的遗传操作，用于研究基因功能"
+  },
+  {
+    "name": "knockdown",
+    "trans": [
+      "敲低"
+    ],
+    "explanation": "基因敲低，部分降低基因表达水平的操作，如用RNAi或反义寡核苷酸"
+  },
+  {
+    "name": "knockin",
+    "trans": [
+      "敲入"
+    ],
+    "explanation": "基因敲入，在特定位点插入外源基因（如报告基因或突变序列）"
+  },
+  {
+    "name": "RNA interference",
+    "trans": [
+      "RNA干扰"
+    ],
+    "explanation": "RNA干扰（RNAi），双链RNA触发同源mRNA降解的转录后沉默机制。Fire和Mello因此获2006年诺奖"
+  },
+  {
+    "name": "antisense",
+    "trans": [
+      "反义"
+    ],
+    "explanation": "反义技术，使用与靶mRNA互补的单链核苷酸阻断翻译或促进降解"
+  },
+  {
+    "name": "ribozyme",
+    "trans": [
+      "核酶"
+    ],
+    "explanation": "核酶，具有催化活性的RNA分子，可切割其他RNA。发现者Cech和Altman获1989年诺奖"
+  },
+  {
+    "name": "aptamer",
+    "trans": [
+      "适配体"
+    ],
+    "explanation": "适配体，能特异性结合靶分子的单链寡核苷酸，通过SELEX筛选获得"
+  },
+  {
+    "name": "reporter gene",
+    "trans": [
+      "报告基因"
+    ],
+    "explanation": "报告基因，编码可检测产物（如荧光蛋白、酶）的基因，用于指示启动子活性或蛋白定位"
+  },
+  {
+    "name": "luciferase",
+    "trans": [
+      "荧光素酶"
+    ],
+    "explanation": "荧光素酶，催化荧光素氧化产生生物发光的酶，广泛用于报告基因检测"
+  },
+  {
+    "name": "expression vector",
+    "trans": [
+      "表达载体"
+    ],
+    "explanation": "表达载体，含有启动子和调控元件、能在宿主中高效表达目的蛋白的质粒"
+  },
+  {
+    "name": "inducible",
+    "trans": [
+      "可诱导的"
+    ],
+    "explanation": "可诱导的，可通过添加诱导剂（如IPTG）开启的启动子系统"
+  },
+  {
+    "name": "constitutive",
+    "trans": [
+      "组成型的"
+    ],
+    "explanation": "组成型的，始终处于活跃状态的启动子，使基因持续表达"
+  },
+  {
+    "name": "leucine zipper",
+    "trans": [
+      "亮氨酸拉链"
+    ],
+    "explanation": "亮氨酸拉链，转录因子中由周期性亮氨酸残基形成的二聚化结构域"
+  },
+  {
+    "name": "zinc finger",
+    "trans": [
+      "锌指"
+    ],
+    "explanation": "锌指结构域，围绕锌离子折叠的DNA结合结构域，常见于转录因子"
+  },
+  {
+    "name": "helix-turn-helix",
+    "trans": [
+      "螺旋-转角-螺旋"
+    ],
+    "explanation": "螺旋-转角-螺旋结构域（HTH），由两个α螺旋通过短转角相连构成的DNA结合基序，见于原核调控蛋白"
+  },
+  {
+    "name": "homeodomain",
+    "trans": [
+      "同源异型域"
+    ],
+    "explanation": "同源异型域，由60个氨基酸组成的DNA结合结构域，发育中控制体节形成"
+  },
+  {
+    "name": "origin of replication",
+    "trans": [
+      "复制起点"
+    ],
+    "explanation": "复制起点（ori），DNA上开始复制的特定序列，复制叉在此形成"
+  },
+  {
+    "name": "Okazaki fragment",
+    "trans": [
+      "冈崎片段"
+    ],
+    "explanation": "冈崎片段，后随链上约1000-2000bp的不连续合成片段，后由连接酶连接"
+  },
+  {
+    "name": "leading strand",
+    "trans": [
+      "前导链"
+    ],
+    "explanation": "前导链，沿复制叉移动方向连续合成的DNA新链（3'→5'模板）"
+  },
+  {
+    "name": "lagging strand",
+    "trans": [
+      "后随链"
+    ],
+    "explanation": "后随链，沿复制叉相反方向不连续合成的DNA新链（5'→3'模板），形成冈崎片段"
+  },
+  {
+    "name": "semiconservative",
+    "trans": [
+      "半保留的"
+    ],
+    "explanation": "半保留复制，DNA复制后每个子代双链含一条亲代链和一条新合成链"
+  },
+  {
+    "name": "proofreading",
+    "trans": [
+      "校对"
+    ],
+    "explanation": "校对功能，DNA聚合酶3'→5'外切酶活性，切除错误掺入的核苷酸"
+  },
+  {
+    "name": "mismatch repair",
+    "trans": [
+      "错配修复"
+    ],
+    "explanation": "错配修复（MMR），修复DNA复制后未被校对的错配碱基，缺陷导致遗传性非息肉病性结直肠癌"
+  },
+  {
+    "name": "nucleotide excision repair",
+    "trans": [
+      "核苷酸切除修复"
+    ],
+    "explanation": "核苷酸切除修复（NER），切除包含损伤（如嘧啶二聚体）的约30bp片段后重新合成"
+  },
+  {
+    "name": "base excision repair",
+    "trans": [
+      "碱基切除修复"
+    ],
+    "explanation": "碱基切除修复（BER），由DNA糖苷酶识别切除受损碱基，AP内切酶切磷酸二酯骨架后修复"
+  },
+  {
+    "name": "homologous recombination",
+    "trans": [
+      "同源重组"
+    ],
+    "explanation": "同源重组修复，利用同源序列作为模板精确修复双链断裂，主要在S/G2期"
+  },
+  {
+    "name": "non-homologous end joining",
+    "trans": [
+      "非同源末端连接"
+    ],
+    "explanation": "非同源末端连接（NHEJ），直接连接断裂末端而不依赖同源性，易引入缺失"
+  },
+  {
+    "name": "signal transduction",
+    "trans": [
+      "信号转导"
+    ],
+    "explanation": "信号转导，细胞外信号分子与受体结合后通过胞内级联反应最终改变基因表达或细胞行为的过程"
+  },
+  {
+    "name": "second messenger",
+    "trans": [
+      "第二信使"
+    ],
+    "explanation": "第二信使，胞内传递信号的扩散性小分子（如cAMP、Ca²⁺、IP₃、DAG）"
+  },
+  {
+    "name": "calcium signaling",
+    "trans": [
+      "钙信号"
+    ],
+    "explanation": "钙信号通路，细胞质Ca²⁺浓度变化作为信号调控肌肉收缩、神经递质释放、受精等"
+  },
+  {
+    "name": "G protein",
+    "trans": [
+      "G蛋白"
+    ],
+    "explanation": "G蛋白，异三聚体GTP结合蛋白，GPCR激活时α亚基交换GTP并激活下游效应器"
+  },
+  {
+    "name": "tyrosine kinase receptor",
+    "trans": [
+      "酪氨酸激酶受体"
+    ],
+    "explanation": "受体酪氨酸激酶（RTK），配体结合使受体二聚化和酪氨酸残基自磷酸化，招募下游信号蛋白"
+  },
+  {
+    "name": "MAP kinase",
+    "trans": [
+      "MAP激酶"
+    ],
+    "explanation": "MAP激酶级联（Raf→MEK→ERK），将胞外信号转导到核内的三级磷酸化传递系统"
+  },
+  {
+    "name": "Wnt",
+    "trans": [
+      "Wnt信号通路"
+    ],
+    "explanation": "Wnt信号通路，分泌型Wnt蛋白结合Frizzled受体稳定β-catenin使其入核激活靶基因"
+  },
+  {
+    "name": "Notch",
+    "trans": [
+      "Notch信号通路"
+    ],
+    "explanation": "Notch信号通路，跨膜配体与跨膜受体的细胞间直接信号。Notch被剪切后胞内域入核调控转录"
+  },
+  {
+    "name": "Hedgehog",
+    "trans": [
+      "Hedgehog信号通路"
+    ],
+    "explanation": "Hedgehog信号通路，分泌型Hh蛋白经自催化切割和胆固醇修饰后扩散，解除Patched对Smoothened的抑制"
+  },
+  {
+    "name": "conditional knockout",
+    "trans": [
+      "条件性敲除"
+    ],
+    "explanation": "条件性敲除，仅在特定组织或发育阶段失活靶基因的遗传操作"
+  },
+  {
+    "name": "genetic code",
+    "trans": [
+      "遗传密码"
+    ],
+    "explanation": "遗传密码，DNA/RNA中核苷酸序列与蛋白质中氨基酸序列的对应关系，64个密码子编码20种氨基酸"
+  },
+  {
+    "name": "degenerate",
+    "trans": [
+      "简并的"
+    ],
+    "explanation": "简并性，遗传密码的一个特征：多个密码子编码同一种氨基酸（如亮氨酸有6个密码子）"
+  },
+  {
+    "name": "wobble",
+    "trans": [
+      "摆动"
+    ],
+    "explanation": "摆动假说（Crick 1966），密码子第三位与反密码子第一位的配对不严格，允许一个tRNA识别多个密码子"
+  },
+  {
+    "name": "reading frame",
+    "trans": [
+      "读码框"
+    ],
+    "explanation": "读码框，mRNA上从起始密码子开始的连续核苷酸三联体阅读方式"
+  },
+  {
+    "name": "open reading frame",
+    "trans": [
+      "开放读码框"
+    ],
+    "explanation": "开放读码框（ORF），从起始密码子到终止密码子之间可能编码蛋白质的序列"
+  },
+  {
+    "name": "transcription start site",
+    "trans": [
+      "转录起始位点"
+    ],
+    "explanation": "转录起始位点（TSS），RNA聚合酶开始转录的第一个核苷酸位置"
+  },
+  {
+    "name": "polyA tail",
+    "trans": [
+      "polyA尾"
+    ],
+    "explanation": "polyA尾，mRNA 3'端由polyA聚合酶添加的约200个腺苷酸，保护mRNA并促进翻译"
+  },
+  {
+    "name": "5-prime cap",
+    "trans": [
+      "5'帽"
+    ],
+    "explanation": "5'端帽结构（m⁷GpppN），mRNA 5'端添加的7-甲基鸟苷，保护RNA并促进翻译起始"
+  },
+  {
+    "name": "cistron",
+    "trans": [
+      "顺反子"
+    ],
+    "explanation": "顺反子（基因的经典术语），编码一条多肽链的遗传单位"
+  },
+  {
+    "name": "site-directed mutagenesis",
+    "trans": [
+      "定点诱变"
+    ],
+    "explanation": "定点诱变，在DNA特定位置精确引入预定的突变"
+  },
+  {
+    "name": "complementation",
+    "trans": [
+      "互补"
+    ],
+    "explanation": "互补作用，通过导入正常基因来纠正突变体缺陷的功能验证方法"
+  },
+  {
+    "name": "auxotroph",
+    "trans": [
+      "营养缺陷型"
+    ],
+    "explanation": "营养缺陷型，因突变失去合成某种必需营养物质能力的菌株，用于遗传互补实验"
+  },
+  {
+    "name": "prototroph",
+    "trans": [
+      "原养型"
+    ],
+    "explanation": "原养型，合成所有必需营养物质的能力完好的野生型菌株"
+  },
+  {
+    "name": "genome",
+    "trans": [
+      "基因组"
+    ],
+    "explanation": "基因组，一个生物体或细胞中的全部DNA序列，包括编码区和非编码区"
+  },
+  {
+    "name": "transcriptome",
+    "trans": [
+      "转录组"
+    ],
+    "explanation": "转录组，特定条件下细胞或组织中所有RNA转录本的总和"
+  },
+  {
+    "name": "proteome",
+    "trans": [
+      "蛋白质组"
+    ],
+    "explanation": "蛋白质组，特定条件下细胞或组织中所有蛋白质的总和"
+  },
+  {
+    "name": "metabolome",
+    "trans": [
+      "代谢组"
+    ],
+    "explanation": "代谢组，细胞或生物体内所有小分子代谢物的总和"
+  },
+  {
+    "name": "epigenome",
+    "trans": [
+      "表观基因组"
+    ],
+    "explanation": "表观基因组，基因组范围内DNA甲基化和组蛋白修饰的全景图谱"
+  },
+  {
+    "name": "metagenomics",
+    "trans": [
+      "宏基因组学"
+    ],
+    "explanation": "宏基因组学，直接从环境样品中提取DNA并分析微生物群体遗传组成"
+  },
+  {
+    "name": "single-cell sequencing",
+    "trans": [
+      "单细胞测序"
+    ],
+    "explanation": "单细胞测序，在单个细胞水平上分析基因组、转录组或表观组的技术"
+  },
+  {
+    "name": "bisulfite sequencing",
+    "trans": [
+      "亚硫酸氢盐测序"
+    ],
+    "explanation": "亚硫酸氢盐测序，将未甲基化的C转化为U而甲基化的C保持不变，检测全基因组DNA甲基化"
+  },
+  {
+    "name": "multiplex",
+    "trans": [
+      "多重"
+    ],
+    "explanation": "多重检测，同时检测多个目标靶标或合并多个样品的高通量技术"
+  },
+  {
+    "name": "flow cytometry",
+    "trans": [
+      "流式细胞术"
+    ],
+    "explanation": "流式细胞术，使细胞逐个快速通过激光束并检测其光散射和荧光特性的分析技术"
+  },
+  {
+    "name": "immunoprecipitation",
+    "trans": [
+      "免疫沉淀"
+    ],
+    "explanation": "免疫沉淀（IP），用特异性抗体从混合物中富集靶蛋白的方法"
+  },
+  {
+    "name": "co-immunoprecipitation",
+    "trans": [
+      "免疫共沉淀"
+    ],
+    "explanation": "免疫共沉淀（co-IP），通过靶蛋白抗体沉淀蛋白复合物来研究蛋白质相互作用的经典方法"
+  },
+  {
+    "name": "yeast two-hybrid",
+    "trans": [
+      "酵母双杂交"
+    ],
+    "explanation": "酵母双杂交（Y2H），利用报告基因转录激活检测两个蛋白质相互作用的方法"
+  },
+  {
+    "name": "X-ray crystallography",
+    "trans": [
+      "X射线晶体学"
+    ],
+    "explanation": "X射线晶体学，用蛋白质晶体的X射线衍射图计算三维原子结构的方法"
+  },
+  {
+    "name": "mass spectrometry",
+    "trans": [
+      "质谱"
+    ],
+    "explanation": "质谱（MS），通过离子化分子的质荷比（m/z）鉴定和定量蛋白质的精密仪器"
+  },
+  {
+    "name": "molecular cloning",
+    "trans": [
+      "分子克隆"
+    ],
+    "explanation": "分子克隆，将目的DNA片段插入载体并在宿主中扩增的技术"
+  },
+  {
+    "name": "subcloning",
+    "trans": [
+      "亚克隆"
+    ],
+    "explanation": "亚克隆，将DNA片段从一个载体转移到另一载体的操作"
+  },
+  {
+    "name": "site-directed",
+    "trans": [
+      "定点"
+    ],
+    "explanation": "定点的，指向DNA分子中特定核苷酸位置"
+  },
+  {
+    "name": "fusion protein",
+    "trans": [
+      "融合蛋白"
+    ],
+    "explanation": "融合蛋白，由两个或更多基因编码序列连接表达产生的嵌合蛋白"
+  },
+  {
+    "name": "affinity tag",
+    "trans": [
+      "亲和标签"
+    ],
+    "explanation": "亲和标签，融合在目标蛋白上的短肽序列，用于蛋白纯化"
+  },
+  {
+    "name": "epitope tag",
+    "trans": [
+      "表位标签"
+    ],
+    "explanation": "表位标签，可被已知抗体识别的短肽序列，用于标记和检测目的蛋白"
+  },
+  {
+    "name": "clathrin",
+    "trans": [
+      "网格蛋白"
+    ],
+    "explanation": "网格蛋白，由三个重链和三个轻链组成的三脚蛋白复合体，是网格蛋白包被囊泡的主要结构蛋白"
+  },
+  {
+    "name": "caveolin",
+    "trans": [
+      "小窝蛋白"
+    ],
+    "explanation": "小窝蛋白，小窝（脂筏内陷结构）的主要成分。三聚体形成特征性发夹结构插入膜内小叶"
+  },
+  {
+    "name": "dynamin",
+    "trans": [
+      "发动蛋白"
+    ],
+    "explanation": "发动蛋白，在胞吞最后阶段围绕囊泡颈部聚合、通过GTP水解收缩将囊泡掐断的GTP酶"
+  },
+  {
+    "name": "Rab GTPase",
+    "trans": [
+      "Rab GTP酶"
+    ],
+    "explanation": "Rab GTP酶，囊泡运输中调控囊泡出芽、转运、锚定和融合的小G蛋白家族"
+  },
+  {
+    "name": "Ran GTPase",
+    "trans": [
+      "Ran GTP酶"
+    ],
+    "explanation": "Ran GTP酶，调控核质转运方向的小G蛋白。核内Ran-GTP浓度高，胞质Ran-GDP浓度高"
+  },
+  {
+    "name": "nuclear localization signal",
+    "trans": [
+      "核定位信号"
+    ],
+    "explanation": "核定位信号（NLS），蛋白质中一段富含赖氨酸/精氨酸的序列，被importin识别介导核输入"
+  },
+  {
+    "name": "importin",
+    "trans": [
+      "输入蛋白"
+    ],
+    "explanation": "输入蛋白，识别含NLS的货物蛋白并将其转运入细胞核的受体蛋白"
+  },
+  {
+    "name": "exportin",
+    "trans": [
+      "输出蛋白"
+    ],
+    "explanation": "输出蛋白，识别含NES的货物蛋白并将其从细胞核转运到细胞质的受体蛋白"
+  },
+  {
+    "name": "nucleoporin",
+    "trans": [
+      "核孔蛋白"
+    ],
+    "explanation": "核孔蛋白，组成核孔复合物的约30种蛋白质的统称，含FG重复序列形成通透屏障"
+  }
+]

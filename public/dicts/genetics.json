@@ -1,0 +1,1248 @@
+[
+  {
+    "name": "gene",
+    "trans": [
+      "基因"
+    ],
+    "explanation": "基因，染色体上编码功能产物（蛋白质或RNA）的DNA片段，是遗传的基本单位"
+  },
+  {
+    "name": "allele",
+    "trans": [
+      "等位基因"
+    ],
+    "explanation": "等位基因，位于同源染色体相同基因座上的一对基因变体，一个来自父方一个来自母方"
+  },
+  {
+    "name": "locus",
+    "trans": [
+      "基因座"
+    ],
+    "explanation": "基因座，基因在染色体上的特定位置"
+  },
+  {
+    "name": "genotype",
+    "trans": [
+      "基因型"
+    ],
+    "explanation": "基因型，个体在特定基因座上的等位基因组成"
+  },
+  {
+    "name": "phenotype",
+    "trans": [
+      "表型"
+    ],
+    "explanation": "表型，基因型和环境共同作用产生的可观察特征"
+  },
+  {
+    "name": "homozygous",
+    "trans": [
+      "纯合的"
+    ],
+    "explanation": "纯合子，同一基因座上有两个相同等位基因的个体"
+  },
+  {
+    "name": "heterozygous",
+    "trans": [
+      "杂合的"
+    ],
+    "explanation": "杂合子，同一基因座上有两个不同等位基因的个体"
+  },
+  {
+    "name": "hemizygous",
+    "trans": [
+      "半合的"
+    ],
+    "explanation": "半合子，位于性染色体X上的基因在男性中只有一个拷贝的状态"
+  },
+  {
+    "name": "dominant",
+    "trans": [
+      "显性的"
+    ],
+    "explanation": "显性的，杂合子中能够表现其性状的等位基因"
+  },
+  {
+    "name": "recessive",
+    "trans": [
+      "隐性的"
+    ],
+    "explanation": "隐性的，仅当纯合时才表现其性状的等位基因"
+  },
+  {
+    "name": "codominant",
+    "trans": [
+      "共显性的"
+    ],
+    "explanation": "共显性的，两个不同的等位基因在杂合子中同时表现各自性状"
+  },
+  {
+    "name": "incomplete dominance",
+    "trans": [
+      "不完全显性"
+    ],
+    "explanation": "不完全显性（半显性），杂合子表型介于两个纯合子之间，如红花×白花→粉花"
+  },
+  {
+    "name": "penetrance",
+    "trans": [
+      "外显率"
+    ],
+    "explanation": "外显率，携带某基因型的个体中表现相应表型的比例"
+  },
+  {
+    "name": "expressivity",
+    "trans": [
+      "表现度"
+    ],
+    "explanation": "表现度，具有相同基因型的个体间表型表现的严重程度差异"
+  },
+  {
+    "name": "segregation",
+    "trans": [
+      "分离"
+    ],
+    "explanation": "分离，减数分裂中等位基因分开进入不同配子的过程，孟德尔第一定律的基础"
+  },
+  {
+    "name": "independent assortment",
+    "trans": [
+      "自由组合"
+    ],
+    "explanation": "自由组合，不同染色体上的基因在减数分裂中独立分配到配子中，孟德尔第二定律"
+  },
+  {
+    "name": "linkage",
+    "trans": [
+      "连锁"
+    ],
+    "explanation": "连锁，位于同一染色体上的基因倾向于共同遗传的现象，距离越近连锁越强"
+  },
+  {
+    "name": "crossing over",
+    "trans": [
+      "交换"
+    ],
+    "explanation": "交换（交叉），减数分裂前期I同源染色体非姐妹染色单体间交换片段，产生重组"
+  },
+  {
+    "name": "recombination",
+    "trans": [
+      "重组"
+    ],
+    "explanation": "重组，等位基因通过交叉产生新的组合，增加遗传多样性"
+  },
+  {
+    "name": "mutation",
+    "trans": [
+      "突变"
+    ],
+    "explanation": "突变，DNA序列的可遗传改变。可以是点突变、插入、缺失或染色体结构变异"
+  },
+  {
+    "name": "point mutation",
+    "trans": [
+      "点突变"
+    ],
+    "explanation": "点突变，DNA单个碱基对的改变。包括转换（嘌呤⇌嘌呤）和颠换（嘌呤⇌嘧啶）"
+  },
+  {
+    "name": "missense",
+    "trans": [
+      "错义"
+    ],
+    "explanation": "错义突变，密码子改变导致编码不同氨基酸的突变"
+  },
+  {
+    "name": "nonsense",
+    "trans": [
+      "无义"
+    ],
+    "explanation": "无义突变，密码子变为终止密码子的突变，导致蛋白质翻译提前终止"
+  },
+  {
+    "name": "silent mutation",
+    "trans": [
+      "同义突变"
+    ],
+    "explanation": "同义突变（沉默突变），密码子改变但由于遗传密码简并性不改变编码氨基酸"
+  },
+  {
+    "name": "frameshift",
+    "trans": [
+      "移码"
+    ],
+    "explanation": "移码突变，插入或缺失非3倍数的碱基，使读码框移位，通常导致完全不同的蛋白质序列"
+  },
+  {
+    "name": "deletion",
+    "trans": [
+      "缺失"
+    ],
+    "explanation": "缺失突变，DNA片段丢失。可以是单个碱基到染色体大片段"
+  },
+  {
+    "name": "insertion",
+    "trans": [
+      "插入"
+    ],
+    "explanation": "插入突变，DNA中插入额外碱基或片段"
+  },
+  {
+    "name": "inversion",
+    "trans": [
+      "倒位"
+    ],
+    "explanation": "倒位，染色体片段断裂后翻转180度重新连接"
+  },
+  {
+    "name": "translocation",
+    "trans": [
+      "易位"
+    ],
+    "explanation": "易位，染色体片段移到非同源染色体上。如费城染色体t(9;22)导致CML"
+  },
+  {
+    "name": "duplication",
+    "trans": [
+      "重复"
+    ],
+    "explanation": "重复，染色体片段多拷贝，是基因家族演化的主要机制"
+  },
+  {
+    "name": "aneuploidy",
+    "trans": [
+      "非整倍体"
+    ],
+    "explanation": "非整倍体，染色体数目偏离正常整倍数，如单体（2n-1）或三体（2n+1）"
+  },
+  {
+    "name": "polyploidy",
+    "trans": [
+      "多倍体"
+    ],
+    "explanation": "多倍体，染色体组数多于二倍体（如三倍体3n、四倍体4n），在植物中常见"
+  },
+  {
+    "name": "haploid",
+    "trans": [
+      "单倍体"
+    ],
+    "explanation": "单倍体（n），细胞只含一套染色体。如配子（精子、卵子）"
+  },
+  {
+    "name": "diploid",
+    "trans": [
+      "二倍体"
+    ],
+    "explanation": "二倍体（2n），细胞含两套同源染色体，是大多数动物的体细胞染色体数"
+  },
+  {
+    "name": "karyotype",
+    "trans": [
+      "核型"
+    ],
+    "explanation": "核型，个体细胞的中期染色体数目、大小和形态特征的描述"
+  },
+  {
+    "name": "autosome",
+    "trans": [
+      "常染色体"
+    ],
+    "explanation": "常染色体，除性染色体外的所有染色体。人类有22对常染色体"
+  },
+  {
+    "name": "X-linked",
+    "trans": [
+      "X连锁的"
+    ],
+    "explanation": "X连锁，位于X染色体上的基因。男性因半合子更易表现隐性性状"
+  },
+  {
+    "name": "Y-linked",
+    "trans": [
+      "Y连锁的"
+    ],
+    "explanation": "Y连锁，位于Y染色体上的基因。严格父系遗传，仅见于男性"
+  },
+  {
+    "name": "pedigree",
+    "trans": [
+      "系谱"
+    ],
+    "explanation": "家系图谱，用标准符号记录家族中表型和遗传关系，用于分析遗传方式"
+  },
+  {
+    "name": "proband",
+    "trans": [
+      "先证者"
+    ],
+    "explanation": "先证者，家系中首先被确认的患病个体，系谱分析以此为起点"
+  },
+  {
+    "name": "consanguineous",
+    "trans": [
+      "近亲的"
+    ],
+    "explanation": "近亲的，指有血缘关系的婚配，增加隐性遗传病风险"
+  },
+  {
+    "name": "Hardy-Weinberg",
+    "trans": [
+      "哈代-温伯格平衡"
+    ],
+    "explanation": "哈代-温伯格平衡，在没有进化力作用下，等位基因频率和基因型频率在世代间保持恒定"
+  },
+  {
+    "name": "genetic drift",
+    "trans": [
+      "遗传漂变"
+    ],
+    "explanation": "遗传漂变，等位基因频率在有限群体中因随机取样而波动，小群体中影响显著"
+  },
+  {
+    "name": "gene flow",
+    "trans": [
+      "基因流"
+    ],
+    "explanation": "基因流，个体迁移导致等位基因在不同群体间移动，使群体间基因频率趋同"
+  },
+  {
+    "name": "founder effect",
+    "trans": [
+      "奠基者效应"
+    ],
+    "explanation": "奠基者效应，少数个体建立新群体导致基因频率偏离原始群体的现象"
+  },
+  {
+    "name": "bottleneck",
+    "trans": [
+      "瓶颈效应"
+    ],
+    "explanation": "瓶颈效应，群体数量急剧下降后恢复，导致遗传多样性大量丧失"
+  },
+  {
+    "name": "natural selection",
+    "trans": [
+      "自然选择"
+    ],
+    "explanation": "自然选择，适应环境的个体更易存活和繁殖，逐渐改变群体遗传组成"
+  },
+  {
+    "name": "fitness",
+    "trans": [
+      "适合度"
+    ],
+    "explanation": "适合度（适应值），个体将其基因传递给下一代相对数量的度量"
+  },
+  {
+    "name": "epistasis",
+    "trans": [
+      "上位效应"
+    ],
+    "explanation": "上位效应，一个基因座的等位基因掩盖另一个基因座等位基因的表型效应"
+  },
+  {
+    "name": "pleiotropy",
+    "trans": [
+      "多效性"
+    ],
+    "explanation": "多效性，单个基因影响多个看似不相关的表型性状"
+  },
+  {
+    "name": "polygenic",
+    "trans": [
+      "多基因的"
+    ],
+    "explanation": "多基因的，由多个基因共同控制一个性状的遗传方式"
+  },
+  {
+    "name": "quantitative trait",
+    "trans": [
+      "数量性状"
+    ],
+    "explanation": "数量性状，由多基因和环境效应共同决定的连续变异性状，如身高、血压"
+  },
+  {
+    "name": "heritability",
+    "trans": [
+      "遗传力"
+    ],
+    "explanation": "遗传力（遗传度），表型变异中由遗传因素解释的比例。分广义遗传力和狭义遗传力"
+  },
+  {
+    "name": "haplotype",
+    "trans": [
+      "单倍型"
+    ],
+    "explanation": "单倍型，一条染色体上连锁的多个SNP等位基因组合，可追踪遗传来源"
+  },
+  {
+    "name": "linkage disequilibrium",
+    "trans": [
+      "连锁不平衡"
+    ],
+    "explanation": "连锁不平衡（LD），群体中不同基因座的等位基因非随机关联的现象"
+  },
+  {
+    "name": "transposon",
+    "trans": [
+      "转座子"
+    ],
+    "explanation": "转座子（跳跃基因），能在基因组中移动位置的DNA序列，由Barbara McClintock发现"
+  },
+  {
+    "name": "retrotransposon",
+    "trans": [
+      "反转座子"
+    ],
+    "explanation": "反转座子，以RNA为中间体经反转录后插入新位置的转座子"
+  },
+  {
+    "name": "transposase",
+    "trans": [
+      "转座酶"
+    ],
+    "explanation": "转座酶，催化DNA转座子切除和插入的酶"
+  },
+  {
+    "name": "X-inactivation",
+    "trans": [
+      "X染色体失活"
+    ],
+    "explanation": "X染色体失活，雌性哺乳动物体细胞中一条X染色体随机沉默，由Xist lncRNA介导"
+  },
+  {
+    "name": "dosage compensation",
+    "trans": [
+      "剂量补偿"
+    ],
+    "explanation": "剂量补偿效应，使性染色体基因表达在雌雄间达到平衡的机制"
+  },
+  {
+    "name": "Barr body",
+    "trans": [
+      "巴氏小体"
+    ],
+    "explanation": "巴氏小体（性染色质），雌性体细胞核中失活的浓缩X染色体"
+  },
+  {
+    "name": "transgenic",
+    "trans": [
+      "转基因的"
+    ],
+    "explanation": "转基因的，通过基因工程将外源基因导入生物体的基因组并稳定遗传"
+  },
+  {
+    "name": "meiosis",
+    "trans": [
+      "减数分裂"
+    ],
+    "explanation": "减数分裂，生殖细胞特有的分裂方式，染色体复制一次后连续分裂两次，产生四个单倍体配子"
+  },
+  {
+    "name": "bivalent",
+    "trans": [
+      "二价体"
+    ],
+    "explanation": "二价体，减数分裂前期I联会后的一对同源染色体，含四个染色单体"
+  },
+  {
+    "name": "tetrad",
+    "trans": [
+      "四分体"
+    ],
+    "explanation": "四分体，减数分裂中二价体的同义词，指联会的同源染色体对含四条染色单体"
+  },
+  {
+    "name": "synapsis",
+    "trans": [
+      "联会"
+    ],
+    "explanation": "联会，减数分裂前期I同源染色体沿全长靠近并由联会复合体连接的过程"
+  },
+  {
+    "name": "chiasma",
+    "trans": [
+      "交叉"
+    ],
+    "explanation": "交叉，减数分裂前期I非姐妹染色单体发生交换的细胞学可见位点"
+  },
+  {
+    "name": "nondisjunction",
+    "trans": [
+      "不分离"
+    ],
+    "explanation": "染色体不分离，减数分裂中同源染色体或姐妹染色单体未正确分开，导致配子染色体数目异常"
+  },
+  {
+    "name": "gamete",
+    "trans": [
+      "配子"
+    ],
+    "explanation": "配子，成熟的生殖细胞（精子或卵子），含单倍体染色体数"
+  },
+  {
+    "name": "zygote",
+    "trans": [
+      "合子"
+    ],
+    "explanation": "合子（受精卵），精子和卵子融合形成的二倍体细胞，发育为新个体"
+  },
+  {
+    "name": "transposon mutagenesis",
+    "trans": [
+      "转座子诱变"
+    ],
+    "explanation": "转座子诱变，利用转座子插入基因造成突变，用于基因功能研究"
+  },
+  {
+    "name": "Mendelian inheritance",
+    "trans": [
+      "孟德尔遗传"
+    ],
+    "explanation": "孟德尔遗传，遵循孟德尔定律的遗传方式。包括常染色体显性、常染色体隐性、X连锁等"
+  },
+  {
+    "name": "law of segregation",
+    "trans": [
+      "分离定律"
+    ],
+    "explanation": "分离定律（孟德尔第一定律），成对的等位基因在配子形成时分离，每个配子只含一个"
+  },
+  {
+    "name": "law of independent assortment",
+    "trans": [
+      "自由组合定律"
+    ],
+    "explanation": "自由组合定律（孟德尔第二定律），不同基因的等位基因在配子中独立分配"
+  },
+  {
+    "name": "test cross",
+    "trans": [
+      "测交"
+    ],
+    "explanation": "测交，隐性纯合子与未知基因型个体的杂交，根据子代表型推断亲本基因型"
+  },
+  {
+    "name": "backcross",
+    "trans": [
+      "回交"
+    ],
+    "explanation": "回交，子代与亲本之一的杂交，用于遗传分析"
+  },
+  {
+    "name": "monohybrid",
+    "trans": [
+      "单杂交"
+    ],
+    "explanation": "单杂交，关注一对等位基因差异的杂交"
+  },
+  {
+    "name": "dihybrid",
+    "trans": [
+      "双杂交"
+    ],
+    "explanation": "双杂交，关注两对等位基因差异的杂交。子代表型比9:3:3:1"
+  },
+  {
+    "name": "Punnett square",
+    "trans": [
+      "庞纳特方格"
+    ],
+    "explanation": "庞纳特方格（棋盘法），用于预测杂交后代基因型和表型比例的矩阵方法"
+  },
+  {
+    "name": "sex-linked",
+    "trans": [
+      "性连锁的"
+    ],
+    "explanation": "性连锁，位于性染色体上的基因，其遗传模式与性别相关"
+  },
+  {
+    "name": "sex-limited",
+    "trans": [
+      "限性的"
+    ],
+    "explanation": "限性遗传，仅在一种性别表现的性状，如产奶量"
+  },
+  {
+    "name": "sex-influenced",
+    "trans": [
+      "从性的"
+    ],
+    "explanation": "从性遗传，杂合子表型因性别而异。如人类秃顶，男性显性、女性隐性"
+  },
+  {
+    "name": "polygenic inheritance",
+    "trans": [
+      "多基因遗传"
+    ],
+    "explanation": "多基因遗传，多个基因的累加效应决定数量性状的遗传模式"
+  },
+  {
+    "name": "multifactorial",
+    "trans": [
+      "多因素的"
+    ],
+    "explanation": "多因素遗传，遗传和环境因素共同决定性状的遗传模式"
+  },
+  {
+    "name": "cytogenetics",
+    "trans": [
+      "细胞遗传学"
+    ],
+    "explanation": "细胞遗传学，研究染色体结构、数目与遗传关系的学科"
+  },
+  {
+    "name": "banding pattern",
+    "trans": [
+      "带型"
+    ],
+    "explanation": "染色体带型，经特殊染色后染色体上出现的明暗交替横纹，用于染色体识别"
+  },
+  {
+    "name": "chromosomal aberration",
+    "trans": [
+      "染色体畸变"
+    ],
+    "explanation": "染色体畸变，染色体数目或结构的异常，可导致遗传病"
+  },
+  {
+    "name": "monosomy",
+    "trans": [
+      "单体"
+    ],
+    "explanation": "单体，同源染色体对中缺少一条（2n-1）。人类常染色体单体通常是致死的"
+  },
+  {
+    "name": "trisomy",
+    "trans": [
+      "三体"
+    ],
+    "explanation": "三体，同源染色体多一条（2n+1）。如唐氏综合征21三体"
+  },
+  {
+    "name": "Down syndrome",
+    "trans": [
+      "唐氏综合征"
+    ],
+    "explanation": "唐氏综合征（21三体综合征），因多一条21号染色体引起的遗传病"
+  },
+  {
+    "name": "Turner syndrome",
+    "trans": [
+      "特纳综合征"
+    ],
+    "explanation": "特纳综合征（45,X），女性缺少一条X染色体的疾病，特征为身材矮小和性发育不全"
+  },
+  {
+    "name": "Klinefelter syndrome",
+    "trans": [
+      "克氏综合征"
+    ],
+    "explanation": "克氏综合征（47,XXY），男性多一条X染色体的疾病，特征为睾丸发育不全和不育"
+  },
+  {
+    "name": "reciprocal translocation",
+    "trans": [
+      "相互易位"
+    ],
+    "explanation": "相互易位，两条非同源染色体各断裂一段并交换重接"
+  },
+  {
+    "name": "Robertsonian translocation",
+    "trans": [
+      "罗伯逊易位"
+    ],
+    "explanation": "罗伯逊易位，两条近端着丝粒染色体在着丝粒处融合"
+  },
+  {
+    "name": "uniparental disomy",
+    "trans": [
+      "单亲二体"
+    ],
+    "explanation": "单亲二体，一对同源染色体均来自同一个亲本。可导致印记疾病"
+  },
+  {
+    "name": "microdeletion",
+    "trans": [
+      "微缺失"
+    ],
+    "explanation": "微缺失，染色体上微小片段（通常<5Mb）的缺失，需高分辨核型检测"
+  },
+  {
+    "name": "copy number variation",
+    "trans": [
+      "拷贝数变异"
+    ],
+    "explanation": "拷贝数变异（CNV），基因组中1kb以上DNA片段的拷贝数差异，是人类遗传多样性和疾病的重要来源"
+  },
+  {
+    "name": "germline mutation",
+    "trans": [
+      "生殖系突变"
+    ],
+    "explanation": "生殖系突变，发生在生殖细胞中的突变，可传给后代"
+  },
+  {
+    "name": "somatic mutation",
+    "trans": [
+      "体细胞突变"
+    ],
+    "explanation": "体细胞突变，发生在非生殖细胞中的突变，不遗传给后代但可导致癌症"
+  },
+  {
+    "name": "mutagen",
+    "trans": [
+      "诱变剂"
+    ],
+    "explanation": "诱变剂，能增加突变频率的物理（辐射）或化学因素"
+  },
+  {
+    "name": "carcinogen",
+    "trans": [
+      "致癌物"
+    ],
+    "explanation": "致癌物，能诱发癌症的物质，通常也是诱变剂"
+  },
+  {
+    "name": "teratogen",
+    "trans": [
+      "致畸物"
+    ],
+    "explanation": "致畸物，能干扰胚胎发育导致出生缺陷的物质，如酒精和某些药物"
+  },
+  {
+    "name": "spontaneous mutation",
+    "trans": [
+      "自发突变"
+    ],
+    "explanation": "自发突变，无需外界诱变剂在自然条件下发生的突变，主要由DNA复制错误引起"
+  },
+  {
+    "name": "induced mutation",
+    "trans": [
+      "诱发突变"
+    ],
+    "explanation": "诱发突变，由诱变剂处理人为提高突变率产生的突变"
+  },
+  {
+    "name": "conditional mutation",
+    "trans": [
+      "条件突变"
+    ],
+    "explanation": "条件突变，仅在特定条件下（如温度）表现突变表型的突变"
+  },
+  {
+    "name": "temperature-sensitive",
+    "trans": [
+      "温度敏感的"
+    ],
+    "explanation": "温度敏感的，在许可温度正常、在限制温度表现出突变表型的突变体"
+  },
+  {
+    "name": "lethal allele",
+    "trans": [
+      "致死等位基因"
+    ],
+    "explanation": "致死等位基因，纯合时或特定条件下导致个体死亡的突变"
+  },
+  {
+    "name": "null mutation",
+    "trans": [
+      "无效突变"
+    ],
+    "explanation": "无效突变（功能丧失突变），完全消除基因功能的突变"
+  },
+  {
+    "name": "hypomorphic",
+    "trans": [
+      "亚效的"
+    ],
+    "explanation": "亚效等位基因，功能减弱但未完全丧失的突变"
+  },
+  {
+    "name": "hypermorphic",
+    "trans": [
+      "超效的"
+    ],
+    "explanation": "超效等位基因，功能增强的突变，产生比野生型更多的基因产物或活性"
+  },
+  {
+    "name": "neomorphic",
+    "trans": [
+      "新效的"
+    ],
+    "explanation": "新效等位基因，获得全新功能的突变，与野生型功能不同"
+  },
+  {
+    "name": "antimorphic",
+    "trans": [
+      "反效的"
+    ],
+    "explanation": "反效等位基因（显性负效应突变），突变产物干扰野生型产物的功能"
+  },
+  {
+    "name": "dominant negative",
+    "trans": [
+      "显性负效应"
+    ],
+    "explanation": "显性负效应，突变蛋白干扰同源野生型蛋白功能的现象。杂合子即表现表型"
+  },
+  {
+    "name": "gain-of-function",
+    "trans": [
+      "功能获得"
+    ],
+    "explanation": "功能获得突变，基因产物获得新的或增强的活性"
+  },
+  {
+    "name": "loss-of-function",
+    "trans": [
+      "功能丧失"
+    ],
+    "explanation": "功能丧失突变，基因产物活性降低或完全丧失"
+  },
+  {
+    "name": "haploinsufficiency",
+    "trans": [
+      "单倍剂量不足"
+    ],
+    "explanation": "单倍剂量不足，一个功能等位基因产生的蛋白量不足以维持正常功能，杂合即发病"
+  },
+  {
+    "name": "reversion",
+    "trans": [
+      "回复突变"
+    ],
+    "explanation": "回复突变，突变基因重新恢复野生型表型的突变"
+  },
+  {
+    "name": "suppressor mutation",
+    "trans": [
+      "抑制突变"
+    ],
+    "explanation": "抑制突变，在第二位点发生的、能部分或完全补偿第一次突变的突变"
+  },
+  {
+    "name": "intragenic suppressor",
+    "trans": [
+      "基因内抑制"
+    ],
+    "explanation": "基因内抑制突变，与原始突变位于同一基因内的补偿突变"
+  },
+  {
+    "name": "intergenic suppressor",
+    "trans": [
+      "基因间抑制"
+    ],
+    "explanation": "基因间抑制突变，位于与原始突变不同基因的补偿突变"
+  },
+  {
+    "name": "genetic map",
+    "trans": [
+      "遗传图谱"
+    ],
+    "explanation": "遗传图谱（连锁图谱），基于重组频率绘制的基因在染色体上的相对位置图"
+  },
+  {
+    "name": "physical map",
+    "trans": [
+      "物理图谱"
+    ],
+    "explanation": "物理图谱，基于DNA实际碱基对距离绘制的染色体结构图"
+  },
+  {
+    "name": "centiMorgan",
+    "trans": [
+      "厘摩"
+    ],
+    "explanation": "厘摩（cM），遗传距离单位。1cM等于1%重组频率"
+  },
+  {
+    "name": "map distance",
+    "trans": [
+      "图距"
+    ],
+    "explanation": "图距（遗传距离），通过重组频率估计的基因间距离，单位cM"
+  },
+  {
+    "name": "three-point cross",
+    "trans": [
+      "三点测交"
+    ],
+    "explanation": "三点测交，用三个基因标记的杂交分析基因顺序和距离"
+  },
+  {
+    "name": "interference",
+    "trans": [
+      "干涉"
+    ],
+    "explanation": "干涉（染色体干涉），一个交叉事件抑制附近区域发生第二次交叉的现象"
+  },
+  {
+    "name": "coefficient of coincidence",
+    "trans": [
+      "并发系数"
+    ],
+    "explanation": "并发系数，观测双交换频率与预期频率的比值"
+  },
+  {
+    "name": "genetic marker",
+    "trans": [
+      "遗传标记"
+    ],
+    "explanation": "遗传标记，可追踪遗传的DNA序列变异，用于基因定位和关联分析"
+  },
+  {
+    "name": "microsatellite",
+    "trans": [
+      "微卫星"
+    ],
+    "explanation": "微卫星DNA（STR），1-6bp重复单元的串联重复序列，广泛用作遗传标记"
+  },
+  {
+    "name": "minisatellite",
+    "trans": [
+      "小卫星"
+    ],
+    "explanation": "小卫星DNA（VNTR），10-60bp重复单元的串联重复序列，用于DNA指纹"
+  },
+  {
+    "name": "positional cloning",
+    "trans": [
+      "定位克隆"
+    ],
+    "explanation": "定位克隆，通过遗传连锁分析定位疾病基因，无需知道其功能信息"
+  },
+  {
+    "name": "candidate gene",
+    "trans": [
+      "候选基因"
+    ],
+    "explanation": "候选基因，基于生物学知识推测可能与某性状或疾病相关的基因"
+  },
+  {
+    "name": "linkage analysis",
+    "trans": [
+      "连锁分析"
+    ],
+    "explanation": "连锁分析，利用家系数据通过重组频率检测基因与标记是否连锁的统计方法"
+  },
+  {
+    "name": "association study",
+    "trans": [
+      "关联研究"
+    ],
+    "explanation": "关联研究，比较群体中特定等位基因频率与性状关系的统计方法"
+  },
+  {
+    "name": "genetic counseling",
+    "trans": [
+      "遗传咨询"
+    ],
+    "explanation": "遗传咨询，向患者和家属提供遗传病风险、诊断、治疗和遗传信息的专业服务"
+  },
+  {
+    "name": "prenatal diagnosis",
+    "trans": [
+      "产前诊断"
+    ],
+    "explanation": "产前诊断，通过羊水穿刺或绒毛膜取样对胎儿进行遗传检测"
+  },
+  {
+    "name": "amniocentesis",
+    "trans": [
+      "羊膜穿刺"
+    ],
+    "explanation": "羊膜穿刺，由腹壁抽取羊水获取胎儿细胞的产前诊断方法"
+  },
+  {
+    "name": "chorionic villus sampling",
+    "trans": [
+      "绒毛膜取样"
+    ],
+    "explanation": "绒毛膜取样（CVS），取胎盘绒毛组织进行产前遗传检测的方法"
+  },
+  {
+    "name": "carrier screening",
+    "trans": [
+      "携带者筛查"
+    ],
+    "explanation": "携带者筛查，对无症状个体进行隐性遗传病基因检测"
+  },
+  {
+    "name": "newborn screening",
+    "trans": [
+      "新生儿筛查"
+    ],
+    "explanation": "新生儿筛查，对新生儿进行可治疗的遗传代谢病检测"
+  },
+  {
+    "name": "gene therapy",
+    "trans": [
+      "基因治疗"
+    ],
+    "explanation": "基因治疗，将正常基因导入细胞替代或修复缺陷基因的治疗策略"
+  },
+  {
+    "name": "pharmacogenomics",
+    "trans": [
+      "药物基因组学"
+    ],
+    "explanation": "药物基因组学，研究遗传变异对药物反应（药效、副作用）影响的学科"
+  },
+  {
+    "name": "personalized medicine",
+    "trans": [
+      "个性化医疗"
+    ],
+    "explanation": "个性化医疗（精准医学），根据个体的遗传信息制定个性化预防、诊断和治疗方案"
+  },
+  {
+    "name": "selection coefficient",
+    "trans": [
+      "选择系数"
+    ],
+    "explanation": "选择系数（s），自然选择强度的度量。s=1适合度=1，s=0无选择"
+  },
+  {
+    "name": "effective population size",
+    "trans": [
+      "有效群体大小"
+    ],
+    "explanation": "有效群体大小（Ne），理想群体中能产生与实际群体相同遗传变异量的个体数"
+  },
+  {
+    "name": "inbreeding",
+    "trans": [
+      "近交"
+    ],
+    "explanation": "近交，有亲缘关系个体的交配，增加纯合度"
+  },
+  {
+    "name": "inbreeding coefficient",
+    "trans": [
+      "近交系数"
+    ],
+    "explanation": "近交系数（F），个体在某个基因座上两个等位基因来自共同祖先的概率"
+  },
+  {
+    "name": "outbreeding",
+    "trans": [
+      "远交"
+    ],
+    "explanation": "远交，无亲缘关系个体的交配，增加杂合度"
+  },
+  {
+    "name": "heterosis",
+    "trans": [
+      "杂种优势"
+    ],
+    "explanation": "杂种优势，杂合子在某些性状上优于纯合亲本的现象"
+  },
+  {
+    "name": "inbreeding depression",
+    "trans": [
+      "近交衰退"
+    ],
+    "explanation": "近交衰退，近交导致有害隐性性状表现和适合度降低"
+  },
+  {
+    "name": "adaptive radiation",
+    "trans": [
+      "适应辐射"
+    ],
+    "explanation": "适应辐射，单一祖先物种快速分化为适应不同生态位的多个物种"
+  },
+  {
+    "name": "convergent evolution",
+    "trans": [
+      "趋同进化"
+    ],
+    "explanation": "趋同进化，不同物种独立进化出相似特征。如蝙蝠翼和鸟翼"
+  },
+  {
+    "name": "divergent evolution",
+    "trans": [
+      "趋异进化"
+    ],
+    "explanation": "趋异进化，同一祖先的后代在不同选择压力下分化出不同特征"
+  },
+  {
+    "name": "molecular clock",
+    "trans": [
+      "分子钟"
+    ],
+    "explanation": "分子钟，利用DNA或蛋白质序列的恒定突变率推算物种分歧时间"
+  },
+  {
+    "name": "neutral theory",
+    "trans": [
+      "中性理论"
+    ],
+    "explanation": "中性理论（木村资生），认为大多数分子水平的变化是中性突变随机遗传漂变的结果"
+  },
+  {
+    "name": "synonymous substitution",
+    "trans": [
+      "同义替换"
+    ],
+    "explanation": "同义替换，不改变氨基酸编码的核苷酸替换，通常为中性进化"
+  },
+  {
+    "name": "nonsynonymous substitution",
+    "trans": [
+      "非同义替换"
+    ],
+    "explanation": "非同义替换，改变氨基酸编码的核苷酸替换，受自然选择影响"
+  },
+  {
+    "name": "purifying selection",
+    "trans": [
+      "纯化选择"
+    ],
+    "explanation": "纯化选择（负选择），消除有害突变的自然选择，维持功能约束区域序列保守"
+  },
+  {
+    "name": "positive selection",
+    "trans": [
+      "正选择"
+    ],
+    "explanation": "正选择（达尔文选择），保留有利突变的自然选择"
+  },
+  {
+    "name": "balancing selection",
+    "trans": [
+      "平衡选择"
+    ],
+    "explanation": "平衡选择，维持群体中多态性的自然选择，如杂合子优势"
+  },
+  {
+    "name": "selective sweep",
+    "trans": [
+      "选择性清除"
+    ],
+    "explanation": "选择性清除，有利突变在群体中迅速固定时，附近的中性变异也被连带固定"
+  },
+  {
+    "name": "hitchhiking",
+    "trans": [
+      "搭车效应"
+    ],
+    "explanation": "遗传搭车效应，中性等位基因因与受选择位点连锁而频率改变"
+  },
+  {
+    "name": "population structure",
+    "trans": [
+      "群体结构"
+    ],
+    "explanation": "群体结构，群体内个体非随机交配导致的分层，影响关联分析的准确性"
+  },
+  {
+    "name": "admixture",
+    "trans": [
+      "混合"
+    ],
+    "explanation": "遗传混合，先前隔离的不同群体间的基因交流"
+  },
+  {
+    "name": "genome-wide association",
+    "trans": [
+      "全基因组关联"
+    ],
+    "explanation": "全基因组关联研究（GWAS），扫描整个基因组寻找与性状或疾病相关的SNPs"
+  },
+  {
+    "name": "polygenic risk score",
+    "trans": [
+      "多基因风险评分"
+    ],
+    "explanation": "多基因风险评分（PRS），整合多个风险等位基因效应评估个体患病风险的数值"
+  },
+  {
+    "name": "Mendelian randomization",
+    "trans": [
+      "孟德尔随机化"
+    ],
+    "explanation": "孟德尔随机化（MR），利用遗传变异作为工具变量推断因果关系的流行病学方法"
+  },
+  {
+    "name": "pseudoautosomal region",
+    "trans": [
+      "假常染色体区"
+    ],
+    "explanation": "假常染色体区（PAR），X和Y染色体末端的同源区域，减数分裂时配对重组"
+  },
+  {
+    "name": "sex determination",
+    "trans": [
+      "性别决定"
+    ],
+    "explanation": "性别决定，决定个体发育为雄性或雌性的遗传机制。哺乳动物由SRY基因决定"
+  },
+  {
+    "name": "genomic imprinting",
+    "trans": [
+      "基因组印记"
+    ],
+    "explanation": "基因组印记，依亲本来源不同而差异表达的基因，由甲基化标记维持"
+  },
+  {
+    "name": "parent-of-origin effect",
+    "trans": [
+      "亲源效应"
+    ],
+    "explanation": "亲源效应，表型由等位基因来自父方还是母方决定，如Prader-Willi/Angelman综合征"
+  },
+  {
+    "name": "maternal effect",
+    "trans": [
+      "母体效应"
+    ],
+    "explanation": "母体效应，母体的基因型或环境通过卵细胞质影响子代表型的现象"
+  },
+  {
+    "name": "cytoplasmic inheritance",
+    "trans": [
+      "细胞质遗传"
+    ],
+    "explanation": "细胞质遗传，由细胞质中的遗传物质（线粒体DNA、叶绿体DNA）决定的遗传方式"
+  },
+  {
+    "name": "mitochondrial inheritance",
+    "trans": [
+      "线粒体遗传"
+    ],
+    "explanation": "线粒体遗传，线粒体DNA的母系遗传方式，因为精子中线粒体在受精后降解"
+  },
+  {
+    "name": "heteroplasmy",
+    "trans": [
+      "异质性"
+    ],
+    "explanation": "异质性，细胞内同时存在正常和突变线粒体DNA的状态，突变比例决定疾病严重程度"
+  },
+  {
+    "name": "homoplasmy",
+    "trans": [
+      "同质性"
+    ],
+    "explanation": "同质性，细胞内所有线粒体DNA类型一致"
+  },
+  {
+    "name": "threshold effect",
+    "trans": [
+      "阈值效应"
+    ],
+    "explanation": "阈值效应，线粒体突变比例需超过特定阈值后才出现临床症状"
+  },
+  {
+    "name": "maternal inheritance",
+    "trans": [
+      "母系遗传"
+    ],
+    "explanation": "母系遗传，仅通过母本传递性状给后代的遗传方式。典型如线粒体DNA"
+  }
+]
