@@ -7,11 +7,17 @@ export default function Chapter({
   index,
   checked,
   dictID,
+  name,
+  group,
+  wordCount,
   onChange,
 }: {
   index: number
   checked: boolean
   dictID: string
+  name: string
+  group?: string
+  wordCount: number
   onChange: (index: number) => void
 }) {
   const ref = useRef<HTMLTableRowElement>(null)
@@ -34,10 +40,15 @@ export default function Chapter({
   return (
     <div
       ref={ref}
-      className="relative flex h-16 w-40 cursor-pointer  flex-col items-start justify-center overflow-hidden rounded-xl bg-slate-100 px-3 py-2 dark:bg-slate-800"
+      className="relative flex h-20 w-48 cursor-pointer flex-col items-start justify-center overflow-hidden rounded-xl bg-slate-100 px-3 py-2 dark:bg-slate-800"
       onClick={() => onChange(index)}
     >
-      <h1>第 {index + 1} 章</h1>
+      <h1 className="font-medium">{name}</h1>
+      {group && (
+        <p className="pt-0.5 text-xs text-slate-500 dark:text-slate-400">
+          {group} · {wordCount} 词
+        </p>
+      )}
       <p className="pt-[2px] text-xs text-slate-600">
         {chapterStatus ? (chapterStatus.exerciseCount > 0 ? `练习 ${chapterStatus.exerciseCount} 次` : '未练习') : '加载中...'}
       </p>

@@ -17,6 +17,7 @@ import {
 } from '@/store'
 import type { InfoPanelType } from '@/typings'
 import { recordOpenInfoPanelAction } from '@/utils'
+import { getDictionaryChapterLabel } from '@/utils/dictionaryChapter'
 import { Transition } from '@headlessui/react'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useMemo } from 'react'
@@ -42,6 +43,7 @@ const ResultScreen = () => {
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+  const chapterLabel = getDictionaryChapterLabel(currentDictInfo.chapters[currentChapter], currentChapter)
 
   useEffect(() => {
     // tick a zero timer to calc the stats
@@ -69,12 +71,12 @@ const ResultScreen = () => {
         const ws = utils.json_to_sheet(exportData)
         const wb = utils.book_new()
         utils.book_append_sheet(wb, ws, 'Data')
-        writeFileXLSX(wb, `${currentDictInfo.name}第${currentChapter + 1}章.xlsx`)
+        writeFileXLSX(wb, `${currentDictInfo.name}${chapterLabel}.xlsx`)
       })
       .catch(() => {
         console.log('写入 xlsx 模块导入失败')
       })
-  }, [currentChapter, currentDictInfo.name, state.chapterData])
+  }, [chapterLabel, currentDictInfo.name, state.chapterData])
 
   const wrongWords = useMemo(() => {
     return state.chapterData.userInputLogs
@@ -220,7 +222,7 @@ const ResultScreen = () => {
         <div className="flex h-screen items-center justify-center">
           <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-white pb-14 pl-10 pr-5 pt-10 shadow-lg dark:bg-gray-800 md:w-4/5 lg:w-3/5">
             <div className="text-center font-sans text-xl font-normal text-gray-900 dark:text-gray-400 md:text-2xl">
-              {`${currentDictInfo.name} ${isReviewMode ? '错题复习' : '第' + (currentChapter + 1) + '章'}`}
+              {`${currentDictInfo.name} ${isReviewMode ? '错题复习' : chapterLabel}`}
             </div>
             <button className="absolute right-7 top-5" onClick={exitButtonHandler}>
               <IconX className="text-gray-400" />

@@ -1,6 +1,5 @@
 import DictionaryGroup from './CategoryDicts'
 import DictRequest from './DictRequest'
-import { LanguageTabSwitcher } from './LanguageTabSwitcher'
 import Layout from '@/components/Layout'
 import { dictionaries } from '@/resources/dictionary'
 import { currentDictInfoAtom } from '@/store'
@@ -67,8 +66,7 @@ export default function GalleryPage() {
           <IconX className="absolute right-20 top-10 mr-2 h-7 w-7 cursor-pointer text-gray-400" onClick={onBack} />
           <div className="mt-20 flex w-full flex-1 flex-col items-center justify-center overflow-y-auto">
             <div className="flex h-full flex-col overflow-y-auto">
-              <div className="flex h-20 w-full items-center justify-between pb-6 pr-20">
-                <LanguageTabSwitcher />
+              <div className="flex h-20 w-full items-center justify-end pb-6 pr-20">
                 <DictRequest />
               </div>
               <ScrollArea.Root className="flex-1 overflow-y-auto">

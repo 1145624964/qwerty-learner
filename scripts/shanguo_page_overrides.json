@@ -1,0 +1,66 @@
+{
+  "199": {
+    "insertAfter": [{ "after": "curious", "word": "vicious" }]
+  },
+  "307": {
+    "insertAfter": [{ "after": "cute", "word": "dose" }]
+  },
+  "335": {
+    "insertAfter": [{ "after": "ridicule", "word": "scold" }]
+  },
+  "342": {
+    "replace": { "ledde": "appal" }
+  },
+  "345": {
+    "replace": { "consoler": "console" }
+  },
+  "347": {
+    "replace": { "consoler": "console" }
+  },
+  "353": {
+    "insertAfter": [{ "after": "rebel", "word": "rebel" }]
+  },
+  "356": {
+    "insertAfter": [{ "after": "patent", "word": "patent" }]
+  },
+  "372": {
+    "replace": { "degenerater": "degenerate" }
+  },
+  "375": {
+    "insertAfter": [{ "after": "burglar", "word": "degenerate" }]
+  },
+  "382": {
+    "replace": { "pneidde": "applaud" },
+    "insertAfter": [{ "after": "neighbour", "word": "lord" }]
+  },
+  "383": {
+    "replace": { "pou": "nod" }
+  },
+  "384": {
+    "replace": { "opun": "undo", "lnd": "pull", "op": "do" }
+  },
+  "385": {
+    "insertAfter": [{ "after": "transplant", "word": "transplant" }]
+  },
+  "386": {
+    "insertAfter": [{ "after": "protest", "word": "protest" }]
+  },
+  "387": {
+    "insertAfter": [{ "after": "acquire", "word": "afford" }]
+  },
+  "392": {
+    "insertAfter": [{ "after": "ideal", "word": "perfect" }]
+  },
+  "431": {
+    "insertAfter": [{ "after": "pat", "word": "permit" }]
+  },
+  "433": {
+    "insertAfter": [{ "after": "gather", "word": "absent" }]
+  },
+  "437": {
+    "insertAfter": [{ "after": "chaos", "word": "defect" }]
+  },
+  "443": {
+    "replace": { "babyboom": "baby boom" }
+  }
+}

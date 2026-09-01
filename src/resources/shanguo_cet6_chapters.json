@@ -1,0 +1,163 @@
+[
+  {
+    "id": "high-1",
+    "group": "高频词",
+    "name": "Word List 1",
+    "start": 0,
+    "end": 82
+  },
+  {
+    "id": "high-2",
+    "group": "高频词",
+    "name": "Word List 2",
+    "start": 82,
+    "end": 165
+  },
+  {
+    "id": "high-3",
+    "group": "高频词",
+    "name": "Word List 3",
+    "start": 165,
+    "end": 247
+  },
+  {
+    "id": "high-4",
+    "group": "高频词",
+    "name": "Word List 4",
+    "start": 247,
+    "end": 329
+  },
+  {
+    "id": "high-5",
+    "group": "高频词",
+    "name": "Word List 5",
+    "start": 329,
+    "end": 411
+  },
+  {
+    "id": "high-6",
+    "group": "高频词",
+    "name": "Word List 6",
+    "start": 411,
+    "end": 492
+  },
+  {
+    "id": "high-7",
+    "group": "高频词",
+    "name": "Word List 7",
+    "start": 492,
+    "end": 569
+  },
+  {
+    "id": "high-8",
+    "group": "高频词",
+    "name": "Word List 8",
+    "start": 569,
+    "end": 650
+  },
+  {
+    "id": "high-9",
+    "group": "高频词",
+    "name": "Word List 9",
+    "start": 650,
+    "end": 733
+  },
+  {
+    "id": "medium-1",
+    "group": "中频词",
+    "name": "Word List 1",
+    "start": 733,
+    "end": 817
+  },
+  {
+    "id": "medium-2",
+    "group": "中频词",
+    "name": "Word List 2",
+    "start": 817,
+    "end": 902
+  },
+  {
+    "id": "medium-3",
+    "group": "中频词",
+    "name": "Word List 3",
+    "start": 902,
+    "end": 986
+  },
+  {
+    "id": "medium-4",
+    "group": "中频词",
+    "name": "Word List 4",
+    "start": 986,
+    "end": 1071
+  },
+  {
+    "id": "medium-5",
+    "group": "中频词",
+    "name": "Word List 5",
+    "start": 1071,
+    "end": 1156
+  },
+  {
+    "id": "medium-6",
+    "group": "中频词",
+    "name": "Word List 6",
+    "start": 1156,
+    "end": 1241
+  },
+  {
+    "id": "medium-7",
+    "group": "中频词",
+    "name": "Word List 7",
+    "start": 1241,
+    "end": 1325
+  },
+  {
+    "id": "medium-8",
+    "group": "中频词",
+    "name": "Word List 8",
+    "start": 1325,
+    "end": 1410
+  },
+  {
+    "id": "medium-9",
+    "group": "中频词",
+    "name": "Word List 9",
+    "start": 1410,
+    "end": 1488
+  },
+  {
+    "id": "medium-10",
+    "group": "中频词",
+    "name": "Word List 10",
+    "start": 1488,
+    "end": 1569
+  },
+  {
+    "id": "medium-11",
+    "group": "中频词",
+    "name": "Word List 11",
+    "start": 1569,
+    "end": 1653
+  },
+  {
+    "id": "medium-12",
+    "group": "中频词",
+    "name": "Word List 12",
+    "start": 1653,
+    "end": 1738
+  },
+  {
+    "id": "low",
+    "group": "低频词",
+    "name": "完整词表",
+    "start": 1738,
+    "end": 3136
+  },
+  {
+    "id": "basic",
+    "group": "简单词",
+    "name": "完整词表",
+    "start": 3136,
+    "end": 5346
+  }
+]

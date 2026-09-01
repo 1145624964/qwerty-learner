@@ -1,3 +1,5 @@
+import shanguoCET6Chapters from './shanguo_cet6_chapters.json'
+import { CHAPTER_LENGTH } from '@/constants'
 import type { Dictionary, DictionaryResource } from '@/typings/index'
 import { calcChapterCount } from '@/utils'
 
@@ -24,6 +26,18 @@ const chinaExam: DictionaryResource[] = [
     length: 2345,
     language: 'en',
     languageCategory: 'en',
+  },
+  {
+    id: 'shanguo-cet6-book-order',
+    name: '六级词汇闪过（纸书同序）',
+    description: '按纸质书正文逐行整理，分为 23 个章节，含同形异义词',
+    category: '中国考试',
+    tags: ['大学英语'],
+    url: '/dicts/shanguo_cet6_book_order.json',
+    length: 5346,
+    language: 'en',
+    languageCategory: 'en',
+    chapters: shanguoCET6Chapters,
   },
   {
     id: 'xinghuoqiaoji_4',
@@ -522,18 +536,6 @@ const chinaExam: DictionaryResource[] = [
     languageCategory: 'en',
   },
   {
-    id: '3000_ClassRoom_English_Words',
-    name: '专升本3000词',
-    description: '专升本词汇',
-    category: '中国考试',
-    tags: ['大学英语'],
-    url: '/dicts/3000_ClassRoom_English_Words.json',
-    length: 2991,
-    language: 'en',
-    languageCategory: 'en',
-  },
-
-  {
     id: 'frequently_used_words01',
     name: '超频单词level 1',
     description: '超频单词level 1',
@@ -698,7 +700,7 @@ const internationalExam: DictionaryResource[] = [
     name: '细胞生物学',
     description: '细胞膜、细胞器、骨架、细胞周期、凋亡、干细胞等',
     category: '专业词汇',
-    tags: ['生物', '科学', '细胞'],
+    tags: ['生物'],
     url: '/dicts/cell_biology.json',
     length: 157,
     language: 'en',
@@ -709,7 +711,7 @@ const internationalExam: DictionaryResource[] = [
     name: '遗传学',
     description: '孟德尔遗传、连锁、突变、染色体病、群体遗传、进化等',
     category: '专业词汇',
-    tags: ['生物', '科学', '遗传'],
+    tags: ['生物'],
     url: '/dicts/genetics.json',
     length: 178,
     language: 'en',
@@ -720,7 +722,7 @@ const internationalExam: DictionaryResource[] = [
     name: '分子生物学',
     description: 'DNA复制修复、转录翻译、染色质、信号转导、分子克隆技术等',
     category: '专业词汇',
-    tags: ['生物', '科学', '分子'],
+    tags: ['生物'],
     url: '/dicts/molecular_biology.json',
     length: 173,
     language: 'en',
@@ -4192,7 +4194,35 @@ const indonesianDicts: DictionaryResource[] = [
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
-export const dictionaryResources: DictionaryResource[] = [
+const retainedDictionaryIds = new Set([
+  'cet4',
+  'cet6',
+  'shanguo-cet6-book-order',
+  'xinghuoqiaoji_4',
+  'xinghuoqiaoji_6',
+  'cet4-sub',
+  'cet6-sub',
+  'level4',
+  'level8',
+  'kaoyan',
+  'kaoyan_2024',
+  'kaoyanshanguo_2023',
+  '926',
+  'dancimimi_1',
+  'dancimimi_2',
+  '2024HongBao T1',
+  '2024HongBao T2',
+  'hongbaoshu-2026',
+  'English_II',
+  'kaoyanshanguo2025',
+  '2025KaoYanHongBaoShu',
+  'biomedical-terms',
+  'cell-biology',
+  'genetics',
+  'molecular-biology',
+])
+
+const allDictionaryResources: DictionaryResource[] = [
   ...chinaExam,
   ...internationalExam,
   ...childrenEnglish,
@@ -4222,10 +4252,25 @@ export const dictionaryResources: DictionaryResource[] = [
   // },
 ]
 
-export const dictionaries: Dictionary[] = dictionaryResources.map((resource) => ({
-  ...resource,
-  chapterCount: calcChapterCount(resource.length),
-}))
+export const dictionaryResources = allDictionaryResources.filter((resource) => retainedDictionaryIds.has(resource.id))
+
+export const dictionaries: Dictionary[] = dictionaryResources.map((resource) => {
+  const chapterCount = resource.chapters?.length ?? calcChapterCount(resource.length)
+  const chapters =
+    resource.chapters ??
+    Array.from({ length: chapterCount }, (_, index) => ({
+      id: String(index + 1),
+      name: `第 ${index + 1} 章`,
+      start: index * CHAPTER_LENGTH,
+      end: Math.min((index + 1) * CHAPTER_LENGTH, resource.length),
+    }))
+
+  return {
+    ...resource,
+    chapters,
+    chapterCount,
+  }
+})
 
 /**
  * An object-map from dictionary IDs to dictionary themselves.

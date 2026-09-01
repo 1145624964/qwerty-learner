@@ -1,4 +1,3 @@
-import { CHAPTER_LENGTH } from '@/constants'
 import { currentChapterAtom, currentDictInfoAtom, reviewModeInfoAtom } from '@/store'
 import type { Word, WordWithIndex } from '@/typings/index'
 import { wordListFetcher } from '@/utils/wordListFetcher'
@@ -35,7 +34,8 @@ export function useWordList(): UseWordListResult {
     } else if (isReviewMode) {
       newWords = reviewRecord?.words ?? []
     } else if (wordList) {
-      newWords = wordList.slice(currentChapter * CHAPTER_LENGTH, (currentChapter + 1) * CHAPTER_LENGTH)
+      const chapter = currentDictInfo.chapters[currentChapter]
+      newWords = chapter ? wordList.slice(chapter.start, chapter.end) : []
     } else {
       newWords = []
     }
@@ -56,7 +56,7 @@ export function useWordList(): UseWordListResult {
         trans,
       }
     })
-  }, [isFirstChapter, isReviewMode, wordList, reviewRecord?.words, currentChapter])
+  }, [currentChapter, currentDictInfo.chapters, isFirstChapter, isReviewMode, reviewRecord?.words, wordList])
 
   return { words, isLoading, error }
 }

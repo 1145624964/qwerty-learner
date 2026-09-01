@@ -9,7 +9,6 @@ import { Tabs, TabsContent } from '@/components/ui/tabs'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 import { currentChapterAtom, currentDictIdAtom, reviewModeInfoAtom } from '@/store'
 import type { Dictionary } from '@/typings'
-import range from '@/utils/range'
 import { useAtom, useSetAtom } from 'jotai'
 import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
@@ -111,12 +110,15 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
           <TabsContent value={Tab.Chapters} className="h-full ">
             <ScrollArea className="h-[30rem] ">
               <div className="flex w-full flex-wrap gap-3">
-                {range(0, dict.chapterCount, 1).map((index) => (
+                {dict.chapters.map((chapterInfo, index) => (
                   <Chapter
-                    key={`${dict.id}-${index}`}
+                    key={`${dict.id}-${chapterInfo.id}`}
                     index={index}
                     checked={chapter === index}
                     dictID={dict.id}
+                    name={chapterInfo.name}
+                    group={chapterInfo.group}
+                    wordCount={chapterInfo.end - chapterInfo.start}
                     onChange={onChangeChapter}
                   />
                 ))}

@@ -2,11 +2,14 @@
 
 # dependencies
 /node_modules
+/.pnpm-store
+/.tools
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+/tmp
 
 # production
 /build

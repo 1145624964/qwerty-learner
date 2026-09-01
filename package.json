@@ -62,6 +62,7 @@
     "start": "vite",
     "build": "cross-env CI=false vite build --base=./",
     "test": "echo \"No tests\"",
+    "test:shanguo": "node --test tests/integration/shanguo-cet6.test.mjs",
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "prettier": "prettier --write .",

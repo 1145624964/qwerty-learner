@@ -6,7 +6,6 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 import useIntersectionObserver from '@/hooks/useIntersectionObserver'
 import { currentDictIdAtom } from '@/store'
 import type { Dictionary } from '@/typings'
-import { calcChapterCount } from '@/utils'
 import * as Progress from '@radix-ui/react-progress'
 import { useAtomValue } from 'jotai'
 import { useMemo, useRef } from 'react'
@@ -22,11 +21,10 @@ export default function DictionaryComponent({ dictionary }: Props) {
   const entry = useIntersectionObserver(divRef, {})
   const isVisible = !!entry?.isIntersecting
   const dictStats = useDictStats(dictionary.id, isVisible)
-  const chapterCount = useMemo(() => calcChapterCount(dictionary.length), [dictionary.length])
   const isSelected = currentDictID === dictionary.id
   const progress = useMemo(
-    () => (dictStats ? Math.ceil((dictStats.exercisedChapterCount / chapterCount) * 100) : 0),
-    [dictStats, chapterCount],
+    () => (dictStats ? Math.ceil((dictStats.exercisedChapterCount / dictionary.chapterCount) * 100) : 0),
+    [dictStats, dictionary.chapterCount],
   )
 
   return (

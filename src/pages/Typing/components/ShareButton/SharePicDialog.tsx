@@ -11,6 +11,7 @@ import shareImage9 from '@/assets/sharePic/image-9.png'
 import keyboardSvg from '@/assets/sharePic/keyBackground.svg'
 import { currentChapterAtom, currentDictInfoAtom } from '@/store'
 import { recordShareAction } from '@/utils'
+import { getDictionaryChapterLabel } from '@/utils/dictionaryChapter'
 import { Dialog, Transition } from '@headlessui/react'
 import { useAtomValue } from 'jotai'
 import { Fragment, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
@@ -175,7 +176,9 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
                 <DataBox data={state.timerData.wpm + ''} description="WPM" />
               </div>
               <div className="ml-5 mt-4 self-start text-base text-gray-800">{currentDictInfo.name}</div>
-              <div className="ml-5 mt-2 self-start text-xs text-gray-600">{`第 ${currentChapter + 1} 章`}</div>
+              <div className="ml-5 mt-2 self-start text-xs text-gray-600">
+                {getDictionaryChapterLabel(currentDictInfo.chapters[currentChapter], currentChapter)}
+              </div>
             </div>
             <div className="mb-3 ml-5 mt-auto">
               <div className="text-xs">Qwerty.kaiyi.cool</div>
