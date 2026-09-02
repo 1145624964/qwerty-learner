@@ -73,7 +73,13 @@ MANUAL_ENTRIES = {
         "trans": ["n. 婴儿潮"],
         "usphone": "ˈbeɪbi buːm",
         "ukphone": "ˈbeɪbi buːm",
-    }
+    },
+    "relish": {
+        "name": "relish",
+        "trans": ["期待；享受；乐趣"],
+        "usphone": "ˈrelɪʃ",
+        "ukphone": "ˈrelɪʃ",
+    },
 }
 
 

@@ -56,6 +56,19 @@ test('daily study chapters cover every printed row exactly once and preserve ord
   assert.ok(words.every((word) => Array.isArray(word.trans) && word.trans.length > 0))
 })
 
+test('paper-specific meanings override broader dictionary definitions', async () => {
+  const words = await readJson('public/dicts/shanguo_cet6_book_order.json')
+  const chapters = await readJson('src/resources/shanguo_cet6_chapters.json')
+  const firstMediumDay = chapters.find(({ id }) => id === 'medium-1-day-1')
+
+  assert.ok(firstMediumDay)
+  const dailyWords = words.slice(firstMediumDay.start, firstMediumDay.end)
+  const relish = dailyWords.find(({ name }) => name === 'relish')
+
+  assert.ok(relish, 'relish should stay in 中频词 Word List 1 · 第1天')
+  assert.deepEqual(relish.trans, ['期待；享受；乐趣'])
+})
+
 test('hard-word Word Lists are split into the approved two-day workloads', async () => {
   const chapters = await readJson('src/resources/shanguo_cet6_chapters.json')
   const high = chapters.filter(({ group }) => group === '高频词')
