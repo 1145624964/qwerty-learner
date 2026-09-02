@@ -13,8 +13,13 @@ import type {
   WordDictationType,
 } from '@/typings'
 import type { ReviewRecord } from '@/utils/db/record'
+import { migratePersistedShanguoChapterSelection } from '@/utils/shanguoChapterMigration'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
+
+if (typeof window !== 'undefined') {
+  migratePersistedShanguoChapterSelection(window.localStorage)
+}
 
 export const currentDictIdAtom = atomWithStorage('currentDict', 'cet4')
 export const currentDictInfoAtom = atom<Dictionary>((get) => {

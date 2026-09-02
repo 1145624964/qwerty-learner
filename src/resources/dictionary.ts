@@ -30,7 +30,7 @@ const chinaExam: DictionaryResource[] = [
   {
     id: 'shanguo-cet6-book-order',
     name: '六级词汇闪过（纸书同序）',
-    description: '按纸质书正文逐行整理，分为 23 个章节，含同形异义词',
+    description: '按纸质书正文逐行整理，保留原章节与词序，拆分为 92 个每日学习任务',
     category: '中国考试',
     tags: ['大学英语'],
     url: '/dicts/shanguo_cet6_book_order.json',

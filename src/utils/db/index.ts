@@ -3,6 +3,7 @@ import { ChapterRecord, ReviewRecord, WordRecord } from './record'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom } from '@/store'
+import { SHANGUO_CET6_DICTIONARY_ID, detachLegacyShanguoChapterRecord } from '@/utils/shanguoChapterMigration'
 import type { Table } from 'dexie'
 import Dexie from 'dexie'
 import { useAtomValue } from 'jotai'
@@ -31,6 +32,26 @@ class RecordDB extends Dexie {
       chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
       reviewRecords: '++id,dict,createTime,isFinished',
     })
+    this.version(4)
+      .stores({
+        wordRecords: '++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]',
+        chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
+        reviewRecords: '++id,dict,createTime,isFinished',
+      })
+      .upgrade((transaction) =>
+        Promise.all([
+          transaction
+            .table<IWordRecord, number>('wordRecords')
+            .where('dict')
+            .equals(SHANGUO_CET6_DICTIONARY_ID)
+            .modify(detachLegacyShanguoChapterRecord),
+          transaction
+            .table<IChapterRecord, number>('chapterRecords')
+            .where('dict')
+            .equals(SHANGUO_CET6_DICTIONARY_ID)
+            .modify(detachLegacyShanguoChapterRecord),
+        ]),
+      )
   }
 }
 

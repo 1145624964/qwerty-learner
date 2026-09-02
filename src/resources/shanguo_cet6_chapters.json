@@ -1,163 +1,646 @@
 [
   {
-    "id": "high-1",
+    "id": "high-1-day-1",
     "group": "高频词",
-    "name": "Word List 1",
+    "name": "Word List 1 · 第1天",
     "start": 0,
+    "end": 41
+  },
+  {
+    "id": "high-1-day-2",
+    "group": "高频词",
+    "name": "Word List 1 · 第2天",
+    "start": 41,
     "end": 82
   },
   {
-    "id": "high-2",
+    "id": "high-2-day-1",
     "group": "高频词",
-    "name": "Word List 2",
+    "name": "Word List 2 · 第1天",
     "start": 82,
+    "end": 124
+  },
+  {
+    "id": "high-2-day-2",
+    "group": "高频词",
+    "name": "Word List 2 · 第2天",
+    "start": 124,
     "end": 165
   },
   {
-    "id": "high-3",
+    "id": "high-3-day-1",
     "group": "高频词",
-    "name": "Word List 3",
+    "name": "Word List 3 · 第1天",
     "start": 165,
+    "end": 206
+  },
+  {
+    "id": "high-3-day-2",
+    "group": "高频词",
+    "name": "Word List 3 · 第2天",
+    "start": 206,
     "end": 247
   },
   {
-    "id": "high-4",
+    "id": "high-4-day-1",
     "group": "高频词",
-    "name": "Word List 4",
+    "name": "Word List 4 · 第1天",
     "start": 247,
+    "end": 288
+  },
+  {
+    "id": "high-4-day-2",
+    "group": "高频词",
+    "name": "Word List 4 · 第2天",
+    "start": 288,
     "end": 329
   },
   {
-    "id": "high-5",
+    "id": "high-5-day-1",
     "group": "高频词",
-    "name": "Word List 5",
+    "name": "Word List 5 · 第1天",
     "start": 329,
+    "end": 370
+  },
+  {
+    "id": "high-5-day-2",
+    "group": "高频词",
+    "name": "Word List 5 · 第2天",
+    "start": 370,
     "end": 411
   },
   {
-    "id": "high-6",
+    "id": "high-6-day-1",
     "group": "高频词",
-    "name": "Word List 6",
+    "name": "Word List 6 · 第1天",
     "start": 411,
+    "end": 452
+  },
+  {
+    "id": "high-6-day-2",
+    "group": "高频词",
+    "name": "Word List 6 · 第2天",
+    "start": 452,
     "end": 492
   },
   {
-    "id": "high-7",
+    "id": "high-7-day-1",
     "group": "高频词",
-    "name": "Word List 7",
+    "name": "Word List 7 · 第1天",
     "start": 492,
+    "end": 531
+  },
+  {
+    "id": "high-7-day-2",
+    "group": "高频词",
+    "name": "Word List 7 · 第2天",
+    "start": 531,
     "end": 569
   },
   {
-    "id": "high-8",
+    "id": "high-8-day-1",
     "group": "高频词",
-    "name": "Word List 8",
+    "name": "Word List 8 · 第1天",
     "start": 569,
+    "end": 610
+  },
+  {
+    "id": "high-8-day-2",
+    "group": "高频词",
+    "name": "Word List 8 · 第2天",
+    "start": 610,
     "end": 650
   },
   {
-    "id": "high-9",
+    "id": "high-9-day-1",
     "group": "高频词",
-    "name": "Word List 9",
+    "name": "Word List 9 · 第1天",
     "start": 650,
+    "end": 692
+  },
+  {
+    "id": "high-9-day-2",
+    "group": "高频词",
+    "name": "Word List 9 · 第2天",
+    "start": 692,
     "end": 733
   },
   {
-    "id": "medium-1",
+    "id": "medium-1-day-1",
     "group": "中频词",
-    "name": "Word List 1",
+    "name": "Word List 1 · 第1天",
     "start": 733,
+    "end": 775
+  },
+  {
+    "id": "medium-1-day-2",
+    "group": "中频词",
+    "name": "Word List 1 · 第2天",
+    "start": 775,
     "end": 817
   },
   {
-    "id": "medium-2",
+    "id": "medium-2-day-1",
     "group": "中频词",
-    "name": "Word List 2",
+    "name": "Word List 2 · 第1天",
     "start": 817,
+    "end": 860
+  },
+  {
+    "id": "medium-2-day-2",
+    "group": "中频词",
+    "name": "Word List 2 · 第2天",
+    "start": 860,
     "end": 902
   },
   {
-    "id": "medium-3",
+    "id": "medium-3-day-1",
     "group": "中频词",
-    "name": "Word List 3",
+    "name": "Word List 3 · 第1天",
     "start": 902,
+    "end": 944
+  },
+  {
+    "id": "medium-3-day-2",
+    "group": "中频词",
+    "name": "Word List 3 · 第2天",
+    "start": 944,
     "end": 986
   },
   {
-    "id": "medium-4",
+    "id": "medium-4-day-1",
     "group": "中频词",
-    "name": "Word List 4",
+    "name": "Word List 4 · 第1天",
     "start": 986,
+    "end": 1029
+  },
+  {
+    "id": "medium-4-day-2",
+    "group": "中频词",
+    "name": "Word List 4 · 第2天",
+    "start": 1029,
     "end": 1071
   },
   {
-    "id": "medium-5",
+    "id": "medium-5-day-1",
     "group": "中频词",
-    "name": "Word List 5",
+    "name": "Word List 5 · 第1天",
     "start": 1071,
+    "end": 1114
+  },
+  {
+    "id": "medium-5-day-2",
+    "group": "中频词",
+    "name": "Word List 5 · 第2天",
+    "start": 1114,
     "end": 1156
   },
   {
-    "id": "medium-6",
+    "id": "medium-6-day-1",
     "group": "中频词",
-    "name": "Word List 6",
+    "name": "Word List 6 · 第1天",
     "start": 1156,
+    "end": 1199
+  },
+  {
+    "id": "medium-6-day-2",
+    "group": "中频词",
+    "name": "Word List 6 · 第2天",
+    "start": 1199,
     "end": 1241
   },
   {
-    "id": "medium-7",
+    "id": "medium-7-day-1",
     "group": "中频词",
-    "name": "Word List 7",
+    "name": "Word List 7 · 第1天",
     "start": 1241,
+    "end": 1283
+  },
+  {
+    "id": "medium-7-day-2",
+    "group": "中频词",
+    "name": "Word List 7 · 第2天",
+    "start": 1283,
     "end": 1325
   },
   {
-    "id": "medium-8",
+    "id": "medium-8-day-1",
     "group": "中频词",
-    "name": "Word List 8",
+    "name": "Word List 8 · 第1天",
     "start": 1325,
+    "end": 1368
+  },
+  {
+    "id": "medium-8-day-2",
+    "group": "中频词",
+    "name": "Word List 8 · 第2天",
+    "start": 1368,
     "end": 1410
   },
   {
-    "id": "medium-9",
+    "id": "medium-9-day-1",
     "group": "中频词",
-    "name": "Word List 9",
+    "name": "Word List 9 · 第1天",
     "start": 1410,
+    "end": 1449
+  },
+  {
+    "id": "medium-9-day-2",
+    "group": "中频词",
+    "name": "Word List 9 · 第2天",
+    "start": 1449,
     "end": 1488
   },
   {
-    "id": "medium-10",
+    "id": "medium-10-day-1",
     "group": "中频词",
-    "name": "Word List 10",
+    "name": "Word List 10 · 第1天",
     "start": 1488,
+    "end": 1529
+  },
+  {
+    "id": "medium-10-day-2",
+    "group": "中频词",
+    "name": "Word List 10 · 第2天",
+    "start": 1529,
     "end": 1569
   },
   {
-    "id": "medium-11",
+    "id": "medium-11-day-1",
     "group": "中频词",
-    "name": "Word List 11",
+    "name": "Word List 11 · 第1天",
     "start": 1569,
+    "end": 1611
+  },
+  {
+    "id": "medium-11-day-2",
+    "group": "中频词",
+    "name": "Word List 11 · 第2天",
+    "start": 1611,
     "end": 1653
   },
   {
-    "id": "medium-12",
+    "id": "medium-12-day-1",
     "group": "中频词",
-    "name": "Word List 12",
+    "name": "Word List 12 · 第1天",
     "start": 1653,
+    "end": 1696
+  },
+  {
+    "id": "medium-12-day-2",
+    "group": "中频词",
+    "name": "Word List 12 · 第2天",
+    "start": 1696,
     "end": 1738
   },
   {
-    "id": "low",
+    "id": "low-day-1",
     "group": "低频词",
-    "name": "完整词表",
+    "name": "第1天",
     "start": 1738,
+    "end": 1788
+  },
+  {
+    "id": "low-day-2",
+    "group": "低频词",
+    "name": "第2天",
+    "start": 1788,
+    "end": 1838
+  },
+  {
+    "id": "low-day-3",
+    "group": "低频词",
+    "name": "第3天",
+    "start": 1838,
+    "end": 1888
+  },
+  {
+    "id": "low-day-4",
+    "group": "低频词",
+    "name": "第4天",
+    "start": 1888,
+    "end": 1938
+  },
+  {
+    "id": "low-day-5",
+    "group": "低频词",
+    "name": "第5天",
+    "start": 1938,
+    "end": 1988
+  },
+  {
+    "id": "low-day-6",
+    "group": "低频词",
+    "name": "第6天",
+    "start": 1988,
+    "end": 2038
+  },
+  {
+    "id": "low-day-7",
+    "group": "低频词",
+    "name": "第7天",
+    "start": 2038,
+    "end": 2088
+  },
+  {
+    "id": "low-day-8",
+    "group": "低频词",
+    "name": "第8天",
+    "start": 2088,
+    "end": 2138
+  },
+  {
+    "id": "low-day-9",
+    "group": "低频词",
+    "name": "第9天",
+    "start": 2138,
+    "end": 2188
+  },
+  {
+    "id": "low-day-10",
+    "group": "低频词",
+    "name": "第10天",
+    "start": 2188,
+    "end": 2238
+  },
+  {
+    "id": "low-day-11",
+    "group": "低频词",
+    "name": "第11天",
+    "start": 2238,
+    "end": 2288
+  },
+  {
+    "id": "low-day-12",
+    "group": "低频词",
+    "name": "第12天",
+    "start": 2288,
+    "end": 2338
+  },
+  {
+    "id": "low-day-13",
+    "group": "低频词",
+    "name": "第13天",
+    "start": 2338,
+    "end": 2388
+  },
+  {
+    "id": "low-day-14",
+    "group": "低频词",
+    "name": "第14天",
+    "start": 2388,
+    "end": 2438
+  },
+  {
+    "id": "low-day-15",
+    "group": "低频词",
+    "name": "第15天",
+    "start": 2438,
+    "end": 2488
+  },
+  {
+    "id": "low-day-16",
+    "group": "低频词",
+    "name": "第16天",
+    "start": 2488,
+    "end": 2538
+  },
+  {
+    "id": "low-day-17",
+    "group": "低频词",
+    "name": "第17天",
+    "start": 2538,
+    "end": 2588
+  },
+  {
+    "id": "low-day-18",
+    "group": "低频词",
+    "name": "第18天",
+    "start": 2588,
+    "end": 2638
+  },
+  {
+    "id": "low-day-19",
+    "group": "低频词",
+    "name": "第19天",
+    "start": 2638,
+    "end": 2688
+  },
+  {
+    "id": "low-day-20",
+    "group": "低频词",
+    "name": "第20天",
+    "start": 2688,
+    "end": 2738
+  },
+  {
+    "id": "low-day-21",
+    "group": "低频词",
+    "name": "第21天",
+    "start": 2738,
+    "end": 2788
+  },
+  {
+    "id": "low-day-22",
+    "group": "低频词",
+    "name": "第22天",
+    "start": 2788,
+    "end": 2838
+  },
+  {
+    "id": "low-day-23",
+    "group": "低频词",
+    "name": "第23天",
+    "start": 2838,
+    "end": 2888
+  },
+  {
+    "id": "low-day-24",
+    "group": "低频词",
+    "name": "第24天",
+    "start": 2888,
+    "end": 2938
+  },
+  {
+    "id": "low-day-25",
+    "group": "低频词",
+    "name": "第25天",
+    "start": 2938,
+    "end": 2988
+  },
+  {
+    "id": "low-day-26",
+    "group": "低频词",
+    "name": "第26天",
+    "start": 2988,
+    "end": 3038
+  },
+  {
+    "id": "low-day-27",
+    "group": "低频词",
+    "name": "第27天",
+    "start": 3038,
+    "end": 3087
+  },
+  {
+    "id": "low-day-28",
+    "group": "低频词",
+    "name": "第28天",
+    "start": 3087,
     "end": 3136
   },
   {
-    "id": "basic",
+    "id": "basic-day-1",
     "group": "简单词",
-    "name": "完整词表",
+    "name": "第1天",
     "start": 3136,
+    "end": 3237
+  },
+  {
+    "id": "basic-day-2",
+    "group": "简单词",
+    "name": "第2天",
+    "start": 3237,
+    "end": 3338
+  },
+  {
+    "id": "basic-day-3",
+    "group": "简单词",
+    "name": "第3天",
+    "start": 3338,
+    "end": 3439
+  },
+  {
+    "id": "basic-day-4",
+    "group": "简单词",
+    "name": "第4天",
+    "start": 3439,
+    "end": 3540
+  },
+  {
+    "id": "basic-day-5",
+    "group": "简单词",
+    "name": "第5天",
+    "start": 3540,
+    "end": 3641
+  },
+  {
+    "id": "basic-day-6",
+    "group": "简单词",
+    "name": "第6天",
+    "start": 3641,
+    "end": 3742
+  },
+  {
+    "id": "basic-day-7",
+    "group": "简单词",
+    "name": "第7天",
+    "start": 3742,
+    "end": 3843
+  },
+  {
+    "id": "basic-day-8",
+    "group": "简单词",
+    "name": "第8天",
+    "start": 3843,
+    "end": 3944
+  },
+  {
+    "id": "basic-day-9",
+    "group": "简单词",
+    "name": "第9天",
+    "start": 3944,
+    "end": 4045
+  },
+  {
+    "id": "basic-day-10",
+    "group": "简单词",
+    "name": "第10天",
+    "start": 4045,
+    "end": 4146
+  },
+  {
+    "id": "basic-day-11",
+    "group": "简单词",
+    "name": "第11天",
+    "start": 4146,
+    "end": 4246
+  },
+  {
+    "id": "basic-day-12",
+    "group": "简单词",
+    "name": "第12天",
+    "start": 4246,
+    "end": 4346
+  },
+  {
+    "id": "basic-day-13",
+    "group": "简单词",
+    "name": "第13天",
+    "start": 4346,
+    "end": 4446
+  },
+  {
+    "id": "basic-day-14",
+    "group": "简单词",
+    "name": "第14天",
+    "start": 4446,
+    "end": 4546
+  },
+  {
+    "id": "basic-day-15",
+    "group": "简单词",
+    "name": "第15天",
+    "start": 4546,
+    "end": 4646
+  },
+  {
+    "id": "basic-day-16",
+    "group": "简单词",
+    "name": "第16天",
+    "start": 4646,
+    "end": 4746
+  },
+  {
+    "id": "basic-day-17",
+    "group": "简单词",
+    "name": "第17天",
+    "start": 4746,
+    "end": 4846
+  },
+  {
+    "id": "basic-day-18",
+    "group": "简单词",
+    "name": "第18天",
+    "start": 4846,
+    "end": 4946
+  },
+  {
+    "id": "basic-day-19",
+    "group": "简单词",
+    "name": "第19天",
+    "start": 4946,
+    "end": 5046
+  },
+  {
+    "id": "basic-day-20",
+    "group": "简单词",
+    "name": "第20天",
+    "start": 5046,
+    "end": 5146
+  },
+  {
+    "id": "basic-day-21",
+    "group": "简单词",
+    "name": "第21天",
+    "start": 5146,
+    "end": 5246
+  },
+  {
+    "id": "basic-day-22",
+    "group": "简单词",
+    "name": "第22天",
+    "start": 5246,
     "end": 5346
   }
 ]
