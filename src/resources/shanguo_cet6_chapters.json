@@ -16,112 +16,112 @@
   {
     "id": "high-2-day-1",
     "group": "高频词",
-    "name": "Word List 2 · 第1天",
+    "name": "Word List 2 · 第3天",
     "start": 82,
     "end": 124
   },
   {
     "id": "high-2-day-2",
     "group": "高频词",
-    "name": "Word List 2 · 第2天",
+    "name": "Word List 2 · 第4天",
     "start": 124,
     "end": 165
   },
   {
     "id": "high-3-day-1",
     "group": "高频词",
-    "name": "Word List 3 · 第1天",
+    "name": "Word List 3 · 第5天",
     "start": 165,
     "end": 206
   },
   {
     "id": "high-3-day-2",
     "group": "高频词",
-    "name": "Word List 3 · 第2天",
+    "name": "Word List 3 · 第6天",
     "start": 206,
     "end": 247
   },
   {
     "id": "high-4-day-1",
     "group": "高频词",
-    "name": "Word List 4 · 第1天",
+    "name": "Word List 4 · 第7天",
     "start": 247,
     "end": 288
   },
   {
     "id": "high-4-day-2",
     "group": "高频词",
-    "name": "Word List 4 · 第2天",
+    "name": "Word List 4 · 第8天",
     "start": 288,
     "end": 329
   },
   {
     "id": "high-5-day-1",
     "group": "高频词",
-    "name": "Word List 5 · 第1天",
+    "name": "Word List 5 · 第9天",
     "start": 329,
     "end": 370
   },
   {
     "id": "high-5-day-2",
     "group": "高频词",
-    "name": "Word List 5 · 第2天",
+    "name": "Word List 5 · 第10天",
     "start": 370,
     "end": 411
   },
   {
     "id": "high-6-day-1",
     "group": "高频词",
-    "name": "Word List 6 · 第1天",
+    "name": "Word List 6 · 第11天",
     "start": 411,
     "end": 452
   },
   {
     "id": "high-6-day-2",
     "group": "高频词",
-    "name": "Word List 6 · 第2天",
+    "name": "Word List 6 · 第12天",
     "start": 452,
     "end": 492
   },
   {
     "id": "high-7-day-1",
     "group": "高频词",
-    "name": "Word List 7 · 第1天",
+    "name": "Word List 7 · 第13天",
     "start": 492,
     "end": 531
   },
   {
     "id": "high-7-day-2",
     "group": "高频词",
-    "name": "Word List 7 · 第2天",
+    "name": "Word List 7 · 第14天",
     "start": 531,
     "end": 569
   },
   {
     "id": "high-8-day-1",
     "group": "高频词",
-    "name": "Word List 8 · 第1天",
+    "name": "Word List 8 · 第15天",
     "start": 569,
     "end": 610
   },
   {
     "id": "high-8-day-2",
     "group": "高频词",
-    "name": "Word List 8 · 第2天",
+    "name": "Word List 8 · 第16天",
     "start": 610,
     "end": 650
   },
   {
     "id": "high-9-day-1",
     "group": "高频词",
-    "name": "Word List 9 · 第1天",
+    "name": "Word List 9 · 第17天",
     "start": 650,
     "end": 692
   },
   {
     "id": "high-9-day-2",
     "group": "高频词",
-    "name": "Word List 9 · 第2天",
+    "name": "Word List 9 · 第18天",
     "start": 692,
     "end": 733
   },
@@ -142,154 +142,154 @@
   {
     "id": "medium-2-day-1",
     "group": "中频词",
-    "name": "Word List 2 · 第1天",
+    "name": "Word List 2 · 第3天",
     "start": 817,
     "end": 860
   },
   {
     "id": "medium-2-day-2",
     "group": "中频词",
-    "name": "Word List 2 · 第2天",
+    "name": "Word List 2 · 第4天",
     "start": 860,
     "end": 902
   },
   {
     "id": "medium-3-day-1",
     "group": "中频词",
-    "name": "Word List 3 · 第1天",
+    "name": "Word List 3 · 第5天",
     "start": 902,
     "end": 944
   },
   {
     "id": "medium-3-day-2",
     "group": "中频词",
-    "name": "Word List 3 · 第2天",
+    "name": "Word List 3 · 第6天",
     "start": 944,
     "end": 986
   },
   {
     "id": "medium-4-day-1",
     "group": "中频词",
-    "name": "Word List 4 · 第1天",
+    "name": "Word List 4 · 第7天",
     "start": 986,
     "end": 1029
   },
   {
     "id": "medium-4-day-2",
     "group": "中频词",
-    "name": "Word List 4 · 第2天",
+    "name": "Word List 4 · 第8天",
     "start": 1029,
     "end": 1071
   },
   {
     "id": "medium-5-day-1",
     "group": "中频词",
-    "name": "Word List 5 · 第1天",
+    "name": "Word List 5 · 第9天",
     "start": 1071,
     "end": 1114
   },
   {
     "id": "medium-5-day-2",
     "group": "中频词",
-    "name": "Word List 5 · 第2天",
+    "name": "Word List 5 · 第10天",
     "start": 1114,
     "end": 1156
   },
   {
     "id": "medium-6-day-1",
     "group": "中频词",
-    "name": "Word List 6 · 第1天",
+    "name": "Word List 6 · 第11天",
     "start": 1156,
     "end": 1199
   },
   {
     "id": "medium-6-day-2",
     "group": "中频词",
-    "name": "Word List 6 · 第2天",
+    "name": "Word List 6 · 第12天",
     "start": 1199,
     "end": 1241
   },
   {
     "id": "medium-7-day-1",
     "group": "中频词",
-    "name": "Word List 7 · 第1天",
+    "name": "Word List 7 · 第13天",
     "start": 1241,
     "end": 1283
   },
   {
     "id": "medium-7-day-2",
     "group": "中频词",
-    "name": "Word List 7 · 第2天",
+    "name": "Word List 7 · 第14天",
     "start": 1283,
     "end": 1325
   },
   {
     "id": "medium-8-day-1",
     "group": "中频词",
-    "name": "Word List 8 · 第1天",
+    "name": "Word List 8 · 第15天",
     "start": 1325,
     "end": 1368
   },
   {
     "id": "medium-8-day-2",
     "group": "中频词",
-    "name": "Word List 8 · 第2天",
+    "name": "Word List 8 · 第16天",
     "start": 1368,
     "end": 1410
   },
   {
     "id": "medium-9-day-1",
     "group": "中频词",
-    "name": "Word List 9 · 第1天",
+    "name": "Word List 9 · 第17天",
     "start": 1410,
     "end": 1449
   },
   {
     "id": "medium-9-day-2",
     "group": "中频词",
-    "name": "Word List 9 · 第2天",
+    "name": "Word List 9 · 第18天",
     "start": 1449,
     "end": 1488
   },
   {
     "id": "medium-10-day-1",
     "group": "中频词",
-    "name": "Word List 10 · 第1天",
+    "name": "Word List 10 · 第19天",
     "start": 1488,
     "end": 1529
   },
   {
     "id": "medium-10-day-2",
     "group": "中频词",
-    "name": "Word List 10 · 第2天",
+    "name": "Word List 10 · 第20天",
     "start": 1529,
     "end": 1569
   },
   {
     "id": "medium-11-day-1",
     "group": "中频词",
-    "name": "Word List 11 · 第1天",
+    "name": "Word List 11 · 第21天",
     "start": 1569,
     "end": 1611
   },
   {
     "id": "medium-11-day-2",
     "group": "中频词",
-    "name": "Word List 11 · 第2天",
+    "name": "Word List 11 · 第22天",
     "start": 1611,
     "end": 1653
   },
   {
     "id": "medium-12-day-1",
     "group": "中频词",
-    "name": "Word List 12 · 第1天",
+    "name": "Word List 12 · 第23天",
     "start": 1653,
     "end": 1696
   },
   {
     "id": "medium-12-day-2",
     "group": "中频词",
-    "name": "Word List 12 · 第2天",
+    "name": "Word List 12 · 第24天",
     "start": 1696,
     "end": 1738
   },

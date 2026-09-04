@@ -45,7 +45,7 @@ test('daily study chapters cover every printed row exactly once and preserve ord
   assert.ok(chapters.every((chapter, index) => index === 0 || chapter.start === chapters[index - 1].end))
   assert.ok(
     chapters.every(({ group, name }) =>
-      group === '高频词' || group === '中频词' ? /^Word List \d+ · 第[12]天$/.test(name) : /^第\d+天$/.test(name),
+      group === '高频词' || group === '中频词' ? /^Word List \d+ · 第\d+天$/.test(name) : /^第\d+天$/.test(name),
     ),
   )
   assert.deepEqual(
@@ -106,8 +106,56 @@ test('hard-word Word Lists are split into the approved two-day workloads', async
     [42, 42, 43, 42, 42, 42, 43, 42, 43, 42, 43, 42, 42, 42, 43, 42, 39, 39, 41, 40, 42, 42, 43, 42],
   )
   assert.deepEqual(
-    medium.slice(0, 4).map(({ name }) => name),
-    ['Word List 1 · 第1天', 'Word List 1 · 第2天', 'Word List 2 · 第1天', 'Word List 2 · 第2天'],
+    high.map(({ name }) => name),
+    [
+      'Word List 1 · 第1天',
+      'Word List 1 · 第2天',
+      'Word List 2 · 第3天',
+      'Word List 2 · 第4天',
+      'Word List 3 · 第5天',
+      'Word List 3 · 第6天',
+      'Word List 4 · 第7天',
+      'Word List 4 · 第8天',
+      'Word List 5 · 第9天',
+      'Word List 5 · 第10天',
+      'Word List 6 · 第11天',
+      'Word List 6 · 第12天',
+      'Word List 7 · 第13天',
+      'Word List 7 · 第14天',
+      'Word List 8 · 第15天',
+      'Word List 8 · 第16天',
+      'Word List 9 · 第17天',
+      'Word List 9 · 第18天',
+    ],
+  )
+  assert.deepEqual(
+    medium.map(({ name }) => name),
+    [
+      'Word List 1 · 第1天',
+      'Word List 1 · 第2天',
+      'Word List 2 · 第3天',
+      'Word List 2 · 第4天',
+      'Word List 3 · 第5天',
+      'Word List 3 · 第6天',
+      'Word List 4 · 第7天',
+      'Word List 4 · 第8天',
+      'Word List 5 · 第9天',
+      'Word List 5 · 第10天',
+      'Word List 6 · 第11天',
+      'Word List 6 · 第12天',
+      'Word List 7 · 第13天',
+      'Word List 7 · 第14天',
+      'Word List 8 · 第15天',
+      'Word List 8 · 第16天',
+      'Word List 9 · 第17天',
+      'Word List 9 · 第18天',
+      'Word List 10 · 第19天',
+      'Word List 10 · 第20天',
+      'Word List 11 · 第21天',
+      'Word List 11 · 第22天',
+      'Word List 12 · 第23天',
+      'Word List 12 · 第24天',
+    ],
   )
 })
 
@@ -230,6 +278,10 @@ test('paper-defined chapter labels stay intact outside the gallery dialog', asyn
     assert.equal(
       getDictionaryChapterLabel({ id: 'medium-1-day-1', group: '中频词', name: 'Word List 1 · 第1天', start: 733, end: 775 }, 18),
       '中频词 · Word List 1 · 第1天',
+    )
+    assert.equal(
+      getDictionaryChapterLabel({ id: 'medium-2-day-1', group: '中频词', name: 'Word List 2 · 第3天', start: 817, end: 860 }, 20),
+      '中频词 · Word List 2 · 第3天',
     )
     assert.equal(getDictionaryChapterLabel({ id: '3', name: '第 3 章', start: 40, end: 60 }, 2), '第 3 章')
     assert.equal(getDictionaryChapterLabel(undefined, 4), '第 5 章')
