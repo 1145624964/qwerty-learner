@@ -66,7 +66,30 @@ test('paper-specific meanings override broader dictionary definitions', async ()
   const relish = dailyWords.find(({ name }) => name === 'relish')
 
   assert.ok(relish, 'relish should stay in 中频词 Word List 1 · 第1天')
-  assert.deepEqual(relish.trans, ['期待；享受；乐趣'])
+  assert.deepEqual(relish.trans, ['vt. 期待；享受 n. [U] 享受；乐趣'])
+})
+
+test('all medium-frequency entries publish the canonical paper definitions', async () => {
+  const words = await readJson('public/dicts/shanguo_cet6_book_order.json')
+  const definitions = await readJson('scripts/shanguo_medium_book_translations.json')
+  const mediumWords = words.slice(733, 1738)
+
+  assert.equal(definitions.length, 1005)
+  assert.deepEqual(
+    definitions.map(({ name }) => name),
+    mediumWords.map(({ name }) => name),
+  )
+  assert.ok(definitions.every(({ trans }) => typeof trans === 'string' && trans.length > 0))
+  assert.ok(definitions.every(({ bookPage }) => Number.isInteger(bookPage) && bookPage >= 156 && bookPage <= 332))
+  assert.ok(definitions.every(({ trans }) => /(?:^|\s)(?:n|v|vt|vi|a|ad|prep)\./.test(trans)))
+  assert.ok(definitions.every(({ trans }) => !/[|△·]|\.{2,}|[\u4e00-\u9fff]l|l[\u4e00-\u9fff]/.test(trans)))
+  assert.deepEqual(
+    mediumWords.map(({ trans }) => trans),
+    definitions.map(({ trans }) => [trans]),
+  )
+  assert.equal(definitions[0].trans, 'v. 创新')
+  assert.equal(definitions[6].trans, 'vt. 期待；享受 n. [U] 享受；乐趣')
+  assert.equal(definitions.at(-1).trans, 'a. 固执的；倔强的；难以去除（或对付）的')
 })
 
 test('hard-word Word Lists are split into the approved two-day workloads', async () => {

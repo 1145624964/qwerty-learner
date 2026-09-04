@@ -60,6 +60,7 @@ CHAPTERS = [
 # follows the body one row at a time, preserving separately printed homographs.
 EXPECTED_GROUP_COUNTS = {"高频词": 734, "中频词": 1005, "低频词": 1374, "简单词": 2182}
 PRINTED_ROW_COUNTS = {"高频词": 733, "中频词": 1005, "低频词": 1398, "简单词": 2210}
+MEDIUM_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_medium_book_translations.json"
 PREFERRED_DICTIONARIES = [
     "xinghuoqiaoji_6.json",
     "CET6_T.json",
@@ -73,12 +74,6 @@ MANUAL_ENTRIES = {
         "trans": ["n. 婴儿潮"],
         "usphone": "ˈbeɪbi buːm",
         "ukphone": "ˈbeɪbi buːm",
-    },
-    "relish": {
-        "name": "relish",
-        "trans": ["期待；享受；乐趣"],
-        "usphone": "ˈrelɪʃ",
-        "ukphone": "ˈrelɪʃ",
     },
 }
 
@@ -161,6 +156,24 @@ def choose_dictionary_entry(name: str, lexicon: dict[str, list[dict[str, Any]]])
         "usphone": str(selected.get("usphone") or ""),
         "ukphone": str(selected.get("ukphone") or ""),
     }
+
+
+def apply_medium_book_translations(dictionary: list[dict[str, Any]]) -> None:
+    definitions = json.loads(MEDIUM_BOOK_TRANSLATIONS.read_text(encoding="utf-8"))
+    medium_start = PRINTED_ROW_COUNTS["高频词"]
+    medium_end = medium_start + PRINTED_ROW_COUNTS["中频词"]
+    medium_words = dictionary[medium_start:medium_end]
+
+    if len(definitions) != PRINTED_ROW_COUNTS["中频词"]:
+        raise SystemExit(f"Expected 1005 medium-frequency book definitions, found {len(definitions)}")
+    if [item.get("name") for item in definitions] != [word["name"] for word in medium_words]:
+        raise SystemExit("Medium-frequency book definitions do not match the validated printed order")
+
+    for word, definition in zip(medium_words, definitions, strict=True):
+        translation = definition.get("trans")
+        if not isinstance(translation, str) or not translation.strip():
+            raise SystemExit(f"Missing medium-frequency book definition for {word['name']}")
+        word["trans"] = [translation]
 
 
 def extract_page_candidates(page: dict[str, Any]) -> list[dict[str, Any]]:
@@ -298,6 +311,7 @@ def main() -> None:
         dictionary = [choose_dictionary_entry(candidate["word"], lexicon) for candidate in ordered_candidates]
         if len(dictionary) != sum(PRINTED_ROW_COUNTS.values()):
             raise SystemExit("Published dictionary length does not match validated printed rows")
+        apply_medium_book_translations(dictionary)
 
         published_chapters = [
             {

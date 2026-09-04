@@ -1,0 +1,5027 @@
+[
+  {
+    "name": "innovate",
+    "trans": "v. 创新",
+    "bookPage": 156
+  },
+  {
+    "name": "renovate",
+    "trans": "vt. 翻新；修复；整修",
+    "bookPage": 156
+  },
+  {
+    "name": "triple",
+    "trans": "a. 三倍的；三部分的 v. （使）增至三倍",
+    "bookPage": 157
+  },
+  {
+    "name": "tribe",
+    "trans": "n. [C] 部落；一类（人）",
+    "bookPage": 157
+  },
+  {
+    "name": "trivial",
+    "trans": "a. 微不足道的；琐碎的",
+    "bookPage": 157
+  },
+  {
+    "name": "relax",
+    "trans": "v. （使）放松",
+    "bookPage": 157
+  },
+  {
+    "name": "relish",
+    "trans": "vt. 期待；享受 n. [U] 享受；乐趣",
+    "bookPage": 157
+  },
+  {
+    "name": "scope",
+    "trans": "n. [sing.] 范围； [U] 机会；能力 vt. 仔细看",
+    "bookPage": 158
+  },
+  {
+    "name": "remote",
+    "trans": "a. 偏远的；遥远的；关系较远的；远程的",
+    "bookPage": 158
+  },
+  {
+    "name": "locomotive",
+    "trans": "n. [C] 机车；火车头 a. 移动的；运动的",
+    "bookPage": 158
+  },
+  {
+    "name": "motion",
+    "trans": "n. [sing., U] 运动； [C] 动作",
+    "bookPage": 158
+  },
+  {
+    "name": "negotiate",
+    "trans": "v. 协商；谈判",
+    "bookPage": 158
+  },
+  {
+    "name": "negligible",
+    "trans": "a. 微不足道的；可忽略不计的",
+    "bookPage": 159
+  },
+  {
+    "name": "negligent",
+    "trans": "a. 失职的；疏忽的；造成过失的",
+    "bookPage": 159
+  },
+  {
+    "name": "globe",
+    "trans": "n. [C] 地球仪；球体； [sing.] [the ~] 世界（尤用以强调其大）；地球",
+    "bookPage": 159
+  },
+  {
+    "name": "dome",
+    "trans": "n. [C] 穹顶；圆屋顶",
+    "bookPage": 159
+  },
+  {
+    "name": "domain",
+    "trans": "n. [C] 领域，范畴；领土",
+    "bookPage": 159
+  },
+  {
+    "name": "ratio",
+    "trans": "n. [C] 比率；比例",
+    "bookPage": 159
+  },
+  {
+    "name": "sight",
+    "trans": "n. [U] 视力；看见； [C] 景象",
+    "bookPage": 160
+  },
+  {
+    "name": "fountain",
+    "trans": "n. [C] 喷泉；（液体或其他物质的）喷射；源泉",
+    "bookPage": 160
+  },
+  {
+    "name": "multitude",
+    "trans": "n. [C] 许多，大量；人群",
+    "bookPage": 160
+  },
+  {
+    "name": "multiple",
+    "trans": "a. 数量多的；多种多样的 n. [C] 倍数",
+    "bookPage": 160
+  },
+  {
+    "name": "render",
+    "trans": "vt. 提供；使成为",
+    "bookPage": 160
+  },
+  {
+    "name": "rhythm",
+    "trans": "n. [C, U] 节奏；节律",
+    "bookPage": 161
+  },
+  {
+    "name": "graph",
+    "trans": "n. [C] 图表；曲线图",
+    "bookPage": 161
+  },
+  {
+    "name": "biography",
+    "trans": "n. [C, U] 传记",
+    "bookPage": 161
+  },
+  {
+    "name": "bibliography",
+    "trans": "n. [C] 书目；参考书目",
+    "bookPage": 161
+  },
+  {
+    "name": "indulge",
+    "trans": "v. 沉迷 vt. 纵容；满足",
+    "bookPage": 161
+  },
+  {
+    "name": "embark",
+    "trans": "v. 上船 vi. 开始从事",
+    "bookPage": 162
+  },
+  {
+    "name": "embed",
+    "trans": "v. 嵌入 vt. 扎根于",
+    "bookPage": 162
+  },
+  {
+    "name": "embarrass",
+    "trans": "v. 使尴尬，使难堪；使陷入困境",
+    "bookPage": 162
+  },
+  {
+    "name": "embody",
+    "trans": "vt. 体现；代表；包含",
+    "bookPage": 162
+  },
+  {
+    "name": "enlist",
+    "trans": "v. 征募；（使）参军；（使）入伍 vt. 谋取",
+    "bookPage": 162
+  },
+  {
+    "name": "endeavour",
+    "trans": "（亦作 endeavor） n. [C, U] 尝试，努力 vi. 尽力",
+    "bookPage": 163
+  },
+  {
+    "name": "enrich",
+    "trans": "vt. 使丰富；充实；使富有",
+    "bookPage": 163
+  },
+  {
+    "name": "intervene",
+    "trans": "vi. 干预；介入；出面",
+    "bookPage": 163
+  },
+  {
+    "name": "avenue",
+    "trans": "n. [C] 大街；林荫大道；途径；方法",
+    "bookPage": 163
+  },
+  {
+    "name": "convenient",
+    "trans": "a. 方便的；便利的；附近的",
+    "bookPage": 163
+  },
+  {
+    "name": "advent",
+    "trans": "n. [sing.] 出现，到来",
+    "bookPage": 163
+  },
+  {
+    "name": "ventilate",
+    "trans": "vt. 使通风，使空气流通；公开表达（感情或意见）",
+    "bookPage": 164
+  },
+  {
+    "name": "numerical",
+    "trans": "a. 数字的；数值的",
+    "bookPage": 164
+  },
+  {
+    "name": "empirical",
+    "trans": "a. 以实验（或经验）为依据的；经验主义的",
+    "bookPage": 164
+  },
+  {
+    "name": "necessity",
+    "trans": "n. [U] 必要； [C] 必需品",
+    "bookPage": 164
+  },
+  {
+    "name": "velocity",
+    "trans": "n. [C, U] 速度",
+    "bookPage": 164
+  },
+  {
+    "name": "vicinity",
+    "trans": "n. [sing.] 附近",
+    "bookPage": 165
+  },
+  {
+    "name": "equity",
+    "trans": "n. [U] 公平；公正；资产净值",
+    "bookPage": 165
+  },
+  {
+    "name": "speciality",
+    "trans": "（亦作 specialty） n. [C] 特产；专长；专业",
+    "bookPage": 165
+  },
+  {
+    "name": "clarity",
+    "trans": "n. [U] 清晰；思路清晰；（液体的）清澈度",
+    "bookPage": 165
+  },
+  {
+    "name": "solidarity",
+    "trans": "n. [U] 团结；相互支持",
+    "bookPage": 165
+  },
+  {
+    "name": "award",
+    "trans": "n. [C] 奖；奖状 vt. 授予",
+    "bookPage": 165
+  },
+  {
+    "name": "awkward",
+    "trans": "a. 使人尴尬的；棘手的；不方便的；（姿势）别扭的",
+    "bookPage": 166
+  },
+  {
+    "name": "downward",
+    "trans": "a. 向下的；下降的",
+    "bookPage": 166
+  },
+  {
+    "name": "afterwards",
+    "trans": "ad. 以后；后来",
+    "bookPage": 166
+  },
+  {
+    "name": "accountable",
+    "trans": "a. 负有责任的",
+    "bookPage": 166
+  },
+  {
+    "name": "inevitable",
+    "trans": "a. 不可避免的；必然（发生）的",
+    "bookPage": 166
+  },
+  {
+    "name": "liable",
+    "trans": "a. 有责任的；可能（做某事）；有……倾向的",
+    "bookPage": 166
+  },
+  {
+    "name": "viable",
+    "trans": "a. 切实可行的；能存活的",
+    "bookPage": 167
+  },
+  {
+    "name": "indispensable",
+    "trans": "a. 必不可少的，不可或缺的",
+    "bookPage": 167
+  },
+  {
+    "name": "considerable",
+    "trans": "a. 相当大的；相当多的",
+    "bookPage": 167
+  },
+  {
+    "name": "feasible",
+    "trans": "a. 可行的；行得通的",
+    "bookPage": 167
+  },
+  {
+    "name": "credible",
+    "trans": "a. 可信的；可靠的",
+    "bookPage": 167
+  },
+  {
+    "name": "edible",
+    "trans": "a. 可食用的，能吃的",
+    "bookPage": 168
+  },
+  {
+    "name": "tangible",
+    "trans": "a. 有形的；实际的",
+    "bookPage": 168
+  },
+  {
+    "name": "compatible",
+    "trans": "a. 兼容的",
+    "bookPage": 168
+  },
+  {
+    "name": "intelligible",
+    "trans": "a. 容易理解的，易懂的",
+    "bookPage": 168
+  },
+  {
+    "name": "incredible",
+    "trans": "a. 难以置信的；不可思议的；极好的；惊人的",
+    "bookPage": 168
+  },
+  {
+    "name": "eligible",
+    "trans": "a. 有资格的；合适的；合格的",
+    "bookPage": 168
+  },
+  {
+    "name": "disable",
+    "trans": "v. 使伤残；使无效；使不能正常运转",
+    "bookPage": 169
+  },
+  {
+    "name": "ignite",
+    "trans": "v. 点燃 vt. 激起",
+    "bookPage": 169
+  },
+  {
+    "name": "finite",
+    "trans": "a. 有限的；限定的",
+    "bookPage": 169
+  },
+  {
+    "name": "indefinite",
+    "trans": "a. 无限期的；期限不定的；模糊不清的",
+    "bookPage": 169
+  },
+  {
+    "name": "carpenter",
+    "trans": "n. [C] 木匠，木工",
+    "bookPage": 169
+  },
+  {
+    "name": "partner",
+    "trans": "n. [C] 搭档；配偶；合伙人 v. 与……搭档",
+    "bookPage": 170
+  },
+  {
+    "name": "glacier",
+    "trans": "n. [C] 冰川；冰河",
+    "bookPage": 170
+  },
+  {
+    "name": "corner",
+    "trans": "n. [C] 角落；街角 vt. 逼……入绝境",
+    "bookPage": 170
+  },
+  {
+    "name": "carrier",
+    "trans": "n. [C] 运输工具；运送人；航空母舰",
+    "bookPage": 170
+  },
+  {
+    "name": "poster",
+    "trans": "n. [C] 海报",
+    "bookPage": 170
+  },
+  {
+    "name": "rubber",
+    "trans": "n. [U] 橡胶； [C] 橡皮；一局",
+    "bookPage": 170
+  },
+  {
+    "name": "filter",
+    "trans": "vt. 过滤 vi. 隐约透过 n. [C] 过滤器",
+    "bookPage": 170
+  },
+  {
+    "name": "linger",
+    "trans": "vi. 继续存留；逗留；花很长时间做（某事）；持续看",
+    "bookPage": 171
+  },
+  {
+    "name": "ponder",
+    "trans": "v. 仔细思考，琢磨",
+    "bookPage": 171
+  },
+  {
+    "name": "layer",
+    "trans": "n. [C] 层；层次 vt. 把……分层堆放",
+    "bookPage": 171
+  },
+  {
+    "name": "sinister",
+    "trans": "a. 邪恶的；阴险的；不祥的",
+    "bookPage": 171
+  },
+  {
+    "name": "bitter",
+    "trans": "a. 味苦的；愤愤不平的；使人悲痛的；刺骨的",
+    "bookPage": 171
+  },
+  {
+    "name": "proceed",
+    "trans": "vi. 接着做，继续做；行进",
+    "bookPage": 172
+  },
+  {
+    "name": "profound",
+    "trans": "a. 深远的；巨大的；深奥的",
+    "bookPage": 172
+  },
+  {
+    "name": "pronounce",
+    "trans": "vt. 读（音），发音；正式宣布 v. 发表意见",
+    "bookPage": 172
+  },
+  {
+    "name": "propose",
+    "trans": "vt. 建议；提出 v. 求婚",
+    "bookPage": 173
+  },
+  {
+    "name": "propel",
+    "trans": "vt. 推动；驱使",
+    "bookPage": 173
+  },
+  {
+    "name": "prosper",
+    "trans": "vi. 繁荣；兴旺",
+    "bookPage": 173
+  },
+  {
+    "name": "temple",
+    "trans": "n. [C] 庙宇，寺庙，寺院",
+    "bookPage": 173
+  },
+  {
+    "name": "postpone",
+    "trans": "v. 推迟；延期；延缓",
+    "bookPage": 173
+  },
+  {
+    "name": "tense",
+    "trans": "a. 紧张的 n. [C, U] 时态",
+    "bookPage": 174
+  },
+  {
+    "name": "ideology",
+    "trans": "n. [C, U] 思想（体系）；意识形态",
+    "bookPage": 174
+  },
+  {
+    "name": "reckon",
+    "trans": "v. 认为 vt. 估算；预计；被看作是",
+    "bookPage": 174
+  },
+  {
+    "name": "reckless",
+    "trans": "a. 鲁莽的；不计后果的，无所顾忌的",
+    "bookPage": 174
+  },
+  {
+    "name": "trace",
+    "trans": "vt. 追溯 n. [C, U] 踪迹； [C] 微量",
+    "bookPage": 174
+  },
+  {
+    "name": "trail",
+    "trans": "n. [C] 痕迹；踪迹 v. 落后 v. 跟踪",
+    "bookPage": 175
+  },
+  {
+    "name": "elaborate",
+    "trans": "a. 精心制作的 v. 详尽阐述 vt. 周密制定",
+    "bookPage": 175
+  },
+  {
+    "name": "collaborate",
+    "trans": "vi. 合作；勾结敌人",
+    "bookPage": 175
+  },
+  {
+    "name": "monopoly",
+    "trans": "n. [C] 垄断； [常用 sing.] 专利",
+    "bookPage": 175
+  },
+  {
+    "name": "triumph",
+    "trans": "n. [C, U] 成功，伟大胜利； [U] 喜悦 vi. 战胜",
+    "bookPage": 175
+  },
+  {
+    "name": "ritual",
+    "trans": "n. [C, U] 宗教仪式；习惯 a. 仪式上的",
+    "bookPage": 176
+  },
+  {
+    "name": "conserve",
+    "trans": "vt. 保存；保护；节约，节省",
+    "bookPage": 176
+  },
+  {
+    "name": "conservative",
+    "trans": "a. 保守的；守旧的；传统的； [C-] 保守党的",
+    "bookPage": 176
+  },
+  {
+    "name": "servant",
+    "trans": "n. [C] 仆人；职员",
+    "bookPage": 176
+  },
+  {
+    "name": "victim",
+    "trans": "n. [C] 受害者；牺牲品",
+    "bookPage": 176
+  },
+  {
+    "name": "victory",
+    "trans": "n. [C, U] 胜利，成功",
+    "bookPage": 177
+  },
+  {
+    "name": "react",
+    "trans": "vi. （对.）作出反应；反对；起化学反应",
+    "bookPage": 177
+  },
+  {
+    "name": "activate",
+    "trans": "vt. 激活",
+    "bookPage": 177
+  },
+  {
+    "name": "interact",
+    "trans": "vi. 相互作用；互动；交流",
+    "bookPage": 177
+  },
+  {
+    "name": "consensus",
+    "trans": "n. [sing., U] 一致的意见，共识",
+    "bookPage": 177
+  },
+  {
+    "name": "sensation",
+    "trans": "n. [C] 感觉； [U] 知觉能力",
+    "bookPage": 177
+  },
+  {
+    "name": "nonsense",
+    "trans": "n. [C, U] 谬论；胡扯； [U] 不可接受的行为",
+    "bookPage": 178
+  },
+  {
+    "name": "consent",
+    "trans": "n. [U] 同意 vi. 同意",
+    "bookPage": 178
+  },
+  {
+    "name": "sentiment",
+    "trans": "n. [C, U] 观点；情绪； [U] 伤感",
+    "bookPage": 178
+  },
+  {
+    "name": "surface",
+    "trans": "n. [C] 表面； [常用 sing.] 水面",
+    "bookPage": 178
+  },
+  {
+    "name": "surveillance",
+    "trans": "n. [U] 监视",
+    "bookPage": 178
+  },
+  {
+    "name": "surround",
+    "trans": "vt. （使）包围；围绕 n. [C] （物品的）边",
+    "bookPage": 178
+  },
+  {
+    "name": "surpass",
+    "trans": "v. 超过",
+    "bookPage": 179
+  },
+  {
+    "name": "reassure",
+    "trans": "vt. 使……安心；使消除疑虑",
+    "bookPage": 179
+  },
+  {
+    "name": "inferior",
+    "trans": "a. 较差的，次的；级别低的",
+    "bookPage": 179
+  },
+  {
+    "name": "overhaul",
+    "trans": "n. [C] 检修；改革 v. 彻底检修；超过",
+    "bookPage": 179
+  },
+  {
+    "name": "overnight",
+    "trans": "ad. 在夜间；突然 a. 夜间的；一夜之间的",
+    "bookPage": 179
+  },
+  {
+    "name": "overwhelm",
+    "trans": "vt. 淹没；征服；压垮",
+    "bookPage": 180
+  },
+  {
+    "name": "overturn",
+    "trans": "v. （使）翻转 vt. 推翻，撤销（判决等）；颠覆",
+    "bookPage": 180
+  },
+  {
+    "name": "overcome",
+    "trans": "v. 克服；解决；征服，战胜",
+    "bookPage": 180
+  },
+  {
+    "name": "overlook",
+    "trans": "vt. 忽视，忽略；俯瞰",
+    "bookPage": 180
+  },
+  {
+    "name": "amid",
+    "trans": "（亦作 amidst） prep. 在……中",
+    "bookPage": 180
+  },
+  {
+    "name": "midst",
+    "trans": "n. [U] 中间",
+    "bookPage": 180
+  },
+  {
+    "name": "remedy",
+    "trans": "n. [C] 解决方法；疗法 vt. 纠正",
+    "bookPage": 181
+  },
+  {
+    "name": "medicare",
+    "trans": "n. [U] 医疗保障制度",
+    "bookPage": 181
+  },
+  {
+    "name": "testimony",
+    "trans": "n. [sing., U] 证明； [C, U] 证词，口供",
+    "bookPage": 181
+  },
+  {
+    "name": "harmony",
+    "trans": "n. [U] 融洽；和睦；和谐",
+    "bookPage": 181
+  },
+  {
+    "name": "relevant",
+    "trans": "a. 相关的；有意义的",
+    "bookPage": 181
+  },
+  {
+    "name": "levy",
+    "trans": "n. [C] 税款 vt. 征收；征（税）",
+    "bookPage": 181
+  },
+  {
+    "name": "lever",
+    "trans": "n. [C] 杠杆；（车辆或机器的）操纵杆；方法 vt. 撬动",
+    "bookPage": 182
+  },
+  {
+    "name": "alleviate",
+    "trans": "vt. 减轻；缓解",
+    "bookPage": 182
+  },
+  {
+    "name": "relieve",
+    "trans": "v. 减轻；缓解",
+    "bookPage": 182
+  },
+  {
+    "name": "rectify",
+    "trans": "v. 改正；纠正",
+    "bookPage": 182
+  },
+  {
+    "name": "signify",
+    "trans": "vt. 表示；预示 vi. 要紧",
+    "bookPage": 182
+  },
+  {
+    "name": "testify",
+    "trans": "v. （尤指出庭）作证；证明",
+    "bookPage": 183
+  },
+  {
+    "name": "certify",
+    "trans": "vt. 证实，证明",
+    "bookPage": 183
+  },
+  {
+    "name": "specify",
+    "trans": "vt. 详述；指定",
+    "bookPage": 183
+  },
+  {
+    "name": "verify",
+    "trans": "v. 核实；证明；证实",
+    "bookPage": 183
+  },
+  {
+    "name": "qualify",
+    "trans": "v. （使）有资格 vi. 取得资格",
+    "bookPage": 183
+  },
+  {
+    "name": "sanctuary",
+    "trans": "n. [常用 sing.] 庇护所；鸟兽保护区； [U] 保护",
+    "bookPage": 183
+  },
+  {
+    "name": "temporary",
+    "trans": "a. 暂时的；临时的",
+    "bookPage": 184
+  },
+  {
+    "name": "contemporary",
+    "trans": "a. 当代的；同时代的",
+    "bookPage": 184
+  },
+  {
+    "name": "candidate",
+    "trans": "n. [C] 候选人；求职者",
+    "bookPage": 184
+  },
+  {
+    "name": "legitimate",
+    "trans": "a. 合情合理的，正当合理的；合法的",
+    "bookPage": 184
+  },
+  {
+    "name": "intimate",
+    "trans": "a. 亲密的；个人隐私的 vt. 暗示",
+    "bookPage": 184
+  },
+  {
+    "name": "anticipate",
+    "trans": "v. 预料，预见，预计（并做准备）",
+    "bookPage": 185
+  },
+  {
+    "name": "cooperate",
+    "trans": "vi. 合作；配合",
+    "bookPage": 185
+  },
+  {
+    "name": "culminate",
+    "trans": "vi. 以……告终，（在某一点）结束",
+    "bookPage": 185
+  },
+  {
+    "name": "cultivate",
+    "trans": "vt. 培养；耕作，种植",
+    "bookPage": 185
+  },
+  {
+    "name": "decorate",
+    "trans": "v. 装饰；点缀；美化",
+    "bookPage": 185
+  },
+  {
+    "name": "donate",
+    "trans": "vt. 捐赠；捐献（器官）；献（血）",
+    "bookPage": 185
+  },
+  {
+    "name": "fascinate",
+    "trans": "v. 深深吸引，迷住",
+    "bookPage": 186
+  },
+  {
+    "name": "radiate",
+    "trans": "v. 显出，流露；发散，辐射",
+    "bookPage": 186
+  },
+  {
+    "name": "tolerate",
+    "trans": "v. 容许；忍耐，忍受；容忍",
+    "bookPage": 186
+  },
+  {
+    "name": "deteriorate",
+    "trans": "vi. 恶化，变坏；退化",
+    "bookPage": 186
+  },
+  {
+    "name": "insulate",
+    "trans": "vt. 隔离；使免受（不受影响）；使隔音，使绝缘",
+    "bookPage": 186
+  },
+  {
+    "name": "isolate",
+    "trans": "vt. 隔离，孤立；分离",
+    "bookPage": 186
+  },
+  {
+    "name": "irritate",
+    "trans": "vt. 使烦恼，激怒；刺激（皮肤或身体部位）",
+    "bookPage": 187
+  },
+  {
+    "name": "simulate",
+    "trans": "vt. 模拟；模仿；假装",
+    "bookPage": 187
+  },
+  {
+    "name": "circulate",
+    "trans": "v. （使）环流，循环 vt. 散发",
+    "bookPage": 187
+  },
+  {
+    "name": "evaporate",
+    "trans": "v. （使）蒸发 vi. （逐渐）消失；衰减",
+    "bookPage": 187
+  },
+  {
+    "name": "situate",
+    "trans": "vt. 使位于，使坐落于；使联系",
+    "bookPage": 187
+  },
+  {
+    "name": "particle",
+    "trans": "n. [C] 微粒；粒子；极小量",
+    "bookPage": 188
+  },
+  {
+    "name": "versus",
+    "trans": "（abbr. v, vs） prep. 对抗；与……相对，与……相比",
+    "bookPage": 188
+  },
+  {
+    "name": "versatile",
+    "trans": "a. 多才多艺的；多用途的；多功能的",
+    "bookPage": 188
+  },
+  {
+    "name": "anniversary",
+    "trans": "n. [C] 周年纪念日",
+    "bookPage": 189
+  },
+  {
+    "name": "headache",
+    "trans": "n. [C] 头痛",
+    "bookPage": 189
+  },
+  {
+    "name": "heading",
+    "trans": "n. [C] 标题；题目",
+    "bookPage": 189
+  },
+  {
+    "name": "headline",
+    "trans": "n. [C] 标题，大字标题",
+    "bookPage": 189
+  },
+  {
+    "name": "headquarters",
+    "trans": "n. [C, U] （pl. headquarters）总公司；总部",
+    "bookPage": 189
+  },
+  {
+    "name": "withdraw",
+    "trans": "v. （使）撤回；（使）退出",
+    "bookPage": 189
+  },
+  {
+    "name": "scenario",
+    "trans": "n. [C] 可能发生的情况",
+    "bookPage": 190
+  },
+  {
+    "name": "oxide",
+    "trans": "n. [C, U] 氧化物",
+    "bookPage": 190
+  },
+  {
+    "name": "abort",
+    "trans": "vt. 使流产；使中止；中途放弃",
+    "bookPage": 190
+  },
+  {
+    "name": "orthodox",
+    "trans": "a. 正统的；传统的； [O-] 东正教的",
+    "bookPage": 190
+  },
+  {
+    "name": "stance",
+    "trans": "n. [C] 立场；态度",
+    "bookPage": 190
+  },
+  {
+    "name": "instant",
+    "trans": "a. 立即的；速溶的 n. [常用 sing.] 某一时刻",
+    "bookPage": 191
+  },
+  {
+    "name": "stable",
+    "trans": "a. 稳定的；稳重的",
+    "bookPage": 191
+  },
+  {
+    "name": "steady",
+    "trans": "a. 稳定的；持续的",
+    "bookPage": 191
+  },
+  {
+    "name": "constant",
+    "trans": "a. 不断的；经常发生的；不变的，恒定的",
+    "bookPage": 191
+  },
+  {
+    "name": "stalk",
+    "trans": "n. [C] 茎；秆 vt. 跟踪 vi. 怒冲冲地走",
+    "bookPage": 191
+  },
+  {
+    "name": "stump",
+    "trans": "n. [C] 树墩 vt. 把……难住 vi. 脚步重重地走 v. 作巡回演说",
+    "bookPage": 191
+  },
+  {
+    "name": "statue",
+    "trans": "n. [C] 雕像",
+    "bookPage": 192
+  },
+  {
+    "name": "drama",
+    "trans": "n. [U] 戏剧； [C] 戏剧性事件",
+    "bookPage": 192
+  },
+  {
+    "name": "custom",
+    "trans": "n. [C, U] 习俗；风俗；传统； [sing.] 习惯",
+    "bookPage": 192
+  },
+  {
+    "name": "evident",
+    "trans": "a. 明显的；清楚的",
+    "bookPage": 192
+  },
+  {
+    "name": "envisage",
+    "trans": "vt. 想象；设想；展望",
+    "bookPage": 192
+  },
+  {
+    "name": "revise",
+    "trans": "v. 复习 vt. 改变",
+    "bookPage": 192
+  },
+  {
+    "name": "submarine",
+    "trans": "a. 海底的 n. [C] 潜艇",
+    "bookPage": 193
+  },
+  {
+    "name": "maritime",
+    "trans": "a. 海的；海运的",
+    "bookPage": 193
+  },
+  {
+    "name": "obscure",
+    "trans": "a. 无名的；嗨涩的 vt. 遮掩",
+    "bookPage": 193
+  },
+  {
+    "name": "obsess",
+    "trans": "vt. 使着迷；使迷恋；使痴迷 vi. 叻",
+    "bookPage": 193
+  },
+  {
+    "name": "counter",
+    "trans": "v. 反驳，反对 n. [C] 柜台；计数器",
+    "bookPage": 193
+  },
+  {
+    "name": "encounter",
+    "trans": "vt. 遇到；遭遇；偶遇 n. [C] 邂逅",
+    "bookPage": 194
+  },
+  {
+    "name": "orient",
+    "trans": "v. 确定方位；确定方向；适应",
+    "bookPage": 194
+  },
+  {
+    "name": "origin",
+    "trans": "n. [C, U] 起源；出身",
+    "bookPage": 194
+  },
+  {
+    "name": "infer",
+    "trans": "vt. 推断；暗示",
+    "bookPage": 194
+  },
+  {
+    "name": "refer",
+    "trans": "vi. 提到；称；参考，查阅",
+    "bookPage": 194
+  },
+  {
+    "name": "indifferent",
+    "trans": "a. 漠不关心；冷淡的；平庸的",
+    "bookPage": 194
+  },
+  {
+    "name": "confer",
+    "trans": "vi. 商议，协商；讨论 v. 授予（奖项、学位、荣誉或权利）",
+    "bookPage": 195
+  },
+  {
+    "name": "correlate",
+    "trans": "v. （使）相互关联",
+    "bookPage": 195
+  },
+  {
+    "name": "aristocrat",
+    "trans": "n. [C] 贵族",
+    "bookPage": 195
+  },
+  {
+    "name": "democracy",
+    "trans": "n. [U] 民主",
+    "bookPage": 195
+  },
+  {
+    "name": "nurture",
+    "trans": "n. [U] 教育 v. 培养；扶持",
+    "bookPage": 195
+  },
+  {
+    "name": "procedure",
+    "trans": "n. [C, U] 程序，手续，步骤； [C] 手术",
+    "bookPage": 196
+  },
+  {
+    "name": "pasture",
+    "trans": "n. [C, U] 牧场； [pl.] 生活状况",
+    "bookPage": 196
+  },
+  {
+    "name": "submerge",
+    "trans": "v. 淹没；沉浸",
+    "bookPage": 196
+  },
+  {
+    "name": "subordinate",
+    "trans": "a. 从属的 n. [C] 下级 vt. 使从属于",
+    "bookPage": 196
+  },
+  {
+    "name": "substance",
+    "trans": "n. [C] 物质； [U] 要点；根据",
+    "bookPage": 196
+  },
+  {
+    "name": "submit",
+    "trans": "vt. 提交 v. 顺从",
+    "bookPage": 196
+  },
+  {
+    "name": "sustain",
+    "trans": "vt. 支撑；遭受；保持；维持",
+    "bookPage": 197
+  },
+  {
+    "name": "susceptible",
+    "trans": "a. 易受影响的；敏感的；容许……的",
+    "bookPage": 197
+  },
+  {
+    "name": "suspend",
+    "trans": "vt. 悬挂；悬浮；暂停；推迟",
+    "bookPage": 197
+  },
+  {
+    "name": "suspicion",
+    "trans": "n. [C, U] 怀疑，猜疑；嫌疑",
+    "bookPage": 197
+  },
+  {
+    "name": "awful",
+    "trans": "a. 糟糕的；可怕的；非常的",
+    "bookPage": 197
+  },
+  {
+    "name": "complement",
+    "trans": "v. 补充；使完美 n. [C] 补充物；衬托物",
+    "bookPage": 197
+  },
+  {
+    "name": "appliance",
+    "trans": "n. [C] 电器，器具；装置",
+    "bookPage": 198
+  },
+  {
+    "name": "comply",
+    "trans": "vi. 遵守；服从",
+    "bookPage": 198
+  },
+  {
+    "name": "complicate",
+    "trans": "vt. 使复杂化",
+    "bookPage": 198
+  },
+  {
+    "name": "duplicate",
+    "trans": "vt. 复制；复印 a. 复制的",
+    "bookPage": 198
+  },
+  {
+    "name": "homogeneous",
+    "trans": "a. 同种类的；同性质的",
+    "bookPage": 198
+  },
+  {
+    "name": "tremendous",
+    "trans": "a. 极大的；巨大的；精彩的",
+    "bookPage": 198
+  },
+  {
+    "name": "conscious",
+    "trans": "a. 意识到；有意识的",
+    "bookPage": 199
+  },
+  {
+    "name": "curious",
+    "trans": "a. 好奇的；奇特的；稀奇古怪的",
+    "bookPage": 199
+  },
+  {
+    "name": "vicious",
+    "trans": "a. 残的；恶劣的；严厉的",
+    "bookPage": 199
+  },
+  {
+    "name": "precious",
+    "trans": "a. 珍贵的；宝贵的；珍稀的",
+    "bookPage": 199
+  },
+  {
+    "name": "contagious",
+    "trans": "a. 接触传染的；有感染力的",
+    "bookPage": 199
+  },
+  {
+    "name": "conscientious",
+    "trans": "a. 认真的；一丝不苟的",
+    "bookPage": 199
+  },
+  {
+    "name": "notorious",
+    "trans": "a. 臭名昭著的；声名狼藉的；众所周知的",
+    "bookPage": 200
+  },
+  {
+    "name": "ambiguous",
+    "trans": "a. 含糊不清的，不明确的；模棱两可的",
+    "bookPage": 200
+  },
+  {
+    "name": "illuminate",
+    "trans": "v. 照亮；阐明",
+    "bookPage": 200
+  },
+  {
+    "name": "impair",
+    "trans": "vt. 损害；削弱",
+    "bookPage": 200
+  },
+  {
+    "name": "impart",
+    "trans": "v. 传授；把（某性质）赋予；给予（特定品质）",
+    "bookPage": 200
+  },
+  {
+    "name": "immerse",
+    "trans": "v. 使专心于；使浸没于",
+    "bookPage": 200
+  },
+  {
+    "name": "intuition",
+    "trans": "n. [C] 直觉； [U] 直觉力",
+    "bookPage": 201
+  },
+  {
+    "name": "intricate",
+    "trans": "a. 错综复杂的；复杂精细的",
+    "bookPage": 201
+  },
+  {
+    "name": "intrude",
+    "trans": "vi. 闯入；侵入；干涉；侵扰",
+    "bookPage": 201
+  },
+  {
+    "name": "invade",
+    "trans": "v. 侵略；侵犯 vt. 涌入",
+    "bookPage": 201
+  },
+  {
+    "name": "install",
+    "trans": "（亦作 instal） v. 安装；使就职",
+    "bookPage": 201
+  },
+  {
+    "name": "incur",
+    "trans": "vt. 遭受；引起",
+    "bookPage": 201
+  },
+  {
+    "name": "initiate",
+    "trans": "vt. 发起；开始实施",
+    "bookPage": 202
+  },
+  {
+    "name": "intimidate",
+    "trans": "vt. 恐吓；威胁",
+    "bookPage": 202
+  },
+  {
+    "name": "indebted",
+    "trans": "a. 负债的；感激的；感恩的",
+    "bookPage": 202
+  },
+  {
+    "name": "instruct",
+    "trans": "v. 指示；指导；告知",
+    "bookPage": 202
+  },
+  {
+    "name": "irrational",
+    "trans": "a. 荒谬的；非理性的；不合理的",
+    "bookPage": 202
+  },
+  {
+    "name": "irrigate",
+    "trans": "vt. 灌溉",
+    "bookPage": 202
+  },
+  {
+    "name": "apt",
+    "trans": "a. 恰当的；有……倾向的；聪慧的",
+    "bookPage": 203
+  },
+  {
+    "name": "magnitude",
+    "trans": "n. [U] 巨大；重大；重要性；震级",
+    "bookPage": 203
+  },
+  {
+    "name": "magnify",
+    "trans": "vt. 放大；夸大；使（问题）加重",
+    "bookPage": 204
+  },
+  {
+    "name": "vehicle",
+    "trans": "n. [C] 车辆；手段；工具",
+    "bookPage": 204
+  },
+  {
+    "name": "tact",
+    "trans": "n. [U] （处事、言谈等的）老练，得体",
+    "bookPage": 204
+  },
+  {
+    "name": "hygiene",
+    "trans": "n. [U] 卫生",
+    "bookPage": 204
+  },
+  {
+    "name": "chronicle",
+    "trans": "n. [C] 编年史；年代记 v. 按时间顺序记述",
+    "bookPage": 204
+  },
+  {
+    "name": "sacred",
+    "trans": "a. 神圣的",
+    "bookPage": 205
+  },
+  {
+    "name": "sacrifice",
+    "trans": "vt. 牺牲，献出 n. [C, U] 牺牲",
+    "bookPage": 205
+  },
+  {
+    "name": "temper",
+    "trans": "n. [常用 sing., U] 脾气； [常用 sing.] 怒气 vt. 使缓和",
+    "bookPage": 205
+  },
+  {
+    "name": "minus",
+    "trans": "prep. 减；零下 a. 负的；负面的",
+    "bookPage": 205
+  },
+  {
+    "name": "minor",
+    "trans": "a. 较小的；次要的；轻微的",
+    "bookPage": 205
+  },
+  {
+    "name": "miniature",
+    "trans": "a. 很小的；微型的 n. [C] 微小的模型",
+    "bookPage": 206
+  },
+  {
+    "name": "misfortune",
+    "trans": "n. [U] 不幸； [C] 不幸的事故",
+    "bookPage": 206
+  },
+  {
+    "name": "misunderstand",
+    "trans": "v. 误解，误会",
+    "bookPage": 206
+  },
+  {
+    "name": "theme",
+    "trans": "n. [C] 主题",
+    "bookPage": 206
+  },
+  {
+    "name": "hypothesis",
+    "trans": "n. [C] （pl. hypotheses）假说，假设； [U] （凭空的）猜测",
+    "bookPage": 206
+  },
+  {
+    "name": "thesis",
+    "trans": "n. [C] （pl. theses）论文；论题",
+    "bookPage": 207
+  },
+  {
+    "name": "permanent",
+    "trans": "a. 永久的；长久的；固定的",
+    "bookPage": 207
+  },
+  {
+    "name": "persist",
+    "trans": "v. 顽强坚持 vi. 维持；持续存在",
+    "bookPage": 207
+  },
+  {
+    "name": "perish",
+    "trans": "vi. 死亡；毁灭；老化",
+    "bookPage": 207
+  },
+  {
+    "name": "cape",
+    "trans": "n. [C] 披肩；斗篷；（abbr. C.）海角",
+    "bookPage": 207
+  },
+  {
+    "name": "caption",
+    "trans": "n. [C] 说明文字；字幕 vt. 为（照片或漫画）添加说明文字",
+    "bookPage": 207
+  },
+  {
+    "name": "tempt",
+    "trans": "vt. 引诱，诱惑，利诱；鼓动",
+    "bookPage": 208
+  },
+  {
+    "name": "contempt",
+    "trans": "n. [U] 蔑视，藐视，轻蔑，轻视",
+    "bookPage": 208
+  },
+  {
+    "name": "trumpet",
+    "trans": "n. [C] 小号；喇叭 v. 宣扬；吹嘘",
+    "bookPage": 208
+  },
+  {
+    "name": "closet",
+    "trans": "n. [C] 壁橱",
+    "bookPage": 208
+  },
+  {
+    "name": "leaflet",
+    "trans": "n. [C] 传单；小册子",
+    "bookPage": 208
+  },
+  {
+    "name": "query",
+    "trans": "n. [C] 问题，疑问 vt. 询问",
+    "bookPage": 209
+  },
+  {
+    "name": "quarrel",
+    "trans": "n. [C] 争吵，吵架 vi. 吵架",
+    "bookPage": 209
+  },
+  {
+    "name": "entertain",
+    "trans": "v. 招待；使快乐",
+    "bookPage": 209
+  },
+  {
+    "name": "interpret",
+    "trans": "vt. 诠释；把……理解为；演绎 vi. 口译",
+    "bookPage": 209
+  },
+  {
+    "name": "integrate",
+    "trans": "v. （使）成为一体；融入群体",
+    "bookPage": 209
+  },
+  {
+    "name": "accordance",
+    "trans": "n. [U] 依据；一致",
+    "bookPage": 210
+  },
+  {
+    "name": "glance",
+    "trans": "n. [C] 一瞥 vi. 瞥，看一眼",
+    "bookPage": 210
+  },
+  {
+    "name": "romance",
+    "trans": "n. [U] 浪漫； [C] 爱情小说；恋爱",
+    "bookPage": 210
+  },
+  {
+    "name": "renaissance",
+    "trans": "n. [sing.] 复兴； [the R-] 文艺复兴",
+    "bookPage": 210
+  },
+  {
+    "name": "recreation",
+    "trans": "n. [U] 娱乐",
+    "bookPage": 210
+  },
+  {
+    "name": "sanitation",
+    "trans": "n. [U] 公共卫生；环境卫生；卫生设施体系",
+    "bookPage": 211
+  },
+  {
+    "name": "aviation",
+    "trans": "n. [U] 航空",
+    "bookPage": 211
+  },
+  {
+    "name": "corporation",
+    "trans": "（abbr. Corp.） n. [C] 大公司",
+    "bookPage": 211
+  },
+  {
+    "name": "connotation",
+    "trans": "n. [C] 含义；内涵意义",
+    "bookPage": 211
+  },
+  {
+    "name": "configuration",
+    "trans": "n. [C] 布局，格局；结构； [U] 配置",
+    "bookPage": 211
+  },
+  {
+    "name": "dioxide",
+    "trans": "n. [C, U] 二氧化物",
+    "bookPage": 211
+  },
+  {
+    "name": "dilemma",
+    "trans": "n. [C] 困境",
+    "bookPage": 212
+  },
+  {
+    "name": "diploma",
+    "trans": "n. [C] 毕业文凭（或证书）；学位证书",
+    "bookPage": 212
+  },
+  {
+    "name": "dialogue",
+    "trans": "（亦作 dialog） n. [C, U] 对话，对白",
+    "bookPage": 212
+  },
+  {
+    "name": "dimension",
+    "trans": "n. [C] 方面； [常用 pl.] 范围",
+    "bookPage": 212
+  },
+  {
+    "name": "dilute",
+    "trans": "vt. 冲淡；稀释；降低",
+    "bookPage": 212
+  },
+  {
+    "name": "divert",
+    "trans": "v. 转移；改变……的用途；转移（某人）的注意力",
+    "bookPage": 212
+  },
+  {
+    "name": "digest",
+    "trans": "v. 消化 vt. 领会；承受（坏消息）",
+    "bookPage": 213
+  },
+  {
+    "name": "divorce",
+    "trans": "n. [C, U] 离婚 vt. 使分离",
+    "bookPage": 213
+  },
+  {
+    "name": "diagnose",
+    "trans": "v. 诊断（疾病）；判断（问题的原因）",
+    "bookPage": 213
+  },
+  {
+    "name": "fragile",
+    "trans": "a. 脆弱的；虚弱的；易碎的",
+    "bookPage": 213
+  },
+  {
+    "name": "hostile",
+    "trans": "a. 敌对的；敌意的；敌军的",
+    "bookPage": 213
+  },
+  {
+    "name": "juvenile",
+    "trans": "a. 青少年的，少年的",
+    "bookPage": 213
+  },
+  {
+    "name": "remnant",
+    "trans": "n. [常用 pl.] 残余部分；剩余部分",
+    "bookPage": 214
+  },
+  {
+    "name": "warrant",
+    "trans": "n. [C] 执行令； [U] 正当理由 v. 使有必要",
+    "bookPage": 214
+  },
+  {
+    "name": "vacant",
+    "trans": "a. 空的；空缺的；（神情）茫然的",
+    "bookPage": 214
+  },
+  {
+    "name": "redundant",
+    "trans": "a. 多余的；被裁减的",
+    "bookPage": 214
+  },
+  {
+    "name": "brilliant",
+    "trans": "a. 明亮的；聪颖的；巧妙的；很成功的",
+    "bookPage": 214
+  },
+  {
+    "name": "terminal",
+    "trans": "a. 末端的；晚期的 n. [C] 终点站；航空站",
+    "bookPage": 215
+  },
+  {
+    "name": "temporal",
+    "trans": "a. 时间的；世俗的",
+    "bookPage": 215
+  },
+  {
+    "name": "integral",
+    "trans": "a. 完整的；不可或缺的；作为组成部分的",
+    "bookPage": 215
+  },
+  {
+    "name": "medieval",
+    "trans": "a. 中世纪的",
+    "bookPage": 215
+  },
+  {
+    "name": "physiological",
+    "trans": "a. 生理（学）的",
+    "bookPage": 215
+  },
+  {
+    "name": "vocal",
+    "trans": "a. 声音的；发声的；直言不讳的",
+    "bookPage": 215
+  },
+  {
+    "name": "neutral",
+    "trans": "a. 中性的；中立的",
+    "bookPage": 216
+  },
+  {
+    "name": "radical",
+    "trans": "a. 激进的；全新的；根本的",
+    "bookPage": 216
+  },
+  {
+    "name": "cardinal",
+    "trans": "a. 最重要的；基本的；主要的",
+    "bookPage": 216
+  },
+  {
+    "name": "thermal",
+    "trans": "a. 热的，温暖的；保暖的",
+    "bookPage": 216
+  },
+  {
+    "name": "nominal",
+    "trans": "a. 名义上的；（价格或款项）象征性的，微不足道的",
+    "bookPage": 216
+  },
+  {
+    "name": "dual",
+    "trans": "a. 双的；双重的",
+    "bookPage": 216
+  },
+  {
+    "name": "fatal",
+    "trans": "a. 致命的；灾难性的",
+    "bookPage": 217
+  },
+  {
+    "name": "municipal",
+    "trans": "a. 地方政府的，市政的",
+    "bookPage": 217
+  },
+  {
+    "name": "principal",
+    "trans": "a. 主要的 n. [C] 大学校长",
+    "bookPage": 217
+  },
+  {
+    "name": "rational",
+    "trans": "a. 合理的；理性的",
+    "bookPage": 217
+  },
+  {
+    "name": "literal",
+    "trans": "a. 字面意义的；逐字的；直（译）的；确确实实的",
+    "bookPage": 217
+  },
+  {
+    "name": "casual",
+    "trans": "a. 随意的；（服装）休闲的；漫不经心的；偶然的",
+    "bookPage": 218
+  },
+  {
+    "name": "gradual",
+    "trans": "a. 逐步的；逐渐的；渐进的",
+    "bookPage": 218
+  },
+  {
+    "name": "mammal",
+    "trans": "n. [C] 哺乳动物",
+    "bookPage": 218
+  },
+  {
+    "name": "genuine",
+    "trans": "a. 真正的；真诚的",
+    "bookPage": 218
+  },
+  {
+    "name": "heroine",
+    "trans": "n. [C] 女英雄；女主角，女主人公",
+    "bookPage": 218
+  },
+  {
+    "name": "discipline",
+    "trans": "n. [U] 纪律；自制力；学科 vt. 惩罚",
+    "bookPage": 218
+  },
+  {
+    "name": "vaccine",
+    "trans": "n. [C, U] 疫苗",
+    "bookPage": 219
+  },
+  {
+    "name": "outer",
+    "trans": "a. 外面的；外围的",
+    "bookPage": 220
+  },
+  {
+    "name": "outgoing",
+    "trans": "a. 外向的；友好的；向外的；即将离职的",
+    "bookPage": 220
+  },
+  {
+    "name": "outline",
+    "trans": "vt. 概述；映衬……的轮廓 n. [C] 概要；轮廓",
+    "bookPage": 221
+  },
+  {
+    "name": "outlook",
+    "trans": "n. [常用 sing.] 人生观；前景；展望； [C] 景色",
+    "bookPage": 221
+  },
+  {
+    "name": "outstanding",
+    "trans": "a. 突出的；杰出的；未解决的",
+    "bookPage": 221
+  },
+  {
+    "name": "benign",
+    "trans": "a. 良性的；良好的；温和的",
+    "bookPage": 221
+  },
+  {
+    "name": "inspect",
+    "trans": "vt. 检查；视察",
+    "bookPage": 221
+  },
+  {
+    "name": "spectator",
+    "trans": "n. [C] 观众",
+    "bookPage": 221
+  },
+  {
+    "name": "maximum",
+    "trans": "（abbr. max） n. [常用 sing.] 最大量 a. 最大的，最高的",
+    "bookPage": 222
+  },
+  {
+    "name": "rigor",
+    "trans": "（亦作 rigour） n. [U] 严厉，严格；严谨； [pl.] 严苛",
+    "bookPage": 222
+  },
+  {
+    "name": "rigid",
+    "trans": "a. 刻板的，严格的；顽固的；坚硬的",
+    "bookPage": 222
+  },
+  {
+    "name": "expire",
+    "trans": "vi. 到期；期满",
+    "bookPage": 222
+  },
+  {
+    "name": "aspire",
+    "trans": "vi. 渴望，追求，有志于",
+    "bookPage": 222
+  },
+  {
+    "name": "conspire",
+    "trans": "vi. 密谋；搞阴谋；共同导致",
+    "bookPage": 223
+  },
+  {
+    "name": "spirit",
+    "trans": "n. [C, U] 精神； [pl.] 情绪",
+    "bookPage": 223
+  },
+  {
+    "name": "dental",
+    "trans": "a. 牙齿的；牙科的",
+    "bookPage": 223
+  },
+  {
+    "name": "dentist",
+    "trans": "n. [C] 牙科医生",
+    "bookPage": 223
+  },
+  {
+    "name": "curve",
+    "trans": "n. [C] 曲线 v. 呈曲线形",
+    "bookPage": 223
+  },
+  {
+    "name": "crude",
+    "trans": "a. 天然的；简略的；粗糙的 n. [U] 石油",
+    "bookPage": 223
+  },
+  {
+    "name": "sphere",
+    "trans": "n. [C] 球；范围；界",
+    "bookPage": 224
+  },
+  {
+    "name": "grain",
+    "trans": "n. [U] 谷物，粮食； [C] 谷粒；颗粒",
+    "bookPage": 224
+  },
+  {
+    "name": "certificate",
+    "trans": "n. [C] 证明；证书",
+    "bookPage": 224
+  },
+  {
+    "name": "deficit",
+    "trans": "n. [C] 赤字，逆差，亏损",
+    "bookPage": 224
+  },
+  {
+    "name": "suffice",
+    "trans": "vi. 足够，足以",
+    "bookPage": 224
+  },
+  {
+    "name": "feat",
+    "trans": "n. [C] 功绩，业绩，壮举",
+    "bookPage": 225
+  },
+  {
+    "name": "defeat",
+    "trans": "vt. 击败；否决 n. [C, U] 失败",
+    "bookPage": 225
+  },
+  {
+    "name": "margin",
+    "trans": "n. [C] 页边空白；边缘； [常用 sing.] 余地，差额",
+    "bookPage": 225
+  },
+  {
+    "name": "metaphor",
+    "trans": "n. [C, U] 暗喻，隐喻；象征",
+    "bookPage": 225
+  },
+  {
+    "name": "phrase",
+    "trans": "n. [C] 短语，词组；警句",
+    "bookPage": 225
+  },
+  {
+    "name": "regime",
+    "trans": "n. [C] 政权，政体；管理制度",
+    "bookPage": 226
+  },
+  {
+    "name": "sovereign",
+    "trans": "n. [C] 君主 a. 有主权的；掌握全部权力的",
+    "bookPage": 226
+  },
+  {
+    "name": "formal",
+    "trans": "a. 正式的；正规的；形式上的",
+    "bookPage": 226
+  },
+  {
+    "name": "format",
+    "trans": "n. [C] 格式；版式 v. 格式化",
+    "bookPage": 226
+  },
+  {
+    "name": "formulate",
+    "trans": "vt. 构想；制定，规划；确切表达",
+    "bookPage": 226
+  },
+  {
+    "name": "conform",
+    "trans": "vi. 相符合，相一致；遵从",
+    "bookPage": 227
+  },
+  {
+    "name": "paradise",
+    "trans": "n. [C] 天堂； [sing.] 乐园； [U] 至福",
+    "bookPage": 227
+  },
+  {
+    "name": "parameter",
+    "trans": "n. [常用 pl.] 参数；范围；决定因素",
+    "bookPage": 227
+  },
+  {
+    "name": "mentor",
+    "trans": "n. [C] 导师；顾问 v. 指导",
+    "bookPage": 227
+  },
+  {
+    "name": "tutor",
+    "trans": "n. [C] 导师；家庭教师 vt. 教授",
+    "bookPage": 227
+  },
+  {
+    "name": "ancestor",
+    "trans": "n. [C] 祖先；原型",
+    "bookPage": 227
+  },
+  {
+    "name": "calendar",
+    "trans": "n. [C] 日历；历法",
+    "bookPage": 228
+  },
+  {
+    "name": "collar",
+    "trans": "n. [C] 衣领；项圈",
+    "bookPage": 228
+  },
+  {
+    "name": "besides",
+    "trans": "ad. 况且 prep. 除……之外",
+    "bookPage": 228
+  },
+  {
+    "name": "beneath",
+    "trans": "prep. 在……之下；配不上",
+    "bookPage": 228
+  },
+  {
+    "name": "beloved",
+    "trans": "a. 深爱的；亲爱的 n. [sing.] 心爱的人",
+    "bookPage": 228
+  },
+  {
+    "name": "behalf",
+    "trans": "n. [U] 代表；利益",
+    "bookPage": 229
+  },
+  {
+    "name": "disclose",
+    "trans": "vt. 揭露；透露，泄露；使显露",
+    "bookPage": 229
+  },
+  {
+    "name": "disagree",
+    "trans": "vi. 不同意，持不同意见，有分歧；不符",
+    "bookPage": 229
+  },
+  {
+    "name": "discount",
+    "trans": "n. [C, U] 折扣 vt. 给……打折",
+    "bookPage": 229
+  },
+  {
+    "name": "displace",
+    "trans": "vt. 取代；移动；迫使……背井离乡",
+    "bookPage": 229
+  },
+  {
+    "name": "disappoint",
+    "trans": "v. （使）失望",
+    "bookPage": 229
+  },
+  {
+    "name": "dispense",
+    "trans": "vt. 分发，配发；提供；配（药）",
+    "bookPage": 230
+  },
+  {
+    "name": "distil",
+    "trans": "（亦作 distill） vt. 蒸馏；提炼；萃取……的精华",
+    "bookPage": 230
+  },
+  {
+    "name": "discriminate",
+    "trans": "vi. 歧视 v. 区分",
+    "bookPage": 230
+  },
+  {
+    "name": "dismiss",
+    "trans": "vt. 消除；解雇；不予理会，不予考虑",
+    "bookPage": 230
+  },
+  {
+    "name": "distort",
+    "trans": "v. 歪曲，曲解，扭曲；使失真",
+    "bookPage": 230
+  },
+  {
+    "name": "disrupt",
+    "trans": "vt. 使中断；扰乱；妨碍",
+    "bookPage": 230
+  },
+  {
+    "name": "discourse",
+    "trans": "n. [C, U] 演讲；论述； [U] 语篇",
+    "bookPage": 231
+  },
+  {
+    "name": "disturb",
+    "trans": "vt. 打扰，干扰；弄乱；破坏",
+    "bookPage": 231
+  },
+  {
+    "name": "amass",
+    "trans": "vt. 积累，积聚",
+    "bookPage": 231
+  },
+  {
+    "name": "amend",
+    "trans": "vt. 修改，修订，修正",
+    "bookPage": 231
+  },
+  {
+    "name": "arouse",
+    "trans": "v. 引起；激发；使行动起来；唤醒",
+    "bookPage": 231
+  },
+  {
+    "name": "aboard",
+    "trans": "ad./prep. 上船（飞机、火车）",
+    "bookPage": 231
+  },
+  {
+    "name": "acclaim",
+    "trans": "vt. 赞扬，赞誉 n. [U] 赞誉，赞扬",
+    "bookPage": 232
+  },
+  {
+    "name": "accommodate",
+    "trans": "vt. 容纳；为……提供住宿 v. 适应",
+    "bookPage": 232
+  },
+  {
+    "name": "accompany",
+    "trans": "vt. 陪同，陪伴；附有；为……伴奏",
+    "bookPage": 232
+  },
+  {
+    "name": "accumulate",
+    "trans": "vt. 积累，积聚 vi. （数量）逐渐增加",
+    "bookPage": 232
+  },
+  {
+    "name": "adhere",
+    "trans": "vi. 附着；遵守，遵循",
+    "bookPage": 232
+  },
+  {
+    "name": "affix",
+    "trans": "vt. 粘上，贴上；附上",
+    "bookPage": 232
+  },
+  {
+    "name": "affection",
+    "trans": "n. [sing., U] 喜爱，钟爱； [pl.] 感情；爱情",
+    "bookPage": 233
+  },
+  {
+    "name": "aggravate",
+    "trans": "vt. 使恶化，加剧，加重；使恼火",
+    "bookPage": 233
+  },
+  {
+    "name": "aggressive",
+    "trans": "a. 侵略的；富于攻击性的；有进取心的",
+    "bookPage": 233
+  },
+  {
+    "name": "allocate",
+    "trans": "vt. 分配",
+    "bookPage": 233
+  },
+  {
+    "name": "allure",
+    "trans": "n. [U] 吸引力，魅力，诱惑",
+    "bookPage": 233
+  },
+  {
+    "name": "arrange",
+    "trans": "v. 安排，筹备 vt. 整理，排列",
+    "bookPage": 233
+  },
+  {
+    "name": "assist",
+    "trans": "v. 帮助，协助",
+    "bookPage": 234
+  },
+  {
+    "name": "associate",
+    "trans": "v. 联系 vi. 交往 a. 副的 n. [C] 伙伴",
+    "bookPage": 234
+  },
+  {
+    "name": "assert",
+    "trans": "vt. 坚称；维护；坚持（主张）",
+    "bookPage": 234
+  },
+  {
+    "name": "attorney",
+    "trans": "n. [C] 律师；代理人",
+    "bookPage": 234
+  },
+  {
+    "name": "consecutive",
+    "trans": "a. 连续不断的",
+    "bookPage": 234
+  },
+  {
+    "name": "naive",
+    "trans": "a. 天真的，幼稚的，无知的",
+    "bookPage": 235
+  },
+  {
+    "name": "conducive",
+    "trans": "a. 有助（于……）的，有益（于……）的",
+    "bookPage": 235
+  },
+  {
+    "name": "imperative",
+    "trans": "a. 必要的；命令的；祈使的 n. [C] 必要的事",
+    "bookPage": 235
+  },
+  {
+    "name": "operative",
+    "trans": "a. 起作用的 n. [C] 工人；特工",
+    "bookPage": 235
+  },
+  {
+    "name": "primitive",
+    "trans": "a. 原始的；低等的；简陋的",
+    "bookPage": 235
+  },
+  {
+    "name": "axis",
+    "trans": "n. [C] （pl. axes）轴，轴线；坐标轴",
+    "bookPage": 236
+  },
+  {
+    "name": "prolong",
+    "trans": "vt. 延长；拉长",
+    "bookPage": 236
+  },
+  {
+    "name": "longevity",
+    "trans": "n. [U] 长寿；寿命",
+    "bookPage": 237
+  },
+  {
+    "name": "augment",
+    "trans": "vt. 增加；扩大",
+    "bookPage": 237
+  },
+  {
+    "name": "livelihood",
+    "trans": "n. [常用 sing., U] 营生，生计",
+    "bookPage": 237
+  },
+  {
+    "name": "tragedy",
+    "trans": "n. [C, U] 悲剧",
+    "bookPage": 237
+  },
+  {
+    "name": "surgery",
+    "trans": "n. [U] 外科手术； [C] 诊室",
+    "bookPage": 237
+  },
+  {
+    "name": "virtue",
+    "trans": "n. [C] 美德； [U] 高尚的道德； [C, U] 优点；用处",
+    "bookPage": 238
+  },
+  {
+    "name": "virtual",
+    "trans": "a. 几乎的；实际上的；虚拟的",
+    "bookPage": 238
+  },
+  {
+    "name": "automate",
+    "trans": "v. 使自动化",
+    "bookPage": 238
+  },
+  {
+    "name": "pending",
+    "trans": "a. 待定的；即将发生的 prep. 在等待……时期",
+    "bookPage": 238
+  },
+  {
+    "name": "pendulum",
+    "trans": "n. [C] 钟摆； [sing.] （局势意见等的）摇摆不定",
+    "bookPage": 238
+  },
+  {
+    "name": "echo",
+    "trans": "n. [C] 回声 vi. 回响 vt. 附和",
+    "bookPage": 239
+  },
+  {
+    "name": "fabric",
+    "trans": "n. [C, U] 织物；布料； [sing.] （社会、机构等的）结构",
+    "bookPage": 239
+  },
+  {
+    "name": "transcend",
+    "trans": "vt. 超越，超出",
+    "bookPage": 239
+  },
+  {
+    "name": "ascend",
+    "trans": "v. 攀登；上升",
+    "bookPage": 239
+  },
+  {
+    "name": "breathe",
+    "trans": "v. 呼吸 vt. 说出",
+    "bookPage": 239
+  },
+  {
+    "name": "premise",
+    "trans": "n. [C] 前提",
+    "bookPage": 240
+  },
+  {
+    "name": "premature",
+    "trans": "a. 早产的；未成熟的；过早的",
+    "bookPage": 240
+  },
+  {
+    "name": "prejudice",
+    "trans": "n. [C, U] 偏见；歧视",
+    "bookPage": 240
+  },
+  {
+    "name": "presume",
+    "trans": "vt. 假设，假定 vi. 冒昧；妄行",
+    "bookPage": 240
+  },
+  {
+    "name": "architect",
+    "trans": "n. [C] 建筑师；设计师；（想法、事件或组织的）发起者",
+    "bookPage": 240
+  },
+  {
+    "name": "merge",
+    "trans": "v. （使）合并 vi. 相融",
+    "bookPage": 241
+  },
+  {
+    "name": "emergency",
+    "trans": "n. [C, U] 紧急情况；突发事件",
+    "bookPage": 241
+  },
+  {
+    "name": "legend",
+    "trans": "n. [C, U] 传说；传奇故事； [C] 传奇人物",
+    "bookPage": 241
+  },
+  {
+    "name": "legacy",
+    "trans": "n. [C] 遗产；遗留问题",
+    "bookPage": 241
+  },
+  {
+    "name": "segregate",
+    "trans": "vt. 使隔离，使分开",
+    "bookPage": 241
+  },
+  {
+    "name": "aggregate",
+    "trans": "n. [C] 总数 a. 总计的 v. 合计；汇集",
+    "bookPage": 242
+  },
+  {
+    "name": "suicide",
+    "trans": "n. [C, U] 自杀； [U] 自杀性行为",
+    "bookPage": 242
+  },
+  {
+    "name": "precise",
+    "trans": "a. 精确的；明确的；确切的",
+    "bookPage": 242
+  },
+  {
+    "name": "concise",
+    "trans": "a. 简洁的，简明的",
+    "bookPage": 242
+  },
+  {
+    "name": "coincide",
+    "trans": "vi. 同时发生；相同；位置重合",
+    "bookPage": 242
+  },
+  {
+    "name": "incident",
+    "trans": "n. [C] 事件",
+    "bookPage": 242
+  },
+  {
+    "name": "incidence",
+    "trans": "n. [常用 sing.] 发生率",
+    "bookPage": 243
+  },
+  {
+    "name": "genius",
+    "trans": "n. [U] 天才；天赋； [C] 天才人物",
+    "bookPage": 243
+  },
+  {
+    "name": "engine",
+    "trans": "n. [C] 引擎，发动机",
+    "bookPage": 243
+  },
+  {
+    "name": "generous",
+    "trans": "a. 慷慨的，大方的；大量的，充足的",
+    "bookPage": 243
+  },
+  {
+    "name": "segment",
+    "trans": "n. [C] 部分；（水果的）瓣 vt. 划分",
+    "bookPage": 243
+  },
+  {
+    "name": "apartment",
+    "trans": "n. [C] 公寓",
+    "bookPage": 244
+  },
+  {
+    "name": "basement",
+    "trans": "n. [C] 地下室",
+    "bookPage": 244
+  },
+  {
+    "name": "garment",
+    "trans": "n. [C] 衣服",
+    "bookPage": 244
+  },
+  {
+    "name": "mortal",
+    "trans": "a. 致命的；极度的 n. [C] 普通人",
+    "bookPage": 244
+  },
+  {
+    "name": "morale",
+    "trans": "n. [U] 士气",
+    "bookPage": 244
+  },
+  {
+    "name": "reconcile",
+    "trans": "vt. 使和谐一致，调和；使和解，使和好",
+    "bookPage": 244
+  },
+  {
+    "name": "renown",
+    "trans": "n. [U] 名誉，声誉；名望，声望",
+    "bookPage": 245
+  },
+  {
+    "name": "revive",
+    "trans": "v. （使）苏醒；（使）复苏",
+    "bookPage": 245
+  },
+  {
+    "name": "regret",
+    "trans": "vt. 后悔 n. [C, U] 后悔；遗憾",
+    "bookPage": 245
+  },
+  {
+    "name": "request",
+    "trans": "n. [C] 请求 v. 要求；请求",
+    "bookPage": 245
+  },
+  {
+    "name": "resemble",
+    "trans": "vt. 像，类似",
+    "bookPage": 245
+  },
+  {
+    "name": "resolve",
+    "trans": "vt. 解决 v. 决定 n. [U] 决心",
+    "bookPage": 245
+  },
+  {
+    "name": "resort",
+    "trans": "n. [C] 旅游胜地； [U] 诉诸；采取 vi. 依靠",
+    "bookPage": 246
+  },
+  {
+    "name": "resume",
+    "trans": "v. 重新开始 n. [C] 简历",
+    "bookPage": 246
+  },
+  {
+    "name": "remark",
+    "trans": "n. [C] 言论；评论 v. 说起",
+    "bookPage": 246
+  },
+  {
+    "name": "restore",
+    "trans": "vt. 恢复；修复",
+    "bookPage": 246
+  },
+  {
+    "name": "retort",
+    "trans": "vt. 反驳 n. [C] 反驳",
+    "bookPage": 246
+  },
+  {
+    "name": "retire",
+    "trans": "v. （使）退休 vi. 睡觉",
+    "bookPage": 246
+  },
+  {
+    "name": "refute",
+    "trans": "vt. 驳斥；反驳；否认",
+    "bookPage": 247
+  },
+  {
+    "name": "refund",
+    "trans": "n. [C] 退款 v. 退还",
+    "bookPage": 247
+  },
+  {
+    "name": "restrain",
+    "trans": "vt. 抑制；控制；阻止",
+    "bookPage": 247
+  },
+  {
+    "name": "repay",
+    "trans": "vt. 偿还；回报，报答",
+    "bookPage": 247
+  },
+  {
+    "name": "refuge",
+    "trans": "n. [U] 庇护；避难； [C] 避难处；收容所",
+    "bookPage": 247
+  },
+  {
+    "name": "reject",
+    "trans": "vt. 拒绝；拒收",
+    "bookPage": 247
+  },
+  {
+    "name": "refuse",
+    "trans": "v. 拒绝 vt. 回绝 n. [U] 垃圾",
+    "bookPage": 248
+  },
+  {
+    "name": "restrict",
+    "trans": "vt. 限制；妨碍",
+    "bookPage": 248
+  },
+  {
+    "name": "refine",
+    "trans": "vt. 精炼，提炼；改进，完善",
+    "bookPage": 248
+  },
+  {
+    "name": "recipe",
+    "trans": "n. [C] 烹饪法；食谱；方法，诀窍",
+    "bookPage": 248
+  },
+  {
+    "name": "refrigerator",
+    "trans": "（abbr. fridge） n. [C] 冰箱",
+    "bookPage": 248
+  },
+  {
+    "name": "recite",
+    "trans": "v. 背诵 vt. 列举",
+    "bookPage": 248
+  },
+  {
+    "name": "rehearse",
+    "trans": "v. 排练 vt. 练习",
+    "bookPage": 249
+  },
+  {
+    "name": "renew",
+    "trans": "vt. 重新开始；延长……的期限；更新",
+    "bookPage": 249
+  },
+  {
+    "name": "refresh",
+    "trans": "v. 更新；刷新 vt. 提醒",
+    "bookPage": 249
+  },
+  {
+    "name": "revolt",
+    "trans": "n. [C, U] 反叛；叛乱 vi. 反抗",
+    "bookPage": 249
+  },
+  {
+    "name": "relentless",
+    "trans": "a. 不停的；不懈的；不屈不挠的；无情的",
+    "bookPage": 249
+  },
+  {
+    "name": "relay",
+    "trans": "vt. 转告；传达；转播 n. [C] 接力赛",
+    "bookPage": 249
+  },
+  {
+    "name": "retreat",
+    "trans": "vi. 后退；撤退 n. [常用 sing., U] 撤退",
+    "bookPage": 250
+  },
+  {
+    "name": "allergic",
+    "trans": "a. 过敏的",
+    "bookPage": 250
+  },
+  {
+    "name": "aesthetic",
+    "trans": "（亦作 esthetic） a. 审美的；美学的；美的",
+    "bookPage": 250
+  },
+  {
+    "name": "civic",
+    "trans": "a. 公民的；城市的；市政的",
+    "bookPage": 250
+  },
+  {
+    "name": "toxic",
+    "trans": "a. 有毒的；毒性的",
+    "bookPage": 250
+  },
+  {
+    "name": "catholic",
+    "trans": "a. 天主教的 n. 天主教徒",
+    "bookPage": 250
+  },
+  {
+    "name": "realistic",
+    "trans": "a. 现实的；实际的；能够实现的",
+    "bookPage": 251
+  },
+  {
+    "name": "mechanic",
+    "trans": "n. [C] 修理工；技工；机械师； [pl.] [the ~] 方法",
+    "bookPage": 251
+  },
+  {
+    "name": "rhetoric",
+    "trans": "n. [U] 修辞；修辞学；华而不实的言语；说辞",
+    "bookPage": 251
+  },
+  {
+    "name": "tropic",
+    "trans": "n. [常用 sing.] 回归线； [pl.] [the ~] 热带",
+    "bookPage": 251
+  },
+  {
+    "name": "panic",
+    "trans": "n. [常用 sing., U] 恐慌 v. （使）恐慌",
+    "bookPage": 251
+  },
+  {
+    "name": "bonus",
+    "trans": "n. [C] 奖金；红利；额外的好处",
+    "bookPage": 252
+  },
+  {
+    "name": "peninsula",
+    "trans": "n. [C] 半岛",
+    "bookPage": 252
+  },
+  {
+    "name": "impress",
+    "trans": "v. 给……留下深刻印象 vt. 使意识到",
+    "bookPage": 253
+  },
+  {
+    "name": "oppress",
+    "trans": "vt. 压迫；使烦恼",
+    "bookPage": 253
+  },
+  {
+    "name": "depress",
+    "trans": "vt. 使泪丧；降低；抑制，使不景气",
+    "bookPage": 253
+  },
+  {
+    "name": "shepherd",
+    "trans": "n. [C] 牧羊人",
+    "bookPage": 253
+  },
+  {
+    "name": "symbol",
+    "trans": "n. [C] 象征；符号；标志",
+    "bookPage": 253
+  },
+  {
+    "name": "symposium",
+    "trans": "n. [C] 专题讨论会；研讨会",
+    "bookPage": 254
+  },
+  {
+    "name": "probe",
+    "trans": "v. 追问；探究 vt. （用细长工具）查看 n. [C] 详尽调查",
+    "bookPage": 254
+  },
+  {
+    "name": "practitioner",
+    "trans": "n. [C] 从业人员；执业医师",
+    "bookPage": 254
+  },
+  {
+    "name": "malpractice",
+    "trans": "n. [C, U] 营私舞弊；渎职，玩忽职守",
+    "bookPage": 254
+  },
+  {
+    "name": "heritage",
+    "trans": "n. [常用 sing.] 遗产",
+    "bookPage": 254
+  },
+  {
+    "name": "inherit",
+    "trans": "v. 继承 vt. 经遗传获得",
+    "bookPage": 254
+  },
+  {
+    "name": "settle",
+    "trans": "v. 解决 vi. 定居",
+    "bookPage": 255
+  },
+  {
+    "name": "quantity",
+    "trans": "n. [C, U] 数量；大量",
+    "bookPage": 255
+  },
+  {
+    "name": "quantify",
+    "trans": "vt. 确定……的数量；量化",
+    "bookPage": 255
+  },
+  {
+    "name": "dedicate",
+    "trans": "vt. 把……奉献给；为……举行落成典礼",
+    "bookPage": 255
+  },
+  {
+    "name": "contradict",
+    "trans": "vt. 反驳；相反；与……矛盾",
+    "bookPage": 255
+  },
+  {
+    "name": "addict",
+    "trans": "n. [C] 瘾君子；对……入迷的人 vt. 沉迷于",
+    "bookPage": 256
+  },
+  {
+    "name": "unfold",
+    "trans": "v. 打开，展开；呈现，展现",
+    "bookPage": 256
+  },
+  {
+    "name": "uncertain",
+    "trans": "a. 不确定的；迟疑的",
+    "bookPage": 256
+  },
+  {
+    "name": "uncover",
+    "trans": "vt. 揭开盖子；揭露；发现",
+    "bookPage": 256
+  },
+  {
+    "name": "unleash",
+    "trans": "vt. 突然释放；发泄；发动",
+    "bookPage": 256
+  },
+  {
+    "name": "unprecedented",
+    "trans": "a. 前所未有的，空前的",
+    "bookPage": 257
+  },
+  {
+    "name": "territory",
+    "trans": "n. [C, U] 领土；领地",
+    "bookPage": 257
+  },
+  {
+    "name": "terrace",
+    "trans": "n. [C] 排屋；露天平台，阳台",
+    "bookPage": 257
+  },
+  {
+    "name": "terrible",
+    "trans": "a. 可怕的；糟糕的；极其严重的",
+    "bookPage": 257
+  },
+  {
+    "name": "classic",
+    "trans": "a. 典型的；经典的 n. [C] 经典作品",
+    "bookPage": 257
+  },
+  {
+    "name": "classify",
+    "trans": "vt. 把……分类",
+    "bookPage": 257
+  },
+  {
+    "name": "mandate",
+    "trans": "n. [C] 授权 vt. 授权",
+    "bookPage": 258
+  },
+  {
+    "name": "manipulate",
+    "trans": "vt. 操纵；操作",
+    "bookPage": 258
+  },
+  {
+    "name": "manifest",
+    "trans": "a. 明显的 v. 显示，表明",
+    "bookPage": 258
+  },
+  {
+    "name": "manual",
+    "trans": "a. 手工的；体力的；手动的",
+    "bookPage": 258
+  },
+  {
+    "name": "manufacture",
+    "trans": "n. [U] 制造；生产 vt. 生产；编造",
+    "bookPage": 258
+  },
+  {
+    "name": "deliberate",
+    "trans": "vi. 深思熟虑，仔细考虑 a. 故意的，蓄意的",
+    "bookPage": 259
+  },
+  {
+    "name": "liberal",
+    "trans": "a. 自由的；开明的",
+    "bookPage": 259
+  },
+  {
+    "name": "liberate",
+    "trans": "vt. 释放；解放",
+    "bookPage": 259
+  },
+  {
+    "name": "patron",
+    "trans": "n. [C] 保护人；赞助人；顾客",
+    "bookPage": 259
+  },
+  {
+    "name": "button",
+    "trans": "n. [C] 按钮；纽扣",
+    "bookPage": 259
+  },
+  {
+    "name": "silicon",
+    "trans": "n. [U] 硅",
+    "bookPage": 259
+  },
+  {
+    "name": "subsistence",
+    "trans": "n. [U] 生存；生活；勉强维持生活 a. 自给自足的",
+    "bookPage": 260
+  },
+  {
+    "name": "sequence",
+    "trans": "n. [C, U] 顺序； [C] 序列；一系列",
+    "bookPage": 260
+  },
+  {
+    "name": "lavish",
+    "trans": "a. 盛大的；奢侈的 vt. 浪费",
+    "bookPage": 260
+  },
+  {
+    "name": "sanction",
+    "trans": "n. [常用 pl.] 制裁 vi. 批准",
+    "bookPage": 260
+  },
+  {
+    "name": "champion",
+    "trans": "n. [C] 冠军；拥护者；捍卫者 vt. 捍卫",
+    "bookPage": 260
+  },
+  {
+    "name": "pension",
+    "trans": "n. [C] 退休金；养老金；抚恤金",
+    "bookPage": 261
+  },
+  {
+    "name": "portion",
+    "trans": "n. [C] 部分；一份",
+    "bookPage": 261
+  },
+  {
+    "name": "ambition",
+    "trans": "n. [U] 野心；雄心； [C] 追求的目标",
+    "bookPage": 261
+  },
+  {
+    "name": "cruise",
+    "trans": "v. 乘船游览 n. [C] 乘船游览；航行",
+    "bookPage": 261
+  },
+  {
+    "name": "merchandise",
+    "trans": "vt. 销售 n. [U] 商品",
+    "bookPage": 261
+  },
+  {
+    "name": "authorize",
+    "trans": "（亦作 authorise） vt. 授权；批准",
+    "bookPage": 261
+  },
+  {
+    "name": "seize",
+    "trans": "vt. 抓住；夺取；控制",
+    "bookPage": 262
+  },
+  {
+    "name": "jeopardize",
+    "trans": "（亦作 jeopardise） vt. 危及；危害",
+    "bookPage": 262
+  },
+  {
+    "name": "entity",
+    "trans": "n. [C] 实体",
+    "bookPage": 262
+  },
+  {
+    "name": "possess",
+    "trans": "v. 拥有；具备",
+    "bookPage": 262
+  },
+  {
+    "name": "violent",
+    "trans": "a. 暴力的；暴的；猛烈的",
+    "bookPage": 262
+  },
+  {
+    "name": "potent",
+    "trans": "a. 强有力的；有强效的；烈性的",
+    "bookPage": 263
+  },
+  {
+    "name": "turbulent",
+    "trans": "a. 动荡的；汹涌的",
+    "bookPage": 263
+  },
+  {
+    "name": "transparent",
+    "trans": "a. 透明的；易识破的",
+    "bookPage": 263
+  },
+  {
+    "name": "apparent",
+    "trans": "a. 明显的；表面上的",
+    "bookPage": 263
+  },
+  {
+    "name": "competent",
+    "trans": "a. 有能力的；合格的；足以胜任的",
+    "bookPage": 263
+  },
+  {
+    "name": "eminent",
+    "trans": "a. 杰出的；著名的；显赫的",
+    "bookPage": 263
+  },
+  {
+    "name": "prominent",
+    "trans": "a. 著名的；重要的；显著的，突出的",
+    "bookPage": 264
+  },
+  {
+    "name": "incumbent",
+    "trans": "n. [C] 现任官员 a. 在职的，现任的",
+    "bookPage": 264
+  },
+  {
+    "name": "detergent",
+    "trans": "n. [C, U] 洗涤剂；清洁剂",
+    "bookPage": 264
+  },
+  {
+    "name": "notwithstanding",
+    "trans": "prep. 尽管；虽然",
+    "bookPage": 264
+  },
+  {
+    "name": "dressing",
+    "trans": "n. [U] 穿衣； [C, U] 调味酱，色拉调料",
+    "bookPage": 264
+  },
+  {
+    "name": "plumbing",
+    "trans": "n. [U] 水管装置；管道系统",
+    "bookPage": 264
+  },
+  {
+    "name": "bearing",
+    "trans": "n. [U] 关系； [C] 方位；轴承",
+    "bookPage": 265
+  },
+  {
+    "name": "clearing",
+    "trans": "n. [C] 空地",
+    "bookPage": 265
+  },
+  {
+    "name": "lofty",
+    "trans": "a. 高耸的；傲慢的；崇高的",
+    "bookPage": 265
+  },
+  {
+    "name": "wary",
+    "trans": "a. 小心翼翼的；谨慎的；警惕的",
+    "bookPage": 265
+  },
+  {
+    "name": "worthy",
+    "trans": "a. 有价值的；值得……的；值得尊敬的",
+    "bookPage": 265
+  },
+  {
+    "name": "army",
+    "trans": "n. [C] 陆军部队；大批； [sing.] [the ~] 陆军",
+    "bookPage": 265
+  },
+  {
+    "name": "navy",
+    "trans": "n. [C] 海军",
+    "bookPage": 266
+  },
+  {
+    "name": "jury",
+    "trans": "n. [C] 陪审团",
+    "bookPage": 266
+  },
+  {
+    "name": "warranty",
+    "trans": "n. [C, U] 保修单",
+    "bookPage": 266
+  },
+  {
+    "name": "scrutiny",
+    "trans": "n. [U] 仔细检查；认真彻底的审查",
+    "bookPage": 266
+  },
+  {
+    "name": "therapy",
+    "trans": "n. [C, U] 治疗；疗法",
+    "bookPage": 266
+  },
+  {
+    "name": "hierarchy",
+    "trans": "n. [C, U] 等级制度； [C] 层次体系",
+    "bookPage": 266
+  },
+  {
+    "name": "artery",
+    "trans": "n. [C] 动脉；干线",
+    "bookPage": 267
+  },
+  {
+    "name": "county",
+    "trans": "n. [C] 县",
+    "bookPage": 267
+  },
+  {
+    "name": "agony",
+    "trans": "n. [C, U] 苦难，极度痛苦",
+    "bookPage": 267
+  },
+  {
+    "name": "fury",
+    "trans": "n. [sing., U] 狂怒",
+    "bookPage": 267
+  },
+  {
+    "name": "wrestle",
+    "trans": "v. 摔；扭打；试图解决",
+    "bookPage": 268
+  },
+  {
+    "name": "align",
+    "trans": "v. 对准 vt. 使一致；与……结盟",
+    "bookPage": 268
+  },
+  {
+    "name": "veteran",
+    "trans": "n. [C] 老兵；老手",
+    "bookPage": 269
+  },
+  {
+    "name": "haven",
+    "trans": "n. [C] 避难所，庇护所；保护区",
+    "bookPage": 269
+  },
+  {
+    "name": "suite",
+    "trans": "n. [C] 一套房间，套间；一套；一套家具",
+    "bookPage": 269
+  },
+  {
+    "name": "quota",
+    "trans": "n. [C] 限额；配额；指标",
+    "bookPage": 269
+  },
+  {
+    "name": "catastrophe",
+    "trans": "n. [C] 灾难；困难",
+    "bookPage": 269
+  },
+  {
+    "name": "antique",
+    "trans": "n. [C] 古董 a. 古董的",
+    "bookPage": 270
+  },
+  {
+    "name": "joint",
+    "trans": "a. 联合的；共同的 n. [C] 关节",
+    "bookPage": 270
+  },
+  {
+    "name": "eccentric",
+    "trans": "a. 古怪的",
+    "bookPage": 270
+  },
+  {
+    "name": "concentrate",
+    "trans": "v. 集中（注意力） vt. 使……集中",
+    "bookPage": 270
+  },
+  {
+    "name": "tribute",
+    "trans": "n. [C, U] 致敬； [sing.] （良好效果或影响的）体现",
+    "bookPage": 270
+  },
+  {
+    "name": "spouse",
+    "trans": "n. [C] 配偶",
+    "bookPage": 271
+  },
+  {
+    "name": "worship",
+    "trans": "n. [U] 崇拜 v. 崇拜 vi. 做礼拜",
+    "bookPage": 271
+  },
+  {
+    "name": "intrinsic",
+    "trans": "a. 内在的；固有的",
+    "bookPage": 271
+  },
+  {
+    "name": "extravagant",
+    "trans": "a. 奢侈的；铺张浪费的；昂贵的；放肆的",
+    "bookPage": 271
+  },
+  {
+    "name": "dogma",
+    "trans": "n. [C, U] 教条；信条",
+    "bookPage": 271
+  },
+  {
+    "name": "likewise",
+    "trans": "ad. 同样地",
+    "bookPage": 272
+  },
+  {
+    "name": "anecdote",
+    "trans": "n. [C, U] 轶事，趣闻；传闻",
+    "bookPage": 272
+  },
+  {
+    "name": "announce",
+    "trans": "vt. 宣布；公布；通知",
+    "bookPage": 272
+  },
+  {
+    "name": "oblige",
+    "trans": "vt. 迫使 v. 帮忙；感激不尽",
+    "bookPage": 272
+  },
+  {
+    "name": "league",
+    "trans": "n. [C] 联盟；联赛；级别",
+    "bookPage": 272
+  },
+  {
+    "name": "eject",
+    "trans": "vt. 驱逐；弹出",
+    "bookPage": 273
+  },
+  {
+    "name": "eradicate",
+    "trans": "v. 根除；消灭；杜绝",
+    "bookPage": 273
+  },
+  {
+    "name": "evade",
+    "trans": "vt. 躲避；逃脱；逃避；避开",
+    "bookPage": 273
+  },
+  {
+    "name": "evoke",
+    "trans": "vt. 唤起，引起；使人产生（联想、回忆、感情等）",
+    "bookPage": 273
+  },
+  {
+    "name": "evaluate",
+    "trans": "vt. 评估；评价",
+    "bookPage": 273
+  },
+  {
+    "name": "educate",
+    "trans": "vt. 教育；教导",
+    "bookPage": 274
+  },
+  {
+    "name": "elicit",
+    "trans": "vt. 引出；套出；引起",
+    "bookPage": 274
+  },
+  {
+    "name": "erect",
+    "trans": "vt. 建立；创立；竖立 a. 竖直的",
+    "bookPage": 274
+  },
+  {
+    "name": "expedition",
+    "trans": "n. [C] 远征；探险队；短途旅行",
+    "bookPage": 274
+  },
+  {
+    "name": "exception",
+    "trans": "n. [C] 除外；例外",
+    "bookPage": 274
+  },
+  {
+    "name": "expertise",
+    "trans": "n. [U] 专长；专业知识；专门技能",
+    "bookPage": 274
+  },
+  {
+    "name": "exceed",
+    "trans": "vt. 超过（数量）；超出；超越（限制、规定等）",
+    "bookPage": 275
+  },
+  {
+    "name": "excess",
+    "trans": "a. 额外的；多余的 n. [sing., U] 过度；过量",
+    "bookPage": 275
+  },
+  {
+    "name": "exclude",
+    "trans": "vt. 不包括；把……排除在外；拒绝；排除……的可能性",
+    "bookPage": 275
+  },
+  {
+    "name": "excuse",
+    "trans": "vt. 原谅；为……辩解 n. [C] 理由；借口",
+    "bookPage": 275
+  },
+  {
+    "name": "exert",
+    "trans": "vt. 施加（影响、压力等）；运用；努力",
+    "bookPage": 275
+  },
+  {
+    "name": "express",
+    "trans": "vt. 表示；表达 n. [C] 特快列车 a. 明确的",
+    "bookPage": 275
+  },
+  {
+    "name": "extinct",
+    "trans": "a. 灭绝的；绝迹的；（火山）死的",
+    "bookPage": 276
+  },
+  {
+    "name": "harness",
+    "trans": "vt. 控制；利用；给（马等）套上挽具 n. [C] 马具",
+    "bookPage": 276
+  },
+  {
+    "name": "coalition",
+    "trans": "n. [C] 联合政府；联盟",
+    "bookPage": 276
+  },
+  {
+    "name": "collide",
+    "trans": "vi. 碰撞；相撞；冲突",
+    "bookPage": 276
+  },
+  {
+    "name": "compassion",
+    "trans": "n. [U] 同情；怜悯",
+    "bookPage": 276
+  },
+  {
+    "name": "combat",
+    "trans": "n. [C, U] 战斗； [C] 斗争 vt. 防止",
+    "bookPage": 277
+  },
+  {
+    "name": "compound",
+    "trans": "n. [C] 混合物；化合物 a. 复合的 v. 加重",
+    "bookPage": 277
+  },
+  {
+    "name": "comedy",
+    "trans": "n. [C, U] 喜剧； [U] 滑稽",
+    "bookPage": 277
+  },
+  {
+    "name": "companion",
+    "trans": "n. [C] 同伴；伴侣；同甘共苦的伙伴",
+    "bookPage": 277
+  },
+  {
+    "name": "compose",
+    "trans": "vt. 组成；写 v. 创作；作曲",
+    "bookPage": 277
+  },
+  {
+    "name": "commend",
+    "trans": "vt. 表扬，赞扬；推荐",
+    "bookPage": 277
+  },
+  {
+    "name": "commerce",
+    "trans": "n. [U] 商业",
+    "bookPage": 278
+  },
+  {
+    "name": "compact",
+    "trans": "a. 袖珍的；紧密的；矮小结实的 vt. 把……压紧",
+    "bookPage": 278
+  },
+  {
+    "name": "compulsory",
+    "trans": "a. 必须做的；强制的；义务的",
+    "bookPage": 278
+  },
+  {
+    "name": "comfort",
+    "trans": "n. [U] 舒适；安慰；慰藉 vt. 安慰",
+    "bookPage": 278
+  },
+  {
+    "name": "compensate",
+    "trans": "v. 补偿 vi. 弥补 vt. 赔偿",
+    "bookPage": 278
+  },
+  {
+    "name": "compromise",
+    "trans": "n. [C] 妥协；折中方案 vi. 妥协",
+    "bookPage": 278
+  },
+  {
+    "name": "convey",
+    "trans": "vt. 表达，传达；运送",
+    "bookPage": 279
+  },
+  {
+    "name": "converge",
+    "trans": "vi. 汇集；（向某一点）相交；趋于一致",
+    "bookPage": 279
+  },
+  {
+    "name": "concrete",
+    "trans": "a. 具体的；混凝土的 n. [U] 混凝土",
+    "bookPage": 279
+  },
+  {
+    "name": "council",
+    "trans": "n. [C] 委员会；（市、郡等的）政务委员会，地方议会",
+    "bookPage": 279
+  },
+  {
+    "name": "counsel",
+    "trans": "n. [C, U] 建议；法律顾问 vt. 建议",
+    "bookPage": 279
+  },
+  {
+    "name": "confront",
+    "trans": "vt. 使面临；勇敢地面对；与（某人）对峙",
+    "bookPage": 279
+  },
+  {
+    "name": "conspicuous",
+    "trans": "a. 显眼的；惹人注意的",
+    "bookPage": 280
+  },
+  {
+    "name": "convince",
+    "trans": "vt. 使相信；说服",
+    "bookPage": 280
+  },
+  {
+    "name": "construct",
+    "trans": "vt. 建造；创建；绘制 n. [C] 概念",
+    "bookPage": 280
+  },
+  {
+    "name": "consult",
+    "trans": "v. 咨询；商量 vt. 查阅",
+    "bookPage": 280
+  },
+  {
+    "name": "constrain",
+    "trans": "vt. 强迫；约束；限制",
+    "bookPage": 280
+  },
+  {
+    "name": "confirm",
+    "trans": "vt. 证实；批准（职位、协议等）；使坚定",
+    "bookPage": 281
+  },
+  {
+    "name": "destination",
+    "trans": "n. [C] 目的地；终点",
+    "bookPage": 281
+  },
+  {
+    "name": "derive",
+    "trans": "vt. 获得 v. 源自，衍生",
+    "bookPage": 281
+  },
+  {
+    "name": "denounce",
+    "trans": "vt. 谴责，斥责；告发",
+    "bookPage": 281
+  },
+  {
+    "name": "defend",
+    "trans": "v. 保卫；防御 vt. 为……辩解",
+    "bookPage": 281
+  },
+  {
+    "name": "derail",
+    "trans": "v. （使）出轨，（使）脱轨 vt. 阻挠",
+    "bookPage": 281
+  },
+  {
+    "name": "deprive",
+    "trans": "vt. 剥夺",
+    "bookPage": 282
+  },
+  {
+    "name": "debris",
+    "trans": "n. [U] 碎片；残骸；垃圾",
+    "bookPage": 282
+  },
+  {
+    "name": "devour",
+    "trans": "vt. 吞食；津津有味地看；吞噬",
+    "bookPage": 282
+  },
+  {
+    "name": "devastate",
+    "trans": "vt. 摧毁；破坏",
+    "bookPage": 282
+  },
+  {
+    "name": "depict",
+    "trans": "vt. 描绘；描述；刻画",
+    "bookPage": 282
+  },
+  {
+    "name": "delicacy",
+    "trans": "n. [U] 周到；棘手； [C] 美食",
+    "bookPage": 282
+  },
+  {
+    "name": "delicate",
+    "trans": "a. 精致的；易碎的；纤细的；清香的",
+    "bookPage": 283
+  },
+  {
+    "name": "deny",
+    "trans": "v. 否认；拒绝；拒绝接受",
+    "bookPage": 283
+  },
+  {
+    "name": "devote",
+    "trans": "vt. 致力，倾注；奉献",
+    "bookPage": 283
+  },
+  {
+    "name": "denote",
+    "trans": "vt. 表示；预示；代表",
+    "bookPage": 283
+  },
+  {
+    "name": "deploy",
+    "trans": "v. 部署；调动",
+    "bookPage": 283
+  },
+  {
+    "name": "deter",
+    "trans": "v. 制止，阻止；威",
+    "bookPage": 284
+  },
+  {
+    "name": "intake",
+    "trans": "n. [C, U] 摄取量；纳入的人数",
+    "bookPage": 285
+  },
+  {
+    "name": "indoor",
+    "trans": "a. 室内的",
+    "bookPage": 285
+  },
+  {
+    "name": "well-off",
+    "trans": "a. 富裕的",
+    "bookPage": 285
+  },
+  {
+    "name": "old-fashioned",
+    "trans": "a. 过时的；老式的",
+    "bookPage": 285
+  },
+  {
+    "name": "second-hand",
+    "trans": "a. 二手的；旧的",
+    "bookPage": 286
+  },
+  {
+    "name": "outset",
+    "trans": "n. [常用 sing.] 开始，开端",
+    "bookPage": 286
+  },
+  {
+    "name": "offset",
+    "trans": "vt. 补偿；弥补；抵消",
+    "bookPage": 286
+  },
+  {
+    "name": "setback",
+    "trans": "n. [C] 挫折",
+    "bookPage": 286
+  },
+  {
+    "name": "foretell",
+    "trans": "vt. 预言，预知；预测",
+    "bookPage": 286
+  },
+  {
+    "name": "uphold",
+    "trans": "v. 支持；维护",
+    "bookPage": 286
+  },
+  {
+    "name": "landmark",
+    "trans": "n. [C] 地标；里程碑",
+    "bookPage": 287
+  },
+  {
+    "name": "milestone",
+    "trans": "n. [C] 里程碑；重要阶段",
+    "bookPage": 287
+  },
+  {
+    "name": "whereby",
+    "trans": "ad. 凭借；借以",
+    "bookPage": 287
+  },
+  {
+    "name": "countryside",
+    "trans": "n. [U] 乡村；农村",
+    "bookPage": 287
+  },
+  {
+    "name": "extraordinary",
+    "trans": "a. 不平常的；令人惊奇的；非凡的",
+    "bookPage": 287
+  },
+  {
+    "name": "lawsuit",
+    "trans": "n. [C] 诉讼",
+    "bookPage": 287
+  },
+  {
+    "name": "turnover",
+    "trans": "n. [常用 sing., U] 营业额； [sing.] 流动率",
+    "bookPage": 288
+  },
+  {
+    "name": "overstate",
+    "trans": "vt. 夸大",
+    "bookPage": 288
+  },
+  {
+    "name": "outfit",
+    "trans": "n. [C] 全套服装；机构",
+    "bookPage": 288
+  },
+  {
+    "name": "overlap",
+    "trans": "v. （使）相叠 n. [C, U] 重叠部分",
+    "bookPage": 288
+  },
+  {
+    "name": "offspring",
+    "trans": "n. [C] （pl. offspring）后代",
+    "bookPage": 288
+  },
+  {
+    "name": "safeguard",
+    "trans": "v. 保护 n. [C] 保障条款；保护措施",
+    "bookPage": 288
+  },
+  {
+    "name": "showcase",
+    "trans": "n. [C] 玻璃陈列柜； [常用 sing.] 展示场合 vt. 展示",
+    "bookPage": 289
+  },
+  {
+    "name": "downgrade",
+    "trans": "vt. 使降职，使降级；降低；低估",
+    "bookPage": 289
+  },
+  {
+    "name": "sightseeing",
+    "trans": "n. [U] 观光",
+    "bookPage": 289
+  },
+  {
+    "name": "spokesman",
+    "trans": "n. [C] 发言人",
+    "bookPage": 289
+  },
+  {
+    "name": "straightforward",
+    "trans": "a. 简单的；坦率的",
+    "bookPage": 289
+  },
+  {
+    "name": "suitcase",
+    "trans": "n. [C] 手提箱",
+    "bookPage": 289
+  },
+  {
+    "name": "sunrise",
+    "trans": "n. [U] 日出",
+    "bookPage": 290
+  },
+  {
+    "name": "undergo",
+    "trans": "vt. 经历，经受",
+    "bookPage": 290
+  },
+  {
+    "name": "update",
+    "trans": "vt. 更新 n. [C] 最新消息",
+    "bookPage": 290
+  },
+  {
+    "name": "upgrade",
+    "trans": "v. 升级 vt. 提升",
+    "bookPage": 290
+  },
+  {
+    "name": "upset",
+    "trans": "v. 打乱 a. 难过的 n. [C] 肠胃病",
+    "bookPage": 290
+  },
+  {
+    "name": "workshop",
+    "trans": "n. [C] 车间；研习班；研讨会",
+    "bookPage": 290
+  },
+  {
+    "name": "blackmail",
+    "trans": "n. [U] 勒索；敲诈；胁迫 vt. 敲诈",
+    "bookPage": 291
+  },
+  {
+    "name": "aircraft",
+    "trans": "n. [C] （pl. aircraft）飞机；飞行器；航空器",
+    "bookPage": 291
+  },
+  {
+    "name": "alongside",
+    "trans": "ad./prep. 在……旁边；与……并肩",
+    "bookPage": 291
+  },
+  {
+    "name": "beforehand",
+    "trans": "ad. 事先；提前",
+    "bookPage": 291
+  },
+  {
+    "name": "breakdown",
+    "trans": "n. [C] 故障；崩溃；破裂",
+    "bookPage": 291
+  },
+  {
+    "name": "bypass",
+    "trans": "vt. 避开 n. [C] 旁道；搭桥术",
+    "bookPage": 291
+  },
+  {
+    "name": "cowboy",
+    "trans": "n. [C] 牛仔",
+    "bookPage": 292
+  },
+  {
+    "name": "dropout",
+    "trans": "n. [C] 学者",
+    "bookPage": 292
+  },
+  {
+    "name": "freshman",
+    "trans": "n. [C] （大学）一年级新生",
+    "bookPage": 292
+  },
+  {
+    "name": "forthcoming",
+    "trans": "a. 即将来临（或出版等）的",
+    "bookPage": 292
+  },
+  {
+    "name": "layoff",
+    "trans": "n. [C] 解雇；裁员",
+    "bookPage": 292
+  },
+  {
+    "name": "mainstream",
+    "trans": "n. [sing.] [the ~] （思想、行为等的）主流",
+    "bookPage": 292
+  },
+  {
+    "name": "masterpiece",
+    "trans": "n. [C] 杰作；代表作",
+    "bookPage": 293
+  },
+  {
+    "name": "nevertheless",
+    "trans": "ad. 尽管如此；然而",
+    "bookPage": 293
+  },
+  {
+    "name": "nightmare",
+    "trans": "n. [C] 噩梦",
+    "bookPage": 293
+  },
+  {
+    "name": "brand-new",
+    "trans": "a. 全新的；崭新的",
+    "bookPage": 293
+  },
+  {
+    "name": "high-tech",
+    "trans": "a. 高科技的",
+    "bookPage": 293
+  },
+  {
+    "name": "hitherto",
+    "trans": "ad. 迄今",
+    "bookPage": 293
+  },
+  {
+    "name": "upper",
+    "trans": "a. 上面的；上部的",
+    "bookPage": 294
+  },
+  {
+    "name": "forbid",
+    "trans": "vt. 禁止，不准；阻碍",
+    "bookPage": 294
+  },
+  {
+    "name": "dub",
+    "trans": "vt. 把……称作；译制；配音",
+    "bookPage": 294
+  },
+  {
+    "name": "dwell",
+    "trans": "vi. 居住；沉于；细想",
+    "bookPage": 294
+  },
+  {
+    "name": "escort",
+    "trans": "n. [C, U] 护卫队；押送者 vt. 陪同",
+    "bookPage": 294
+  },
+  {
+    "name": "grim",
+    "trans": "a. 严峻的；令人泪丧的；凄凉的",
+    "bookPage": 294
+  },
+  {
+    "name": "moan",
+    "trans": "vi. 抱怨；呻吟 n. [C] 呻吟声；抱怨",
+    "bookPage": 295
+  },
+  {
+    "name": "shield",
+    "trans": "n. [C] 盾（牌）；屏障 v. 保护；遮住",
+    "bookPage": 295
+  },
+  {
+    "name": "atlas",
+    "trans": "n. [C] 地图册，地图集",
+    "bookPage": 295
+  },
+  {
+    "name": "brew",
+    "trans": "vt. 酿制（啤酒）；煮（咖啡等） n. [常用 sing.] （茶）一次的冲泡量；混合",
+    "bookPage": 295
+  },
+  {
+    "name": "diesel",
+    "trans": "n. [U] 柴油",
+    "bookPage": 295
+  },
+  {
+    "name": "flip",
+    "trans": "vt. 按（开关）；轻掷 n. [C] 空翻； [sing.] 浏览",
+    "bookPage": 295
+  },
+  {
+    "name": "frantic",
+    "trans": "a. 发疯似的，发狂的；匆忙混乱的",
+    "bookPage": 295
+  },
+  {
+    "name": "hover",
+    "trans": "vi. 翱翔；盘旋；徘徊",
+    "bookPage": 295
+  },
+  {
+    "name": "hybrid",
+    "trans": "n. [C] （动物或植物的）杂（交）种；混合物；混合动力车",
+    "bookPage": 296
+  },
+  {
+    "name": "random",
+    "trans": "a. 偶然的；随机的",
+    "bookPage": 296
+  },
+  {
+    "name": "slum",
+    "trans": "n. [C] 贫民区；贫民窟",
+    "bookPage": 296
+  },
+  {
+    "name": "bizarre",
+    "trans": "a. 奇异的，怪异的；古怪的",
+    "bookPage": 296
+  },
+  {
+    "name": "cosy",
+    "trans": "（亦作 cozy） a. 温暖舒适的；亲切的；密切的",
+    "bookPage": 296
+  },
+  {
+    "name": "grid",
+    "trans": "n. [C] 网格；电力网；（地图上的）坐标方格",
+    "bookPage": 296
+  },
+  {
+    "name": "hectic",
+    "trans": "a. 紧张忙碌的，忙碌的，繁忙的",
+    "bookPage": 296
+  },
+  {
+    "name": "slash",
+    "trans": "vt. 大大降低；大幅度削减；砍 n. [C] 伤口",
+    "bookPage": 296
+  },
+  {
+    "name": "snap",
+    "trans": "v. 断裂；拍照",
+    "bookPage": 297
+  },
+  {
+    "name": "badge",
+    "trans": "n. [C] 徽章；象征；标记",
+    "bookPage": 297
+  },
+  {
+    "name": "bang",
+    "trans": "v. 猛敲 vt. 磕 n. [C] 突然的巨响",
+    "bookPage": 297
+  },
+  {
+    "name": "bare",
+    "trans": "a. 光秃秃的；裸露的；空的；最基本的",
+    "bookPage": 297
+  },
+  {
+    "name": "blog",
+    "trans": "n. [C] 博客 vi. 写博客",
+    "bookPage": 298
+  },
+  {
+    "name": "boast",
+    "trans": "v. 吹嘘 vt. 有 n. [C] 夸耀；引以为自豪的事情",
+    "bookPage": 298
+  },
+  {
+    "name": "boot",
+    "trans": "n. [C] 靴子； [常用 sing.] 猛踢 vt. 猛踢",
+    "bookPage": 298
+  },
+  {
+    "name": "border",
+    "trans": "n. [C] 边界 v. 与……毗邻",
+    "bookPage": 298
+  },
+  {
+    "name": "staple",
+    "trans": "a. 主要的 n. [C] 主要产品；主食 vt. 用订书钉装订",
+    "bookPage": 298
+  },
+  {
+    "name": "breed",
+    "trans": "vt. 饲养；产生 vi. 繁殖 n. [C] 品种",
+    "bookPage": 299
+  },
+  {
+    "name": "brush",
+    "trans": "vt. （用刷子）刷 v. 轻碰，掠过 n. [C] 毛刷",
+    "bookPage": 299
+  },
+  {
+    "name": "bubble",
+    "trans": "n. [C] 气泡；泡沫 vi. 冒泡；强烈的感受",
+    "bookPage": 299
+  },
+  {
+    "name": "bully",
+    "trans": "vt. 欺负；迫使 n. [C] 横行霸道者",
+    "bookPage": 299
+  },
+  {
+    "name": "chat",
+    "trans": "vi. 聊天 n. [C] 聊天",
+    "bookPage": 299
+  },
+  {
+    "name": "chew",
+    "trans": "v. 咀嚼；咬",
+    "bookPage": 299
+  },
+  {
+    "name": "cling",
+    "trans": "vi. 附着；依附；抓紧；紧抱",
+    "bookPage": 299
+  },
+  {
+    "name": "clue",
+    "trans": "n. [C] 线索；提示 v. 为（某人）提供最新消息",
+    "bookPage": 299
+  },
+  {
+    "name": "cotton",
+    "trans": "n. [U] 棉花；棉布；棉线",
+    "bookPage": 300
+  },
+  {
+    "name": "crawl",
+    "trans": "vi. 爬行；缓慢行进 n. [sing.] 缓慢的速度",
+    "bookPage": 300
+  },
+  {
+    "name": "creep",
+    "trans": "vi. 爬行；手脚地移动；悄悄地缓慢行进；巴结",
+    "bookPage": 300
+  },
+  {
+    "name": "crush",
+    "trans": "vt. 压碎；镇压；将……塞进 n. [sing.] 拥挤的人群",
+    "bookPage": 300
+  },
+  {
+    "name": "dairy",
+    "trans": "a. 乳制的；生产乳品的 n. [C] 牛奶场",
+    "bookPage": 300
+  },
+  {
+    "name": "deed",
+    "trans": "n. [C] 行为；证书",
+    "bookPage": 300
+  },
+  {
+    "name": "devil",
+    "trans": "n. [C] 魔鬼；淘气鬼；家伙",
+    "bookPage": 300
+  },
+  {
+    "name": "dim",
+    "trans": "a. 昏暗的；模糊的 v. 变昏暗",
+    "bookPage": 300
+  },
+  {
+    "name": "dock",
+    "trans": "n. [C] 码头 v. 停靠码头",
+    "bookPage": 301
+  },
+  {
+    "name": "drill",
+    "trans": "v. 钻（孔） n. [C] 钻； [C, U] 训练",
+    "bookPage": 301
+  },
+  {
+    "name": "drown",
+    "trans": "vt. 淹没 v. （使）淹死",
+    "bookPage": 301
+  },
+  {
+    "name": "eager",
+    "trans": "a. 渴望的；急切的；热切的",
+    "bookPage": 301
+  },
+  {
+    "name": "fleet",
+    "trans": "n. [C] 舰队；船队；车队",
+    "bookPage": 301
+  },
+  {
+    "name": "fond",
+    "trans": "a. 喜爱，喜欢；深情的；愉快的",
+    "bookPage": 301
+  },
+  {
+    "name": "gamble",
+    "trans": "v. 赌博；以……为赌注；冒险",
+    "bookPage": 301
+  },
+  {
+    "name": "garbage",
+    "trans": "n. [U] （生活）垃圾；废话",
+    "bookPage": 302
+  },
+  {
+    "name": "gear",
+    "trans": "n. [常用 pl.] 排挡； [U] 衣服；设备 vt. 使适合",
+    "bookPage": 302
+  },
+  {
+    "name": "grasp",
+    "trans": "vt. 抓紧；理解 n. [sing.] 紧抓；理解",
+    "bookPage": 302
+  },
+  {
+    "name": "grip",
+    "trans": "v. 紧抓 n. [sing.] 理解； [常用 sing.] 紧抓",
+    "bookPage": 302
+  },
+  {
+    "name": "hack",
+    "trans": "v. 非法侵入；劈",
+    "bookPage": 302
+  },
+  {
+    "name": "hail",
+    "trans": "vt. 称赞；叫（出租车） n. [U] 冰雹",
+    "bookPage": 302
+  },
+  {
+    "name": "halt",
+    "trans": "v. （使）停止，停下 n. [sing.] 停止",
+    "bookPage": 302
+  },
+  {
+    "name": "hazard",
+    "trans": "n. [C] 危险；危害 vt. 使冒风险",
+    "bookPage": 302
+  },
+  {
+    "name": "hell",
+    "trans": "n. [sing.] 地狱； [sing., U] 悲惨的境况，令人痛苦的境况",
+    "bookPage": 303
+  },
+  {
+    "name": "hint",
+    "trans": "n. [C] 暗示； [常用 sing.] 少许 v. 暗示",
+    "bookPage": 303
+  },
+  {
+    "name": "hunger",
+    "trans": "n. [U] 饥饿； [sing.] 渴望 vi. 渴望",
+    "bookPage": 303
+  },
+  {
+    "name": "jail",
+    "trans": "n. [C, U] 监狱 vt. 监禁",
+    "bookPage": 303
+  },
+  {
+    "name": "lag",
+    "trans": "vi. 落后 vt. 给（屋顶、水管或水箱）装绝热（防冻）层 n. [C] 间隔",
+    "bookPage": 303
+  },
+  {
+    "name": "lamp",
+    "trans": "n. [C] 灯",
+    "bookPage": 303
+  },
+  {
+    "name": "lane",
+    "trans": "n. [C] （乡间）小路；小巷；车道",
+    "bookPage": 303
+  },
+  {
+    "name": "lawn",
+    "trans": "n. [C] 草坪",
+    "bookPage": 304
+  },
+  {
+    "name": "marathon",
+    "trans": "n. [C] 马拉松赛跑 a. 马拉松式的",
+    "bookPage": 304
+  },
+  {
+    "name": "myth",
+    "trans": "n. [C, U] 神话；荒诞的说法",
+    "bookPage": 304
+  },
+  {
+    "name": "neat",
+    "trans": "a. 简洁的；整洁的；整齐的；利索的",
+    "bookPage": 304
+  },
+  {
+    "name": "needle",
+    "trans": "n. [C] 针；注射针；指针",
+    "bookPage": 304
+  },
+  {
+    "name": "palm",
+    "trans": "n. [C] 手掌；棕榈树",
+    "bookPage": 304
+  },
+  {
+    "name": "pierce",
+    "trans": "v. 扎；穿透；突破",
+    "bookPage": 304
+  },
+  {
+    "name": "pin",
+    "trans": "n. [C] 别针；胸针 vt. 钉住；把……归罪于",
+    "bookPage": 304
+  },
+  {
+    "name": "faith",
+    "trans": "n. [U] 信心；信任；宗教信仰",
+    "bookPage": 305
+  },
+  {
+    "name": "sharp",
+    "trans": "a. 尖的；锋利的；急剧的；鲜明的",
+    "bookPage": 305
+  },
+  {
+    "name": "fame",
+    "trans": "n. [U] 名声，名气；声誉",
+    "bookPage": 305
+  },
+  {
+    "name": "grave",
+    "trans": "a. 严重的 n. [C] 墓穴； [sing.] 逝世",
+    "bookPage": 305
+  },
+  {
+    "name": "vague",
+    "trans": "a. 模糊的；朦胧的；不明确的",
+    "bookPage": 305
+  },
+  {
+    "name": "idol",
+    "trans": "n. [C] 偶像",
+    "bookPage": 305
+  },
+  {
+    "name": "olive",
+    "trans": "n. [C] 橄榄 a. 黄褐色的",
+    "bookPage": 305
+  },
+  {
+    "name": "fare",
+    "trans": "n. [C, U] （公共汽车、火车、飞机等的）票价； [U] 饭菜",
+    "bookPage": 306
+  },
+  {
+    "name": "gross",
+    "trans": "a. 总的；毛的；严重的",
+    "bookPage": 306
+  },
+  {
+    "name": "iron",
+    "trans": "n. [U] 铁；熨斗 a. 坚强的",
+    "bookPage": 306
+  },
+  {
+    "name": "lens",
+    "trans": "n. [C] 透镜；镜头",
+    "bookPage": 306
+  },
+  {
+    "name": "opt",
+    "trans": "v. 选择",
+    "bookPage": 306
+  },
+  {
+    "name": "pan",
+    "trans": "n. [C] 烤盘；锅；一锅的量",
+    "bookPage": 306
+  },
+  {
+    "name": "port",
+    "trans": "n. [C, U] 港口",
+    "bookPage": 306
+  },
+  {
+    "name": "verge",
+    "trans": "vi. 濒于 n. [C] 绿地；边缘",
+    "bookPage": 306
+  },
+  {
+    "name": "bore",
+    "trans": "vt. 使厌烦 vi. 盯着看 n. [C] 令人厌烦的人",
+    "bookPage": 307
+  },
+  {
+    "name": "cute",
+    "trans": "a. 可爱的；漂亮迷人的；精明的",
+    "bookPage": 307
+  },
+  {
+    "name": "dose",
+    "trans": "n. [C] （药的）一剂；一次 vt. 给（某人）服药",
+    "bookPage": 307
+  },
+  {
+    "name": "patrol",
+    "trans": "n. [C, U] 巡逻 v. 巡逻",
+    "bookPage": 307
+  },
+  {
+    "name": "sniff",
+    "trans": "vi. 抽鼻子 v. 闻，嗅 n. [C] 闻",
+    "bookPage": 307
+  },
+  {
+    "name": "tube",
+    "trans": "n. [C] 管，管子",
+    "bookPage": 307
+  },
+  {
+    "name": "pine",
+    "trans": "n. [C, U] 松树 vi. 苦苦思念",
+    "bookPage": 307
+  },
+  {
+    "name": "pledge",
+    "trans": "n. [C] 保证；诺言 v. 正式承诺；用…………抵押",
+    "bookPage": 307
+  },
+  {
+    "name": "plug",
+    "trans": "n. [C] 插头；塞子 vt. 封堵；填补",
+    "bookPage": 308
+  },
+  {
+    "name": "poison",
+    "trans": "n. [C, U] 毒素；毒药 vt. 毒害；污染",
+    "bookPage": 308
+  },
+  {
+    "name": "pour",
+    "trans": "vt. 倒 vi. 倾泻；涌出",
+    "bookPage": 308
+  },
+  {
+    "name": "reap",
+    "trans": "v. 获得 v. 收割（庄稼）",
+    "bookPage": 308
+  },
+  {
+    "name": "rough",
+    "trans": "a. 粗糙的；粗略的；大致的；艰难的",
+    "bookPage": 308
+  },
+  {
+    "name": "rug",
+    "trans": "n. [C] 小地毯；厚毯子",
+    "bookPage": 308
+  },
+  {
+    "name": "scan",
+    "trans": "v. 浏览 vt. 扫描；细看",
+    "bookPage": 308
+  },
+  {
+    "name": "scratch",
+    "trans": "v. 挠；划伤 n. [C] 划伤",
+    "bookPage": 309
+  },
+  {
+    "name": "scatter",
+    "trans": "v. 散开 v. 撒，撒播 n. [常用 sing.] 零星散落",
+    "bookPage": 309
+  },
+  {
+    "name": "shallow",
+    "trans": "a. 浅的；肤浅的；（呼吸）弱的",
+    "bookPage": 309
+  },
+  {
+    "name": "sheer",
+    "trans": "a. 陡峭的；纯粹的；十足的 vi. 突然转向",
+    "bookPage": 309
+  },
+  {
+    "name": "shelter",
+    "trans": "n. [C] 避难所； [U] 住所 v. 保护 vi. 躲避",
+    "bookPage": 309
+  },
+  {
+    "name": "shock",
+    "trans": "n. [常用 sing., U] 震惊； [U] 休克 vt. 使震惊",
+    "bookPage": 310
+  },
+  {
+    "name": "shrink",
+    "trans": "v. （使）缩小，收缩 vi. 避开",
+    "bookPage": 310
+  },
+  {
+    "name": "shut",
+    "trans": "v. 关闭",
+    "bookPage": 310
+  },
+  {
+    "name": "sketch",
+    "trans": "n. [C] 草图 v. 画素描 vt. 概述",
+    "bookPage": 310
+  },
+  {
+    "name": "skip",
+    "trans": "v. 跳过，略过 vt. 不做",
+    "bookPage": 310
+  },
+  {
+    "name": "slide",
+    "trans": "v. 滑动 n. [C] 幻灯片",
+    "bookPage": 310
+  },
+  {
+    "name": "slight",
+    "trans": "a. 轻微的；瘦小的；不足道的",
+    "bookPage": 310
+  },
+  {
+    "name": "soak",
+    "trans": "v. 浸泡 vt. 使湿透",
+    "bookPage": 310
+  },
+  {
+    "name": "souvenir",
+    "trans": "n. [C] 纪念品",
+    "bookPage": 311
+  },
+  {
+    "name": "spur",
+    "trans": "vt. 激励；推动，促进；刺激",
+    "bookPage": 311
+  },
+  {
+    "name": "spy",
+    "trans": "n. [C] 间谍 vi. 收集情报",
+    "bookPage": 311
+  },
+  {
+    "name": "stake",
+    "trans": "n. [C] 桩；股份； [sing.] 利害关系 vt. 以……打赌",
+    "bookPage": 311
+  },
+  {
+    "name": "steal",
+    "trans": "v. 窃取，偷 vi. 偷偷地（或悄悄地）移动",
+    "bookPage": 311
+  },
+  {
+    "name": "steep",
+    "trans": "a. 陡峭的；急剧的；过高的",
+    "bookPage": 311
+  },
+  {
+    "name": "straight",
+    "trans": "a. 直的，笔直的 ad. 直接",
+    "bookPage": 311
+  },
+  {
+    "name": "strange",
+    "trans": "a. 奇怪的，奇特的；陌生的，不熟悉的",
+    "bookPage": 312
+  },
+  {
+    "name": "stream",
+    "trans": "n. [C] 小溪；股；源源不断；（车或人）流",
+    "bookPage": 312
+  },
+  {
+    "name": "stretch",
+    "trans": "v. 伸展 vi. 绵延；延续 n. [C] 一片",
+    "bookPage": 312
+  },
+  {
+    "name": "strike",
+    "trans": "n. [C, U] 罢工 vi. 攻击；罢工",
+    "bookPage": 312
+  },
+  {
+    "name": "strip",
+    "trans": "vt. 除去；剥夺 n. [C] 条；带",
+    "bookPage": 312
+  },
+  {
+    "name": "stripe",
+    "trans": "n. [C] 条纹；线条",
+    "bookPage": 312
+  },
+  {
+    "name": "stroke",
+    "trans": "n. [C] 中风；击球（动作）；一下子 vt. 轻抚",
+    "bookPage": 312
+  },
+  {
+    "name": "super",
+    "trans": "a. 超级的 ad. 格外",
+    "bookPage": 312
+  },
+  {
+    "name": "surf",
+    "trans": "n. [U] 激浪，拍岸浪花 vi. 冲浪运动 vt. （互联网上）冲浪",
+    "bookPage": 313
+  },
+  {
+    "name": "sweep",
+    "trans": "v. 清扫；席卷，横扫",
+    "bookPage": 313
+  },
+  {
+    "name": "swing",
+    "trans": "v. 摇摆；改变（意见、情绪等） n. [C] （意见或情绪的）改变",
+    "bookPage": 313
+  },
+  {
+    "name": "tape",
+    "trans": "n. [C] （盒式）录像带； [U] 磁带 v. 录制 vt. 用带子系紧",
+    "bookPage": 313
+  },
+  {
+    "name": "throat",
+    "trans": "n. [C] 咽喉，嗓子，喉部",
+    "bookPage": 313
+  },
+  {
+    "name": "tin",
+    "trans": "n. [C] 罐；罐头；金属罐； [U] 锡",
+    "bookPage": 313
+  },
+  {
+    "name": "tissue",
+    "trans": "n. [U] （人、动植物细胞的）组织； [C] 纸巾",
+    "bookPage": 313
+  },
+  {
+    "name": "weave",
+    "trans": "v. 编，织；穿行 vt. 编造",
+    "bookPage": 313
+  },
+  {
+    "name": "weed",
+    "trans": "n. [C] 杂草 v. 除草",
+    "bookPage": 314
+  },
+  {
+    "name": "weep",
+    "trans": "v. 哭泣，流泪 n. [sing.] 哭泣",
+    "bookPage": 314
+  },
+  {
+    "name": "whistle",
+    "trans": "n. [C] 哨子；口哨；汽笛声；口哨声",
+    "bookPage": 314
+  },
+  {
+    "name": "wound",
+    "trans": "n. [C] 伤口；创伤 vt. 伤害",
+    "bookPage": 314
+  },
+  {
+    "name": "blow",
+    "trans": "v. 吹；刮",
+    "bookPage": 314
+  },
+  {
+    "name": "butt",
+    "trans": "n. [C] 屁股；（武器或工具）较粗的一端；烟头 vt. （用头）撞",
+    "bookPage": 314
+  },
+  {
+    "name": "chamber",
+    "trans": "n. [C] 议院；腔；会议厅；（作特殊用途的）房间",
+    "bookPage": 314
+  },
+  {
+    "name": "chapel",
+    "trans": "n. [C] 小教堂； [U] 宗教仪式",
+    "bookPage": 314
+  },
+  {
+    "name": "clerk",
+    "trans": "n. [C] 文员；职员 vi. 做文书工作",
+    "bookPage": 315
+  },
+  {
+    "name": "dean",
+    "trans": "n. [C] （大学或学院的）院长；系主任",
+    "bookPage": 315
+  },
+  {
+    "name": "dime",
+    "trans": "n. [C] （美国、加拿大的）十分硬币，十分钱",
+    "bookPage": 315
+  },
+  {
+    "name": "ditch",
+    "trans": "v. 丢弃 v. （使）紧急迫降 n. [C] 沟渠",
+    "bookPage": 315
+  },
+  {
+    "name": "flock",
+    "trans": "n. [C] （鸟、羊）群；一大批 vi. 聚集，蜂拥",
+    "bookPage": 315
+  },
+  {
+    "name": "imperial",
+    "trans": "a. 帝国的；皇帝的",
+    "bookPage": 315
+  },
+  {
+    "name": "loop",
+    "trans": "n. [C] 圈；循环 v. 使绕成圈 vi. 成环形运动",
+    "bookPage": 315
+  },
+  {
+    "name": "oven",
+    "trans": "n. [C] 烤箱",
+    "bookPage": 315
+  },
+  {
+    "name": "plead",
+    "trans": "vi. 乞求，恳求 vt. 认罪；为辩护",
+    "bookPage": 316
+  },
+  {
+    "name": "poise",
+    "trans": "n. [U] 镇定；（优雅的）举止 vt. 使稳定；抓紧",
+    "bookPage": 316
+  },
+  {
+    "name": "prey",
+    "trans": "n. [sing., U] 猎物 vi. 捕食",
+    "bookPage": 316
+  },
+  {
+    "name": "cruel",
+    "trans": "a. 残酷的；残忍的",
+    "bookPage": 316
+  },
+  {
+    "name": "zip",
+    "trans": "n. [C] 拉链 vt. 拉上.的拉链 vi. 快速移动",
+    "bookPage": 316
+  },
+  {
+    "name": "sink",
+    "trans": "v. （使）下沉，下陷 vi. 倒下 n. [C] 洗涤池",
+    "bookPage": 316
+  },
+  {
+    "name": "slump",
+    "trans": "vi. 骤降；重重地坐下 n. [C] 猛跌；衰退",
+    "bookPage": 316
+  },
+  {
+    "name": "spark",
+    "trans": "n. [C] 火花 v. 引发，触发 vi. 冒火花",
+    "bookPage": 316
+  },
+  {
+    "name": "split",
+    "trans": "v. （使）分裂；分配；分开（成为几个部分） a. 分裂的",
+    "bookPage": 317
+  },
+  {
+    "name": "sway",
+    "trans": "v. 摇摆 vt. 影响 n. [U] 影响",
+    "bookPage": 317
+  },
+  {
+    "name": "threshold",
+    "trans": "n. [C] 门槛；起始点； [常用 sing.] 开端",
+    "bookPage": 317
+  },
+  {
+    "name": "wither",
+    "trans": "v. （使）枯萎 vi. 破灭",
+    "bookPage": 317
+  },
+  {
+    "name": "shark",
+    "trans": "n. [C] 鲨鱼",
+    "bookPage": 317
+  },
+  {
+    "name": "dazzle",
+    "trans": "v. （使）目眩 vt. 使眼花缭乱 n. [sing., U] 耀眼",
+    "bookPage": 317
+  },
+  {
+    "name": "dwarf",
+    "trans": "n. [C] 小矮人；侏儒 a. 矮小的 v. 使相形见出",
+    "bookPage": 317
+  },
+  {
+    "name": "foe",
+    "trans": "n. [C] 敌人",
+    "bookPage": 318
+  },
+  {
+    "name": "foul",
+    "trans": "a. 污浊的；恶劣的；邪恶的 n. [C] 犯规",
+    "bookPage": 318
+  },
+  {
+    "name": "groan",
+    "trans": "vi. 哼哼；抱怨 n. [C] 呻吟",
+    "bookPage": 318
+  },
+  {
+    "name": "grope",
+    "trans": "v. 摸索而行 vi. 搜寻；探索",
+    "bookPage": 318
+  },
+  {
+    "name": "hamper",
+    "trans": "v. 阻碍；束缚；牵制 n. [C] （尤指装食品用的）带盖大篮",
+    "bookPage": 318
+  },
+  {
+    "name": "hop",
+    "trans": "vi. 单脚跳行，跳跃 n. [C] 短途快速旅程（乘飞机）",
+    "bookPage": 318
+  },
+  {
+    "name": "hurl",
+    "trans": "vt. 猛扔，猛掷；大声说出（辱骂或斥责等）",
+    "bookPage": 318
+  },
+  {
+    "name": "hurricane",
+    "trans": "n. [C] 风",
+    "bookPage": 318
+  },
+  {
+    "name": "loom",
+    "trans": "vi. 令人惊恐地隐现；迫近 n. [C] 织布机",
+    "bookPage": 319
+  },
+  {
+    "name": "lure",
+    "trans": "n. [常用 sing.] 诱惑力 vt. 诱惑，引诱；吸引",
+    "bookPage": 319
+  },
+  {
+    "name": "mow",
+    "trans": "v. 割；修剪 n. [C] 干草堆",
+    "bookPage": 319
+  },
+  {
+    "name": "oath",
+    "trans": "n. [C] 宣誓；咒骂",
+    "bookPage": 319
+  },
+  {
+    "name": "ordeal",
+    "trans": "n. [常用 sing.] 磨难；折磨；严酷的考验",
+    "bookPage": 319
+  },
+  {
+    "name": "rein",
+    "trans": "n. [常用 pl.] 缰绳； [pl.] [the ~] 控制 v. 严格控制",
+    "bookPage": 319
+  },
+  {
+    "name": "bet",
+    "trans": "v. 下赌注（于），打赌 n. [C] 赌注",
+    "bookPage": 319
+  },
+  {
+    "name": "blend",
+    "trans": "v. 使混合 vi. 融合 n. [C] 混合",
+    "bookPage": 320
+  },
+  {
+    "name": "blind",
+    "trans": "a. 失明的；（对某事）视而不见的；盲目的 vt. 使眼花",
+    "bookPage": 320
+  },
+  {
+    "name": "shatter",
+    "trans": "v. （使）粉碎；破灭",
+    "bookPage": 321
+  },
+  {
+    "name": "skim",
+    "trans": "v. 略读，浏览；掠过 vt. 撇去",
+    "bookPage": 321
+  },
+  {
+    "name": "slack",
+    "trans": "a. 松弛的；萧条的；懈怠的 vi. 偷懒",
+    "bookPage": 321
+  },
+  {
+    "name": "sneak",
+    "trans": "vi. 偷偷地走；告状 vt. 偷看；偷",
+    "bookPage": 321
+  },
+  {
+    "name": "tub",
+    "trans": "n. [C] 盆；桶；浴缸",
+    "bookPage": 321
+  },
+  {
+    "name": "yearn",
+    "trans": "v. 渴望，向往",
+    "bookPage": 322
+  },
+  {
+    "name": "stray",
+    "trans": "vi. 偏离 a. 无主的；散落的",
+    "bookPage": 322
+  },
+  {
+    "name": "streak",
+    "trans": "n. [C] 条纹；性格特征；运气 vi. 疾驰",
+    "bookPage": 322
+  },
+  {
+    "name": "swamp",
+    "trans": "n. [C, U] 沼泽（地）",
+    "bookPage": 322
+  },
+  {
+    "name": "thrift",
+    "trans": "n. [U] 节俭；节约； [C] 储蓄银行",
+    "bookPage": 322
+  },
+  {
+    "name": "thrill",
+    "trans": "n. [C] 兴奋 v. 使兴奋",
+    "bookPage": 322
+  },
+  {
+    "name": "throne",
+    "trans": "n. [C] 宝座； [sing.] [the ~] 王位",
+    "bookPage": 322
+  },
+  {
+    "name": "tilt",
+    "trans": "v. （使）倾斜；倾向",
+    "bookPage": 322
+  },
+  {
+    "name": "trek",
+    "trans": "vi. （尤指徒步）跋涉；徒步旅行 n. [C] 长途跋涉",
+    "bookPage": 323
+  },
+  {
+    "name": "barge",
+    "trans": "v. 冲撞；乱闯 n. [C] 驳船",
+    "bookPage": 323
+  },
+  {
+    "name": "barren",
+    "trans": "a. 贫瘠的；不毛的；不孕的",
+    "bookPage": 323
+  },
+  {
+    "name": "chunk",
+    "trans": "n. [C] 大块；大部分；大量；厚块",
+    "bookPage": 323
+  },
+  {
+    "name": "crave",
+    "trans": "vt. 渴望；恳求",
+    "bookPage": 323
+  },
+  {
+    "name": "trickle",
+    "trans": "v. （使）滴，流；缓慢移动 n. [C] 细流",
+    "bookPage": 323
+  },
+  {
+    "name": "glamor",
+    "trans": "（亦作 glamour） n. [U] 魅力，吸引力",
+    "bookPage": 323
+  },
+  {
+    "name": "relic",
+    "trans": "n. [C] 遗物；遗迹",
+    "bookPage": 324
+  },
+  {
+    "name": "scrap",
+    "trans": "n. [C] 碎片； [sing.] 丝毫； [U] 废品 vt. 取消",
+    "bookPage": 324
+  },
+  {
+    "name": "scrape",
+    "trans": "vt. 刮掉；削去；蹭破 n. [sing.] 刮擦声",
+    "bookPage": 324
+  },
+  {
+    "name": "axe",
+    "trans": "（亦作 ax） n. [C] 斧； [sing.] [the ~] 倒闭 vt. 削减；开除",
+    "bookPage": 324
+  },
+  {
+    "name": "lounge",
+    "trans": "n. [C] 侯机厅；客厅 vi. （懒洋洋地）坐",
+    "bookPage": 324
+  },
+  {
+    "name": "bone",
+    "trans": "n. [C] 骨；骨头",
+    "bookPage": 324
+  },
+  {
+    "name": "ferry",
+    "trans": "n. [C] 渡船 v. 渡运；运送",
+    "bookPage": 324
+  },
+  {
+    "name": "spray",
+    "trans": "v. 向……喷洒，喷 n. [C, U] 喷剂；浪花",
+    "bookPage": 324
+  },
+  {
+    "name": "coupon",
+    "trans": "n. [C] 赠券；优惠券；参赛表",
+    "bookPage": 325
+  },
+  {
+    "name": "cuisine",
+    "trans": "n. [C, U] 风味；菜肴",
+    "bookPage": 325
+  },
+  {
+    "name": "mature",
+    "trans": "a. 成熟的 vi. 发育成熟；长成",
+    "bookPage": 325
+  },
+  {
+    "name": "metro",
+    "trans": "n. [sing.] 地铁",
+    "bookPage": 325
+  },
+  {
+    "name": "depth",
+    "trans": "n. [C, U] 深（度）；向下的距离； [U] 渊博",
+    "bookPage": 325
+  },
+  {
+    "name": "trap",
+    "trans": "n. [C] 陷阱；圈套； [常用 sing.] 牢笼 vt. 使陷入困境",
+    "bookPage": 325
+  },
+  {
+    "name": "ceremony",
+    "trans": "n. [C] 典礼，仪式； [U] 礼仪",
+    "bookPage": 325
+  },
+  {
+    "name": "roll",
+    "trans": "n. [C] 卷；一管 v. （使）翻滚；转动",
+    "bookPage": 325
+  },
+  {
+    "name": "scheme",
+    "trans": "n. [C] 计划；体制 v. 密谋",
+    "bookPage": 326
+  },
+  {
+    "name": "crack",
+    "trans": "v. 裂开；破解（难题） n. [C] 裂纹",
+    "bookPage": 326
+  },
+  {
+    "name": "vast",
+    "trans": "a. 庞大的；大量的",
+    "bookPage": 326
+  },
+  {
+    "name": "wrap",
+    "trans": "vt. 包；用…………包裹 v. （使文字）换行",
+    "bookPage": 326
+  },
+  {
+    "name": "bench",
+    "trans": "n. [C] 长凳；工作台； [sing.] [the ~] 法官席位； [常用 pl.] 议员席",
+    "bookPage": 326
+  },
+  {
+    "name": "bite",
+    "trans": "v. 咬 n. [C] 咬",
+    "bookPage": 326
+  },
+  {
+    "name": "calm",
+    "trans": "a. 平静的；风平浪静的 vt. 使镇静；使平静",
+    "bookPage": 326
+  },
+  {
+    "name": "cast",
+    "trans": "vt. 向投以（笑容）；投射；抛 n. [C] 全体演员",
+    "bookPage": 327
+  },
+  {
+    "name": "vice",
+    "trans": "n. [C, U] 恶行 a. 代理的",
+    "bookPage": 327
+  },
+  {
+    "name": "flavour",
+    "trans": "（亦作 flavor） n. [U] 味道； [sing.] 特色；气氛",
+    "bookPage": 327
+  },
+  {
+    "name": "pupil",
+    "trans": "n. [C] 学生；瞳孔",
+    "bookPage": 327
+  },
+  {
+    "name": "pure",
+    "trans": "a. 纯粹的；干净的",
+    "bookPage": 327
+  },
+  {
+    "name": "thread",
+    "trans": "n. [C] 线索；脉络；贯穿的主线 vt. 穿（针）",
+    "bookPage": 327
+  },
+  {
+    "name": "tame",
+    "trans": "a. 听使唤的 vt. 驯化；控制",
+    "bookPage": 327
+  },
+  {
+    "name": "spoil",
+    "trans": "vt. 破坏；溺爱",
+    "bookPage": 328
+  },
+  {
+    "name": "sole",
+    "trans": "a. 唯一的；独占的 n. [C] 脚掌",
+    "bookPage": 328
+  },
+  {
+    "name": "rid",
+    "trans": "vt. 摆脱；除去",
+    "bookPage": 328
+  },
+  {
+    "name": "hook",
+    "trans": "n. [C] 钩 v. 箍住，挂住",
+    "bookPage": 328
+  },
+  {
+    "name": "drift",
+    "trans": "n. [sing., U] 趋势； [C] 雪堆 vi. 漂流；无意间进入",
+    "bookPage": 328
+  },
+  {
+    "name": "draft",
+    "trans": "n. [C] 草稿；草案 vt. 起草",
+    "bookPage": 328
+  },
+  {
+    "name": "graze",
+    "trans": "v. 吃青草 vi. 整天吃零食 vt. 放牧；擦伤",
+    "bookPage": 328
+  },
+  {
+    "name": "sue",
+    "trans": "v. 控告，提起诉讼 vi. （尤指在法庭上）提出请求",
+    "bookPage": 329
+  },
+  {
+    "name": "icon",
+    "trans": "n. [C] 图标；偶像",
+    "bookPage": 329
+  },
+  {
+    "name": "scarce",
+    "trans": "a. 缺乏的，不足的；稀有的",
+    "bookPage": 329
+  },
+  {
+    "name": "scare",
+    "trans": "vt. 惊吓，吓唬 vi. 害怕 n. [C] 恐慌",
+    "bookPage": 329
+  },
+  {
+    "name": "fade",
+    "trans": "v. （使）变淡 vi. 逐渐消失",
+    "bookPage": 329
+  },
+  {
+    "name": "stumble",
+    "trans": "vi. 绊脚；跌跌撞撞地走；结巴",
+    "bookPage": 329
+  },
+  {
+    "name": "aide",
+    "trans": "n. [C] 助手",
+    "bookPage": 329
+  },
+  {
+    "name": "arena",
+    "trans": "n. [C] 舞台；竞技场",
+    "bookPage": 329
+  },
+  {
+    "name": "baffle",
+    "trans": "vt. 使困惑；难住；阻碍",
+    "bookPage": 330
+  },
+  {
+    "name": "bald",
+    "trans": "a. 秃顶的；直截了当的；磨平了的",
+    "bookPage": 330
+  },
+  {
+    "name": "bass",
+    "trans": "n. [U] 低音 a. 低音的",
+    "bookPage": 330
+  },
+  {
+    "name": "bleak",
+    "trans": "a. 暗淡的；荒凉的",
+    "bookPage": 330
+  },
+  {
+    "name": "bolster",
+    "trans": "vt. 增强，加强",
+    "bookPage": 330
+  },
+  {
+    "name": "brisk",
+    "trans": "a. 快的；兴隆的；凉爽的",
+    "bookPage": 330
+  },
+  {
+    "name": "bruise",
+    "trans": "v. （使）碰伤 vt. 挫伤 n. [C] 瘀伤",
+    "bookPage": 330
+  },
+  {
+    "name": "bust",
+    "trans": "vt. 摔碎；打破 n. [C] 半身像 a. 破产的",
+    "bookPage": 331
+  },
+  {
+    "name": "canoe",
+    "trans": "n. [C] 独木舟 vi. 划独木舟",
+    "bookPage": 331
+  },
+  {
+    "name": "cluster",
+    "trans": "n. [C] 群 vi. 聚集",
+    "bookPage": 331
+  },
+  {
+    "name": "cripple",
+    "trans": "vt. 使残废；严重毁坏 n. [C] 残疾人",
+    "bookPage": 331
+  },
+  {
+    "name": "dart",
+    "trans": "n. [C] 镖； [sing.] 猛冲 vi. 猛冲",
+    "bookPage": 331
+  },
+  {
+    "name": "bachelor",
+    "trans": "n. [C] 单身汉；学士学位； [B-] 学士",
+    "bookPage": 331
+  },
+  {
+    "name": "cocaine",
+    "trans": "n. [U] 可卡因",
+    "bookPage": 331
+  },
+  {
+    "name": "chancellor",
+    "trans": "n. [C] 总理；校长；大法官",
+    "bookPage": 331
+  },
+  {
+    "name": "license",
+    "trans": "（亦作 licence） n. [C] 许可证；执照；证书",
+    "bookPage": 332
+  },
+  {
+    "name": "virgin",
+    "trans": "n. [C] 处女；新手 a. 未开发的",
+    "bookPage": 332
+  },
+  {
+    "name": "brochure",
+    "trans": "n. [C] 小册子，手册",
+    "bookPage": 332
+  },
+  {
+    "name": "etiquette",
+    "trans": "n. [U] 礼仪，礼节；规矩",
+    "bookPage": 332
+  },
+  {
+    "name": "stubborn",
+    "trans": "a. 固执的；倔强的；难以去除（或对付）的",
+    "bookPage": 332
+  }
+]
