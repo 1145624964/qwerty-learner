@@ -69,6 +69,47 @@ test('paper-specific meanings override broader dictionary definitions', async ()
   assert.deepEqual(relish.trans, ['vt. 期待；享受 n. [U] 享受；乐趣'])
 })
 
+test('all high-frequency entries publish the canonical paper definitions', async () => {
+  const words = await readJson('public/dicts/shanguo_cet6_book_order.json')
+  const definitions = await readJson('scripts/shanguo_high_book_translations.json')
+  const highWords = words.slice(0, 733)
+
+  assert.equal(definitions.length, 733)
+  assert.deepEqual(
+    definitions.map(({ name }) => name),
+    highWords.map(({ name }) => name),
+  )
+  assert.ok(definitions.every(({ trans }) => typeof trans === 'string' && trans.length > 0))
+  assert.ok(definitions.every(({ bookPage }) => Number.isInteger(bookPage) && bookPage >= 1 && bookPage <= 155))
+  assert.ok(definitions.every(({ trans }) => /(?:^|\s)(?:n|v|vt|vi|a|ad|prep|conj|pron|num)\./.test(trans)))
+  assert.ok(definitions.every(({ trans }) => !/[|+]|\.{2,}|[\u4e00-\u9fff][lJ]|[lJ][\u4e00-\u9fff]/.test(trans)))
+  assert.deepEqual(
+    highWords.map(({ trans }) => trans),
+    definitions.map(({ trans }) => [trans]),
+  )
+  const definitionsByName = Object.fromEntries(definitions.map(({ name, trans }) => [name, trans]))
+  assert.deepEqual(
+    {
+      bias: definitionsByName.bias,
+      abuse: definitionsByName.abuse,
+      agent: definitionsByName.agent,
+      statistic: definitionsByName.statistic,
+      fake: definitionsByName.fake,
+      dozen: definitionsByName.dozen,
+      odds: definitionsByName.odds,
+    },
+    {
+      bias: 'n. [常用 sing., U] 偏见；[常用 sing.] 偏爱',
+      abuse: 'n. [U, sing.] 滥用；[U] 辱骂；虐待 vt. 滥用；虐待',
+      agent: 'n. [C] 代理人，经纪人；原动力；间谍',
+      statistic: 'n. [pl.] 统计数字；[C] （一项）统计数据；[U] [-s] 统计学',
+      fake: 'a. 假的；伪造的 vt. 伪造；佯装 n. [C] 赝品',
+      dozen: '（abbr. doz.） n. [C] 一打，十二个；十多个；[pl.] 很多',
+      odds: 'n. [pl.] 概率；逆境；不利条件',
+    },
+  )
+})
+
 test('all medium-frequency entries publish the canonical paper definitions', async () => {
   const words = await readJson('public/dicts/shanguo_cet6_book_order.json')
   const definitions = await readJson('scripts/shanguo_medium_book_translations.json')

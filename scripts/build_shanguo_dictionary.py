@@ -60,6 +60,7 @@ CHAPTERS = [
 # follows the body one row at a time, preserving separately printed homographs.
 EXPECTED_GROUP_COUNTS = {"高频词": 734, "中频词": 1005, "低频词": 1374, "简单词": 2182}
 PRINTED_ROW_COUNTS = {"高频词": 733, "中频词": 1005, "低频词": 1398, "简单词": 2210}
+HIGH_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_high_book_translations.json"
 MEDIUM_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_medium_book_translations.json"
 PREFERRED_DICTIONARIES = [
     "xinghuoqiaoji_6.json",
@@ -158,22 +159,38 @@ def choose_dictionary_entry(name: str, lexicon: dict[str, list[dict[str, Any]]])
     }
 
 
-def apply_medium_book_translations(dictionary: list[dict[str, Any]]) -> None:
-    definitions = json.loads(MEDIUM_BOOK_TRANSLATIONS.read_text(encoding="utf-8"))
-    medium_start = PRINTED_ROW_COUNTS["高频词"]
-    medium_end = medium_start + PRINTED_ROW_COUNTS["中频词"]
-    medium_words = dictionary[medium_start:medium_end]
+def apply_book_translations(
+    dictionary: list[dict[str, Any]],
+    definitions_path: Path,
+    start: int,
+    count: int,
+    label: str,
+) -> None:
+    definitions = json.loads(definitions_path.read_text(encoding="utf-8"))
+    words = dictionary[start : start + count]
 
-    if len(definitions) != PRINTED_ROW_COUNTS["中频词"]:
-        raise SystemExit(f"Expected 1005 medium-frequency book definitions, found {len(definitions)}")
-    if [item.get("name") for item in definitions] != [word["name"] for word in medium_words]:
-        raise SystemExit("Medium-frequency book definitions do not match the validated printed order")
+    if len(definitions) != count:
+        raise SystemExit(f"Expected {count} {label} book definitions, found {len(definitions)}")
+    if [item.get("name") for item in definitions] != [word["name"] for word in words]:
+        raise SystemExit(f"{label.title()} book definitions do not match the validated printed order")
 
-    for word, definition in zip(medium_words, definitions, strict=True):
+    for word, definition in zip(words, definitions, strict=True):
         translation = definition.get("trans")
         if not isinstance(translation, str) or not translation.strip():
-            raise SystemExit(f"Missing medium-frequency book definition for {word['name']}")
+            raise SystemExit(f"Missing {label} book definition for {word['name']}")
         word["trans"] = [translation]
+
+
+def apply_high_and_medium_book_translations(dictionary: list[dict[str, Any]]) -> None:
+    high_count = PRINTED_ROW_COUNTS["高频词"]
+    apply_book_translations(dictionary, HIGH_BOOK_TRANSLATIONS, 0, high_count, "high-frequency")
+    apply_book_translations(
+        dictionary,
+        MEDIUM_BOOK_TRANSLATIONS,
+        high_count,
+        PRINTED_ROW_COUNTS["中频词"],
+        "medium-frequency",
+    )
 
 
 def extract_page_candidates(page: dict[str, Any]) -> list[dict[str, Any]]:
@@ -311,7 +328,7 @@ def main() -> None:
         dictionary = [choose_dictionary_entry(candidate["word"], lexicon) for candidate in ordered_candidates]
         if len(dictionary) != sum(PRINTED_ROW_COUNTS.values()):
             raise SystemExit("Published dictionary length does not match validated printed rows")
-        apply_medium_book_translations(dictionary)
+        apply_high_and_medium_book_translations(dictionary)
 
         published_chapters = [
             {
