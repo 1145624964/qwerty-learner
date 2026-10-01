@@ -133,6 +133,100 @@ test('all medium-frequency entries publish the canonical paper definitions', asy
   assert.equal(definitions.at(-1).trans, 'a. 固执的；倔强的；难以去除（或对付）的')
 })
 
+test('all low-frequency entries publish the canonical paper definitions', async () => {
+  const words = await readJson('public/dicts/shanguo_cet6_book_order.json')
+  const definitions = await readJson('scripts/shanguo_low_book_translations.json')
+  const lowWords = words.slice(1738, 3136)
+
+  assert.equal(definitions.length, 1398)
+  assert.deepEqual(
+    definitions.map(({ name }) => name),
+    lowWords.map(({ name }) => name),
+  )
+  assert.ok(definitions.every(({ trans }) => typeof trans === 'string' && trans.length > 0))
+  assert.ok(definitions.every(({ bookPage }) => Number.isInteger(bookPage) && bookPage >= 333 && bookPage <= 379))
+  assert.ok(definitions.every(({ bookPage }, index) => index === 0 || definitions[index - 1].bookPage <= bookPage))
+  assert.deepEqual(
+    Array.from({ length: 47 }, (_, index) => {
+      const bookPage = 333 + index
+      const pageWords = definitions.filter((definition) => definition.bookPage === bookPage)
+      return [bookPage, pageWords.length, pageWords[0]?.name, pageWords.at(-1)?.name]
+    }),
+    [
+      [333, 20, 'skull', 'thumb'],
+      [334, 29, 'wrist', 'waive'],
+      [335, 32, 'harass', 'knot'],
+      [336, 32, 'tow', 'glare'],
+      [337, 32, 'steer', 'disregard'],
+      [338, 32, 'emulate', 'sprawl'],
+      [339, 32, 'summon', 'dispatch'],
+      [340, 32, 'disperse', 'glide'],
+      [341, 30, 'limp', 'jolly'],
+      [342, 32, 'lyric', 'indignant'],
+      [343, 30, 'outrage', 'stern'],
+      [344, 30, 'solemn', 'slender'],
+      [345, 29, 'wrinkle', 'murmur'],
+      [346, 30, 'mutter', 'spade'],
+      [347, 32, 'bolt', 'bead'],
+      [348, 30, 'portfolio', 'lime'],
+      [349, 28, 'pasta', 'linen'],
+      [350, 28, 'pearl', 'lodge'],
+      [351, 32, 'aisle', 'strait'],
+      [352, 27, 'terrain', 'federation'],
+      [353, 32, 'cabinet', 'dividend'],
+      [354, 30, 'allowance', 'casino'],
+      [355, 30, 'comic', 'indict'],
+      [356, 32, 'plaintiff', 'loot'],
+      [357, 30, 'assassinate', 'herb'],
+      [358, 24, 'bandage', 'aluminum'],
+      [359, 30, 'mercury', 'moist'],
+      [360, 28, 'humid', 'clockwise'],
+      [361, 30, 'inland', 'hawk'],
+      [362, 32, 'parrot', 'ripe'],
+      [363, 27, 'scent', 'singular'],
+      [364, 30, 'decimal', 'hockey'],
+      [365, 29, 'ballet', 'analogy'],
+      [366, 29, 'porcelain', 'parallel'],
+      [367, 32, 'authentic', 'watertight'],
+      [368, 32, 'lunar', 'hysterical'],
+      [369, 32, 'impromptu', 'static'],
+      [370, 30, 'tertiary', 'soar'],
+      [371, 32, 'stain', 'stagnate'],
+      [372, 30, 'stipulate', 'passer-by'],
+      [373, 32, 'exponent', 'slogan'],
+      [374, 32, 'transcript', 'paradox'],
+      [375, 32, 'parade', 'cavity'],
+      [376, 32, 'clearance', 'hurdle'],
+      [377, 31, 'impetus', 'rust'],
+      [378, 30, 'saddle', 'atop'],
+      [379, 9, 'anew', 'henceforth'],
+    ],
+  )
+  assert.ok(definitions.every(({ trans }) => /(?:^|\s)(?:n|v|vt|vi|a|ad|prep)\./.test(trans)))
+  assert.ok(
+    definitions.every(
+      ({ trans }) => !/[|�]|\.{2,}|[\u4e00-\u9fff][lI]|[lI][\u4e00-\u9fff]|\[sing, , U\]|烟肉|内江|器血|跟跎|骤子|坪击/.test(trans),
+    ),
+  )
+  assert.deepEqual(
+    lowWords.map(({ trans }) => trans),
+    definitions.map(({ trans }) => [trans]),
+  )
+  assert.equal(definitions[0].trans, 'n. [C] 头骨，颅骨')
+  assert.equal(definitions[3].trans, 'n. [C] 颏，下巴')
+  assert.equal(definitions[457].trans, 'n. [C] 卷轴 vi. 踉跄；感到震惊')
+  assert.deepEqual(
+    definitions.slice(783, 785).map(({ trans }) => trans),
+    ['n. [C, U] 合金', 'vt. 把……铸成合金'],
+  )
+  assert.deepEqual(
+    definitions.slice(835, 837).map(({ trans }) => trans),
+    ['ad. 在内地；向内陆', 'a. 内地的；内陆的'],
+  )
+  assert.equal(definitions[1352].trans, 'n. [C] 原型；雏形；典型')
+  assert.equal(definitions.at(-1).trans, 'ad. 此后；从此以后')
+})
+
 test('hard-word Word Lists are split into the approved two-day workloads', async () => {
   const chapters = await readJson('src/resources/shanguo_cet6_chapters.json')
   const high = chapters.filter(({ group }) => group === '高频词')

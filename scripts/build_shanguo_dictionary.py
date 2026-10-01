@@ -62,6 +62,7 @@ EXPECTED_GROUP_COUNTS = {"高频词": 734, "中频词": 1005, "低频词": 1374,
 PRINTED_ROW_COUNTS = {"高频词": 733, "中频词": 1005, "低频词": 1398, "简单词": 2210}
 HIGH_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_high_book_translations.json"
 MEDIUM_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_medium_book_translations.json"
+LOW_BOOK_TRANSLATIONS = REPO_ROOT / "scripts" / "shanguo_low_book_translations.json"
 PREFERRED_DICTIONARIES = [
     "xinghuoqiaoji_6.json",
     "CET6_T.json",
@@ -181,15 +182,23 @@ def apply_book_translations(
         word["trans"] = [translation]
 
 
-def apply_high_and_medium_book_translations(dictionary: list[dict[str, Any]]) -> None:
+def apply_canonical_book_translations(dictionary: list[dict[str, Any]]) -> None:
     high_count = PRINTED_ROW_COUNTS["高频词"]
+    medium_count = PRINTED_ROW_COUNTS["中频词"]
     apply_book_translations(dictionary, HIGH_BOOK_TRANSLATIONS, 0, high_count, "high-frequency")
     apply_book_translations(
         dictionary,
         MEDIUM_BOOK_TRANSLATIONS,
         high_count,
-        PRINTED_ROW_COUNTS["中频词"],
+        medium_count,
         "medium-frequency",
+    )
+    apply_book_translations(
+        dictionary,
+        LOW_BOOK_TRANSLATIONS,
+        high_count + medium_count,
+        PRINTED_ROW_COUNTS["低频词"],
+        "low-frequency",
     )
 
 
@@ -328,7 +337,7 @@ def main() -> None:
         dictionary = [choose_dictionary_entry(candidate["word"], lexicon) for candidate in ordered_candidates]
         if len(dictionary) != sum(PRINTED_ROW_COUNTS.values()):
             raise SystemExit("Published dictionary length does not match validated printed rows")
-        apply_high_and_medium_book_translations(dictionary)
+        apply_canonical_book_translations(dictionary)
 
         published_chapters = [
             {
