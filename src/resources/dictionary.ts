@@ -1,4 +1,5 @@
 import shanguoCET6Chapters from './shanguo_cet6_chapters.json'
+import shanguoKaoyan2023Chapters from './shanguo_kaoyan_2023_chapters.json'
 import { CHAPTER_LENGTH } from '@/constants'
 import type { Dictionary, DictionaryResource } from '@/typings/index'
 import { calcChapterCount } from '@/utils'
@@ -104,6 +105,18 @@ const chinaExam: DictionaryResource[] = [
     length: 3731,
     language: 'en',
     languageCategory: 'en',
+  },
+  {
+    id: 'kaoyan-shanguo-2023-book-order',
+    name: '23考研英语词汇闪过（纸书同序·全书）',
+    description: '按《23考研英语词汇闪过》纸书顺序整理（高频/中频/低频/偶考/简单/补充），含词根词缀、真题短语、98个每日章节与配套阅读',
+    category: '中国考试',
+    tags: ['考研'],
+    url: '/dicts/shanguo_kaoyan_2023_book_order.json',
+    length: 5566,
+    language: 'en',
+    languageCategory: 'en',
+    chapters: shanguoKaoyan2023Chapters,
   },
   {
     id: 'kaoyanshanguo_2023',
@@ -4206,6 +4219,7 @@ const retainedDictionaryIds = new Set([
   'level8',
   'kaoyan',
   'kaoyan_2024',
+  'kaoyan-shanguo-2023-book-order',
   'kaoyanshanguo_2023',
   '926',
   'dancimimi_1',

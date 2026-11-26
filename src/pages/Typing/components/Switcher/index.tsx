@@ -12,6 +12,7 @@ import { CTRL } from '@/utils'
 import { useAtom } from 'jotai'
 import { useContext } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
+import { NavLink } from 'react-router-dom'
 import IconMoon from '~icons/heroicons/moon-solid'
 import IconSun from '~icons/heroicons/sun-solid'
 import IconLanguage from '~icons/tabler/language'
@@ -42,6 +43,15 @@ export default function Switcher() {
 
   return (
     <div className="flex items-center justify-center gap-2">
+      <Tooltip content="23考研词汇闪过 · 计划与阅读训练">
+        <NavLink
+          to="/kaoyan"
+          className="rounded-lg bg-indigo-50 px-2.5 py-1 text-sm font-bold text-indigo-600 transition hover:bg-indigo-500 hover:text-white dark:bg-indigo-900/40 dark:text-indigo-300 dark:hover:bg-indigo-600 dark:hover:text-white"
+        >
+          考研学习
+        </NavLink>
+      </Tooltip>
+
       <Tooltip content="音效设置">
         <SoundSwitcher />
       </Tooltip>
